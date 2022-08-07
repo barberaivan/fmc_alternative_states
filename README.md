@@ -8,6 +8,6 @@ fmc_models contains code to fit fuel moisture models.
 vegetation_structure contains the code to analyse vegetation structure and species composition. Its main results are shown in Supplementary Information 1.  
 
 Some scripts and R objects are named using the common name of the species studied:
-Cania = *Chusquea culeou*, 
-Laura = *Schinus patagonicus*, 
+Cania = *Chusquea culeou*,   
+Laura = *Schinus patagonicus*,  
 Coihue = *Nothofagus dombeyi*.
