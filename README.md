@@ -1,7 +1,7 @@
 # fmc_alternative_states
 
 Repository for the article *Microclimate and species composition shape the contribution of fuel
-moisture to positive fire-vegetation feedbacks*.
+moisture to positive fire-vegetation feedbacks*, which is about to be submitted to Agricultural Forest and Meteorology.  
 
 microclimate contains code to fite the vpd model.  
 fmc_models contains code to fit fuel moisture models.  
