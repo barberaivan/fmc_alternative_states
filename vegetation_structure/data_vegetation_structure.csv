@@ -1,0 +1,952 @@
+site,transect,comm_details,Community,extra,Punto_ori,Impar,Punto_edit,point_id,prof_mantillo_cm,cob_mantillo_percent,alt_max_arb_int/m,muer_alt_max,alt_base_copa_m,vivo_interc,muerto_interc,sp_code_raw,sp_name,sp_code,OBS
+Coihual no regenerado / 4,4,Coihual no regenerado,Coihual no regenerado,0,37,NA,37,207,1,10,6,NA,NA,4,3,ADESMIA,Adesmia sp.,Ades,NA
+Coihual no regenerado / 4,4,Coihual no regenerado,Coihual no regenerado,0,44,NA,44,214,NA,NA,NA,NA,NA,2,0,ADESMIA,Adesmia sp.,Ades,CUANDO SOLO HAY HERB// Y PONGO ALTMAX = 1// ES PORQUE ERA HERB
+Coihual regenerando / 4,4,Coihual regenerado,Coihual regenerando,0,12,0,12,326,NA,NA,NA,NA,NA,1,0,BACARIS,Bacaris sp.,Bac,NA
+Matorral / 2,2,Matorral_extra,Matorral,1,6,NA,44,492,NA,NA,NA,NA,NA,1<2,0,BACARIS,Bacaris sp.,Bac,NA
+Matorral / 2,2,Matorral_extra,Matorral,1,NA,NA,46,494,NA,NA,NA,NA,NA,3,0,BACARIS,Bacaris sp.,Bac,NA
+Matorral / 2,2,Matorral_extra,Matorral,1,NA,NA,48,496,NA,NA,NA,NA,NA,2<3,0,BACARIS,Bacaris sp.,Bac,NA
+Matorral / 2,2,Matorral_extra,Matorral,1,11,NA,49,497,NA,NA,NA,NA,NA,1,0,BACARIS,Bacaris sp.,Bac,NA
+Matorral / 2,2,Matorral_extra,Matorral,1,12,NA,50,498,NA,NA,NA,NA,NA,2<3,1<2<3,BACARIS,Bacaris sp.,Bac,NA
+Matorral / 4,4,Matorral,Matorral,0,NA,NA,3,409,NA,NA,NA,NA,NA,0,3,BACARIS,Bacaris sp.,Bac,NA
+Bosque no quemado / 4,4,Bosque de coihue,Bosque no quemado,0,NA,NA,6,6,NA,NA,NA,NA,NA,2,0,BERB,Berberis microphylla,Bm,NA
+Bosque no quemado / 6,6,Bosque de coihue,Bosque no quemado,0,NA,NA,15,102,NA,NA,NA,NA,NA,0,2,BERB,Berberis microphylla,Bm,NA
+Bosque no quemado / 6,6,Bosque de coihue,Bosque no quemado,0,22,NA,22,109,NA,NA,NA,NA,NA,1,0,BERB,Berberis microphylla,Bm,NA
+Coihual no regenerado / 2,2,Coihual no regenerado,Coihual no regenerado,0,NA,NA,31,151,NA,NA,NA,NA,NA,0,6,BERB,Berberis microphylla,Bm,NA
+Coihual regenerando / 4,4,Coihual regenerado,Coihual regenerando,0,1,1,1,315,2,35,16,NA,NA,1<2,0,BERB,Berberis microphylla,Bm,NA
+Coihual regenerando / 4,4,Coihual regenerado,Coihual regenerando,0,5,1,5,319,2.5,95,17,NA,NA,3<4,0,BERB,Berberis microphylla,Bm,NA
+Matorral / 2,2,Matorral,Matorral,0,14,0,14,382,3.5,100,12,NA,NA,1<2<5<6<,0,BERB,Berberis microphylla,Bm,NA
+Matorral / 2,2,Matorral_extra,Matorral,1,NA,NA,43,491,NA,NA,NA,NA,NA,1<2,0,BERB,Berberis microphylla,Bm,NA
+Matorral / 4,4,Matorral,Matorral,0,15,1,15,421,2,60,12,NA,NA,1<3,0,BERB,Berberis microphylla,Bm,NA
+Matorral / 5,5,Matorral,Matorral,0,NA,NA,19,465,NA,NA,NA,NA,NA,2<3<4,0,BERB,Berberis microphylla,Bm,NA
+Matorral / 5,5,Matorral,Matorral,0,NA,NA,21,467,NA,NA,NA,NA,NA,3,0,BERB,Berberis microphylla,Bm,NA
+Bosque no quemado / 4,4,Bosque de coihue,Bosque no quemado,0,12,0,12,12,NA,NA,NA,NA,NA,1,0,BERBD,Berberis serratodentata,Bs,NA
+Bosque no quemado / 4,4,Bosque de coihue,Bosque no quemado,0,28,0,28,28,NA,NA,NA,NA,NA,1<2,0,BERBD,Berberis serratodentata,Bs,NA
+Bosque no quemado / 2,2,Bosque de coihue,Bosque no quemado,0,6,0,6,36,2,50,7,NA,12,1<2<,0,CA,Chusquea culeou,Cc,NA
+Bosque no quemado / 2,2,Bosque de coihue,Bosque no quemado,0,7,1,7,37,3,90,9,NA,9,1,1<10,CA,Chusquea culeou,Cc,NA
+Bosque no quemado / 2,2,Bosque de coihue,Bosque no quemado,0,8,0,8,38,2.5,85,5,NA,9,1<2<,16,CA,Chusquea culeou,Cc,NA
+Bosque no quemado / 2,2,Bosque de coihue,Bosque no quemado,0,9,1,9,39,1,70,5,NA,9,1<2<,0,CA,Chusquea culeou,Cc,NA
+Bosque no quemado / 2,2,Bosque de coihue,Bosque no quemado,0,17,1,17,47,1.5,80,3,NA,11,0,1,CA,Chusquea culeou,Cc,NA
+Bosque no quemado / 2,2,Bosque de coihue,Bosque no quemado,0,NA,NA,20,50,NA,NA,NA,NA,NA,1<2<3,0,CA,Chusquea culeou,Cc,NA
+Bosque no quemado / 2,2,Bosque de coihue,Bosque no quemado,0,23,1,23,53,1,40,1,NA,13//,1,0,CA,Chusquea culeou,Cc,NA
+Bosque no quemado / 2,2,Bosque de coihue,Bosque no quemado,0,24,0,24,54,1,80,7//,NA,5.5,1<2<5<,0,CA,Chusquea culeou,Cc,NA
+Bosque no quemado / 2,2,Bosque de coihue,Bosque no quemado,0,25,1,25,55,1.5,75,8,NA,11,1<2<5,0,CA,Chusquea culeou,Cc,NA
+Bosque no quemado / 2,2,Bosque de coihue,Bosque no quemado,0,NA,NA,26,56,NA,NA,NA,NA,NA,0,5,CA,Chusquea culeou,Cc,NA
+Bosque no quemado / 2,2,Bosque de coihue,Bosque no quemado,0,NA,NA,27,57,NA,NA,NA,NA,NA,0,16,CA,Chusquea culeou,Cc,NA
+Bosque no quemado / 2,2,Bosque de coihue_extra,Bosque no quemado,1,1,NA,1,118,NA,NA,NA,NA,NA,1,0,CA,Chusquea culeou,Cc,NA
+Bosque no quemado / 2,2,Bosque de coihue_extra,Bosque no quemado,1,2,NA,2,119,NA,NA,NA,NA,NA,2,3<4<7<8<9,CA,Chusquea culeou,Cc,NA
+Bosque no quemado / 2,2,Bosque de coihue_extra,Bosque no quemado,1,3,NA,3,120,NA,NA,NA,NA,NA,1,6,CA,Chusquea culeou,Cc,NA
+Bosque no quemado / 4,4,Bosque de coihue,Bosque no quemado,0,2,0,2,2,NA,NA,NA,NA,NA,2,0,CA,Chusquea culeou,Cc,NA
+Bosque no quemado / 4,4,Bosque de coihue,Bosque no quemado,0,NA,NA,4,4,NA,NA,NA,NA,NA,6<7<8<9<10<,6,CA,Chusquea culeou,Cc,NA
+Bosque no quemado / 4,4,Bosque de coihue,Bosque no quemado,0,NA,NA,5,5,NA,NA,NA,NA,NA,5<6,8<2,CA,Chusquea culeou,Cc,NA
+Bosque no quemado / 4,4,Bosque de coihue,Bosque no quemado,0,NA,NA,7,7,NA,NA,NA,NA,NA,1<2,0,CA,Chusquea culeou,Cc,NA
+Bosque no quemado / 4,4,Bosque de coihue,Bosque no quemado,0,8,0,8,8,NA,NA,NA,NA,NA,0,2,CA,Chusquea culeou,Cc,NA
+Bosque no quemado / 4,4,Bosque de coihue,Bosque no quemado,0,NA,NA,13,13,NA,NA,NA,NA,NA,4<6<,10<9<3<4<5<6<7<8<,CA,Chusquea culeou,Cc,NA
+Bosque no quemado / 4,4,Bosque de coihue,Bosque no quemado,0,NA,NA,14,14,NA,NA,NA,NA,NA,1<2<3<,0,CA,Chusquea culeou,Cc,NA
+Bosque no quemado / 4,4,Bosque de coihue,Bosque no quemado,0,15,1,15,15,3,90,5.5//,NA,9,2<3<4<5<6<7<,0,CA,Chusquea culeou,Cc,NA
+Bosque no quemado / 4,4,Bosque de coihue,Bosque no quemado,0,16,0,16,16,NA,NA,NA,NA,NA,1,0,CA,Chusquea culeou,Cc,NA
+Bosque no quemado / 4,4,Bosque de coihue,Bosque no quemado,0,NA,NA,17,17,NA,NA,NA,NA,NA,9,0,CA,Chusquea culeou,Cc,NA
+Bosque no quemado / 4,4,Bosque de coihue,Bosque no quemado,0,18,0,18,18,NA,NA,NA,NA,NA,6<7<8,0,CA,Chusquea culeou,Cc,NA
+Bosque no quemado / 4,4,Bosque de coihue,Bosque no quemado,0,20,0,20,20,NA,NA,NA,NA,NA,1,0,CA,Chusquea culeou,Cc,NA
+Bosque no quemado / 4,4,Bosque de coihue,Bosque no quemado,0,21,1,21,21,1,65,11,NA,13,9<,1<2<6<7<4,CA,Chusquea culeou,Cc,NA
+Bosque no quemado / 4,4,Bosque de coihue,Bosque no quemado,0,22,0,22,22,NA,NA,NA,NA,NA,10<4<5<6<7<8<9,1<6<7<8,CA,Chusquea culeou,Cc,NA
+Bosque no quemado / 5,5,Bosque de coihue,Bosque no quemado,0,NA,NA,1,58,NA,NA,NA,NA,NA,0,3<11,CA,Chusquea culeou,Cc,NA
+Bosque no quemado / 5,5,Bosque de coihue,Bosque no quemado,0,2,NA,2,59,NA,NA,NA,NA,NA,0,2<3<5,CA,Chusquea culeou,Cc,NA
+Bosque no quemado / 5,5,Bosque de coihue,Bosque no quemado,0,4,NA,4,61,NA,NA,NA,NA,NA,0,1<4<,CA,Chusquea culeou,Cc,NA
+Bosque no quemado / 5,5,Bosque de coihue,Bosque no quemado,0,5,NA,5,62,2,95,0,14,10,0,1<3<,CA,Chusquea culeou,Cc,NA
+Bosque no quemado / 5,5,Bosque de coihue,Bosque no quemado,0,6,NA,6,63,NA,NA,NA,NA,NA,0,1<3,CA,Chusquea culeou,Cc,NA
+Bosque no quemado / 5,5,Bosque de coihue,Bosque no quemado,0,7,NA,7,64,2.5,98,6,14,6,0,2,CA,Chusquea culeou,Cc,NA
+Bosque no quemado / 5,5,Bosque de coihue,Bosque no quemado,0,8,NA,8,65,NA,NA,14,NA,4,0,2<3<5<9<10<11<12<13<,CA,Chusquea culeou,Cc,NA
+Bosque no quemado / 5,5,Bosque de coihue,Bosque no quemado,0,9,NA,9,66,1.5,95,15,16,5.5,0,2<16<15<,CA,Chusquea culeou,Cc,NA
+Bosque no quemado / 5,5,Bosque de coihue,Bosque no quemado,0,NA,NA,10,67,NA,NA,NA,NA,NA,0,11<15<,CA,Chusquea culeou,Cc,NA
+Bosque no quemado / 5,5,Bosque de coihue,Bosque no quemado,0,11,NA,11,68,3,100,0,9,3,0,1<2,CA,Chusquea culeou,Cc,NA
+Bosque no quemado / 5,5,Bosque de coihue,Bosque no quemado,0,NA,NA,13,70,NA,NA,NA,NA,NA,0,1<2,CA,Chusquea culeou,Cc,NA
+Bosque no quemado / 5,5,Bosque de coihue,Bosque no quemado,0,14,NA,14,71,NA,NA,NA,NA,NA,0,1,CA,Chusquea culeou,Cc,NA
+Bosque no quemado / 5,5,Bosque de coihue,Bosque no quemado,0,16,NA,16,73,NA,NA,NA,NA,NA,0,8,CA,Chusquea culeou,Cc,NA
+Bosque no quemado / 5,5,Bosque de coihue,Bosque no quemado,0,NA,NA,17,74,NA,NA,NA,NA,NA,1,12<,CA,Chusquea culeou,Cc,NA
+Bosque no quemado / 5,5,Bosque de coihue,Bosque no quemado,0,18,NA,18,75,NA,NA,NA,NA,NA,2<3<1<,2<,CA,Chusquea culeou,Cc,NA
+Bosque no quemado / 5,5,Bosque de coihue,Bosque no quemado,0,NA,NA,19,76,NA,NA,NA,NA,NA,1<2,0,CA,Chusquea culeou,Cc,NA
+Bosque no quemado / 5,5,Bosque de coihue,Bosque no quemado,0,20,NA,20,77,NA,NA,NA,NA,NA,1,0,CA,Chusquea culeou,Cc,NA
+Bosque no quemado / 5,5,Bosque de coihue,Bosque no quemado,0,NA,NA,21,78,NA,NA,NA,NA,NA,4<5<6<7<8,0,CA,Chusquea culeou,Cc,NA
+Bosque no quemado / 5,5,Bosque de coihue,Bosque no quemado,0,NA,NA,22,79,NA,NA,NA,NA,NA,9<10<11<12<13<14<15,0,CA,Chusquea culeou,Cc,NA
+Bosque no quemado / 5,5,Bosque de coihue,Bosque no quemado,0,NA,NA,23,80,NA,NA,NA,NA,NA,7<8,0,CA,Chusquea culeou,Cc,NA
+Bosque no quemado / 5,5,Bosque de coihue,Bosque no quemado,0,25,NA,25,82,1.5,90,5//,NA,6.5,10<11,4,CA,Chusquea culeou,Cc,NA
+Bosque no quemado / 5,5,Bosque de coihue,Bosque no quemado,0,26,NA,26,83,NA,NA,NA,NA,NA,7<8<9<10<11<12,2<10,CA,Chusquea culeou,Cc,NA
+Bosque no quemado / 5,5,Bosque de coihue,Bosque no quemado,0,NA,NA,29,86,NA,NA,NA,NA,NA,0,2,CA,Chusquea culeou,Cc,NA
+Bosque no quemado / 6,6,Bosque de coihue,Bosque no quemado,0,NA,NA,1,88,NA,NA,NA,NA,NA,14,0,CA,Chusquea culeou,Cc,NA
+Bosque no quemado / 6,6,Bosque de coihue,Bosque no quemado,0,NA,NA,2,89,NA,NA,NA,NA,NA,9<10<11,0,CA,Chusquea culeou,Cc,NA
+Bosque no quemado / 6,6,Bosque de coihue,Bosque no quemado,0,7,NA,7,94,2,98,12,NA,6,4<5<7<8<9<10,0,CA,Chusquea culeou,Cc,NA
+Bosque no quemado / 6,6,Bosque de coihue,Bosque no quemado,0,8,NA,8,95,NA,NA,NA,NA,NA,3<6<10<11<12<13<15<16,6<7<4<5<,CA,Chusquea culeou,Cc,NA
+Bosque no quemado / 6,6,Bosque de coihue,Bosque no quemado,0,NA,NA,9,96,NA,NA,NA,NA,NA,2<3<4<5<6<7,0,CA,Chusquea culeou,Cc,NA
+Bosque no quemado / 6,6,Bosque de coihue,Bosque no quemado,0,NA,NA,10,97,NA,NA,NA,NA,NA,6<7<8<9<10<11<,0,CA,Chusquea culeou,Cc,NA
+Bosque no quemado / 6,6,Bosque de coihue,Bosque no quemado,0,13,NA,13,100,3,75,15,NA,6,1<3<8<9,0,CA,Chusquea culeou,Cc,NA
+Bosque no quemado / 6,6,Bosque de coihue,Bosque no quemado,0,14,NA,14,101,NA,NA,NA,NA,NA,0,1<2,CA,Chusquea culeou,Cc,NA
+Bosque no quemado / 6,6,Bosque de coihue,Bosque no quemado,0,15,NA,15,102,2.5,90,4,NA,11//,0,1<2,CA,Chusquea culeou,Cc,NA
+Bosque no quemado / 6,6,Bosque de coihue,Bosque no quemado,0,16,NA,16,103,NA,NA,NA,NA,NA,0,1,CA,Chusquea culeou,Cc,NA
+Bosque no quemado / 6,6,Bosque de coihue,Bosque no quemado,0,17,NA,17,104,1,95,7,NA,4.5,1,1,CA,Chusquea culeou,Cc,NA
+Bosque no quemado / 6,6,Bosque de coihue,Bosque no quemado,0,18,NA,18,105,NA,NA,NA,NA,NA,1,1,CA,Chusquea culeou,Cc,NA
+Bosque no quemado / 6,6,Bosque de coihue,Bosque no quemado,0,19,NA,19,106,1.5,95,15,NA,10,1,0,CA,Chusquea culeou,Cc,NA
+Bosque no quemado / 6,6,Bosque de coihue,Bosque no quemado,0,21,NA,21,108,1,80,6,16,11//,0,5<6<7<8<,CA,Chusquea culeou,Cc,NA
+Bosque no quemado / 6,6,Bosque de coihue,Bosque no quemado,0,NA,NA,22,109,NA,NA,NA,NA,NA,6<7<9<10<12<13<14,9<8<7<,CA,Chusquea culeou,Cc,NA
+Bosque no quemado / 6,6,Bosque de coihue,Bosque no quemado,0,23,NA,23,110,2,98,16,NA,7,0,1<2<3,CA,Chusquea culeou,Cc,NA
+Bosque no quemado / 6,6,Bosque de coihue,Bosque no quemado,0,NA,NA,24,111,NA,NA,NA,NA,NA,0,2,CA,Chusquea culeou,Cc,NA
+Bosque no quemado / 6,6,Bosque de coihue,Bosque no quemado,0,NA,NA,25,112,NA,NA,NA,NA,NA,2<3,0,CA,Chusquea culeou,Cc,NA
+Bosque no quemado / 6,6,Bosque de coihue,Bosque no quemado,0,NA,NA,26,113,NA,NA,NA,NA,NA,2,0,CA,Chusquea culeou,Cc,NA
+Bosque no quemado / 6,6,Bosque de coihue,Bosque no quemado,0,NA,NA,28,115,NA,NA,NA,NA,NA,9<12,0,CA,Chusquea culeou,Cc,NA
+Bosque no quemado / 6,6,Bosque de coihue,Bosque no quemado,0,30,NA,30,117,NA,NA,NA,NA,NA,7<8<1,1,CA,Chusquea culeou,Cc,NA
+Coihual regenerando / 2,2,Coihual regenerado,Coihual regenerando,0,NA,NA,11,298,NA,NA,NA,NA,NA,2<3,1<2<3<4<,CA,Chusquea culeou,Cc,NA
+Coihual regenerando / 2,2,Coihual regenerado,Coihual regenerando,0,NA,NA,12,299,NA,NA,NA,NA,NA,8<9<10,0,CA,Chusquea culeou,Cc,NA
+Coihual regenerando / 2,2,Coihual regenerado,Coihual regenerando,0,NA,NA,14,301,NA,NA,NA,NA,NA,3<4<5<6,0,CA,Chusquea culeou,Cc,NA
+Coihual regenerando / 2,2,Coihual regenerado,Coihual regenerando,0,NA,NA,15,302,NA,NA,NA,NA,NA,0,4<5,CA,Chusquea culeou,Cc,NA
+Coihual regenerando / 2,2,Coihual regenerado,Coihual regenerando,0,NA,NA,18,305,NA,NA,NA,NA,NA,3<,0,CA,Chusquea culeou,Cc,NA
+Coihual regenerando / 4,4,Coihual regenerado,Coihual regenerando,0,8,0,8,322,NA,NA,NA,NA,NA,0,1,CA,Chusquea culeou,Cc,NA
+Coihual regenerando / 4,4,Coihual regenerado,Coihual regenerando,0,31,1,31,345,2,80,15,NA,NA,1,0,CA,Chusquea culeou,Cc,NA
+Coihual regenerando / 6,6,Bosque de coihue regenerado,Coihual regenerando,0,NA,NA,6,253,NA,NA,NA,NA,NA,<8<9<10,0,CA,Chusquea culeou,Cc,NA
+Coihual regenerando / 6,6,Bosque de coihue regenerado,Coihual regenerando,0,9,NA,9,256,2.5,15,11,NA,NA,3<4<5<6<7,0,CA,Chusquea culeou,Cc,NA
+Coihual regenerando / 6,6,Bosque de coihue regenerado,Coihual regenerando,0,NA,NA,10,257,NA,NA,NA,NA,NA,7<8,2<5,CA,Chusquea culeou,Cc,NA
+Coihual regenerando / 6,6,Bosque de coihue regenerado,Coihual regenerando,0,NA,NA,11,258,NA,NA,NA,NA,NA,3<4<5<6,0,CA,Chusquea culeou,Cc,NA
+Coihual regenerando / 6,6,Bosque de coihue regenerado,Coihual regenerando,0,13,NA,13,260,2,70,17,NA,NA,0,4<,CA,Chusquea culeou,Cc,NA
+Coihual regenerando / 6,6,Bosque de coihue regenerado,Coihual regenerando,0,14,NA,14,261,NA,NA,NA,NA,NA,3<4<,0,CA,Chusquea culeou,Cc,NA
+Coihual regenerando / 6,6,Bosque de coihue regenerado,Coihual regenerando,0,15,NA,15,262,0.5,5,17,NA,NA,12,2,CA,Chusquea culeou,Cc,NA
+Coihual regenerando / 6,6,Bosque de coihue regenerado,Coihual regenerando,0,NA,NA,16,263,NA,NA,NA,NA,NA,0,1,CA,Chusquea culeou,Cc,NA
+Coihual regenerando / 6,6,Bosque de coihue regenerado,Coihual regenerando,0,22,NA,22,269,NA,NA,NA,NA,NA,0,1,CA,Chusquea culeou,Cc,NA
+Coihual regenerando / 6,6,Bosque de coihue regenerado,Coihual regenerando,0,23,NA,23,270,1,40,16,NA,NA,5<6<7,1<2<8<9<10<11,CA,Chusquea culeou,Cc,NA
+Coihual regenerando / 6,6,Bosque de coihue regenerado,Coihual regenerando,0,24,NA,24,271,NA,NA,NA,NA,NA,7,1<2<3<,CA,Chusquea culeou,Cc,NA
+Coihual regenerando / 6,6,Bosque de coihue regenerado,Coihual regenerando,0,25,NA,25,272,2.5,90,11,NA,NA,4,2<3,CA,Chusquea culeou,Cc,NA
+Coihual regenerando / 6,6,Bosque de coihue regenerado,Coihual regenerando,0,NA,NA,26,273,NA,NA,NA,NA,NA,0,2,CA,Chusquea culeou,Cc,NA
+Coihual regenerando / 6,6,Bosque de coihue regenerado,Coihual regenerando,0,NA,NA,27,274,NA,NA,NA,NA,NA,5<6<,2<3<4<5<6<7,CA,Chusquea culeou,Cc,NA
+Coihual regenerando / 6,6,Bosque de coihue regenerado,Coihual regenerando,0,29,NA,29,276,6,80,18,NA,NA,1<2<3<4<5<6<7<8,1<3<2,CA,Chusquea culeou,Cc,NA
+Coihual regenerando / 6,6,Bosque de coihue regenerado,Coihual regenerando,0,37,NA,37,284,3,75,14,NA,NA,1<9<,1,CA,Chusquea culeou,Cc,NA
+Coihual regenerando / 6,6,Bosque de coihue regenerado,Coihual regenerando,0,NA,NA,39,286,NA,NA,NA,NA,NA,0,8,CA,Chusquea culeou,Cc,NA
+Matorral / 2,2,Matorral de cania,Matorral,0,5,1,5,506,NA,NA,NA,NA,NA,1<2,0,CA,Chusquea culeou,Cc,NA
+Matorral / 2,2,Matorral de cania,Matorral,0,6,0,6,507,NA,NA,NA,NA,NA,1<2<5,3,CA,Chusquea culeou,Cc,NA
+Matorral / 2,2,Matorral de cania,Matorral,0,NA,NA,10,511,NA,NA,NA,NA,NA,8<9<10<11<12<13<14<15,0,CA,Chusquea culeou,Cc,NA
+Matorral / 4,4,Matorral,Matorral,0,NA,NA,1,407,NA,NA,NA,NA,NA,0,2,CA,Chusquea culeou,Cc,NA
+Matorral / 5,5,Matorral,Matorral,0,NA,NA,3,449,NA,NA,NA,NA,NA,0,1<3<4<,CA,Chusquea culeou,Cc,NA
+Matorral / 5,5,Matorral,Matorral,0,NA,NA,4,450,NA,NA,NA,NA,NA,0,1,CA,Chusquea culeou,Cc,NA
+Matorral / 5,5,Matorral,Matorral,0,NA,NA,7,453,NA,NA,NA,NA,NA,0,1<3<4,CA,Chusquea culeou,Cc,NA
+Matorral / 5,5,Matorral,Matorral,0,NA,NA,9,455,NA,NA,NA,NA,NA,0,1<3,CA,Chusquea culeou,Cc,NA
+Matorral / 5,5,Matorral,Matorral,0,10,NA,10,456,NA,NA,NA,NA,NA,0,1,CA,Chusquea culeou,Cc,NA
+Matorral / 5,5,Matorral,Matorral,0,11,NA,11,457,6,85,14,NA,NA,0,1,CA,Chusquea culeou,Cc,NA
+Matorral / 5,5,Matorral,Matorral,0,13,NA,13,459,8,90,13,NA,NA,0,1<2<3<4,CA,Chusquea culeou,Cc,NA
+Matorral / 5,5,Matorral,Matorral,0,NA,NA,14,460,NA,NA,NA,NA,NA,0,1<2,CA,Chusquea culeou,Cc,NA
+Matorral / 5,5,Matorral,Matorral,0,NA,NA,18,464,NA,NA,NA,NA,NA,0,1,CA,Chusquea culeou,Cc,NA
+Matorral / 5,5,Matorral,Matorral,0,24,NA,24,470,NA,NA,NA,NA,NA,0,2<3<4<5<6<,CA,Chusquea culeou,Cc,NA
+Matorral / 5,5,Matorral,Matorral,0,25,NA,25,471,5,90,14,NA,NA,0,1<,CA,Chusquea culeou,Cc,NA
+Matorral / 5,5,Matorral,Matorral,0,NA,NA,26,472,NA,NA,NA,NA,NA,0,1,CA,Chusquea culeou,Cc,NA
+Matorral / 5,5,Matorral,Matorral,0,NA,NA,27,473,NA,NA,NA,NA,NA,0,4,CA,Chusquea culeou,Cc,NA
+Matorral / 5,5,Matorral,Matorral,0,28,NA,28,474,NA,NA,NA,NA,NA,0,1,CA,Chusquea culeou,Cc,NA
+Matorral / 5,5,Matorral,Matorral,0,30,NA,30,476,NA,NA,NA,NA,NA,0,1,CA,Chusquea culeou,Cc,NA
+Matorral / 5,5,Matorral,Matorral,0,31,NA,31,477,1.5,60,7,NA,NA,0,1<5<6<8,CA,Chusquea culeou,Cc,NA
+Matorral / 5,5,Matorral,Matorral,0,NA,NA,33,479,NA,NA,NA,NA,NA,0,4<5<6<7<8,CA,Chusquea culeou,Cc,NA
+Matorral / 5,5,Matorral,Matorral,0,34,NA,34,480,NA,NA,NA,NA,NA,7<8<,1,CA,Chusquea culeou,Cc,NA
+Matorral / 5,5,Matorral,Matorral,0,35,NA,35,481,7,98,15,NA,NA,0,1<2,CA,Chusquea culeou,Cc,NA
+Matorral / 5,5,Matorral,Matorral,0,37,NA,37,483,2,70,15,NA,NA,0,1,CA,Chusquea culeou,Cc,NA
+Matorral / 5,5,Matorral,Matorral,0,38,NA,38,484,NA,NA,NA,NA,NA,0,1<2,CA,Chusquea culeou,Cc,NA
+Matorral / 5,5,Matorral,Matorral,0,39,NA,39,485,4,95,14,NA,NA,0,1<2<3<4<,CA,Chusquea culeou,Cc,NA
+Matorral / 5,5,Matorral,Matorral,0,40,NA,40,486,NA,NA,NA,NA,NA,0,1<2<3,CA,Chusquea culeou,Cc,NA
+Matorral / 2,2,Matorral,Matorral,0,21,1,21,389,2.5,100,6,NA,NA,1<2<3<4<5<,1<2,CHACAY,Discaria chacaye,Dc,NA
+Matorral / 2,2,Matorral,Matorral,0,22,0,22,390,1.5,90,6,NA,NA,1<2<3<4<5<,1<3,CHACAY,Discaria chacaye,Dc,NA
+Coihual regenerando / 4,4,Coihual regenerado,Coihual regenerando,0,16,0,16,330,NA,NA,NA,NA,NA,1,0,CHACAY,Discaria chacaye,Dc,NA
+Matorral / 4,4,Matorral,Matorral,0,NA,NA,29,435,NA,NA,NA,NA,NA,2,0,CHACAY,Discaria chacaye,Dc,NA
+Matorral / 5,5,Matorral,Matorral,0,NA,NA,39,485,NA,NA,NA,NA,NA,10<11<12<,0,CHACAY,Discaria chacaye,Dc,NA
+Bosque no quemado / 2,2,Bosque de coihue,Bosque no quemado,0,NA,NA,1,31,NA,NA,NA,NA,NA,2<3<10<,0,CIP,Austrocedrus chilensis,Aus,NA
+Bosque no quemado / 2,2,Bosque de coihue,Bosque no quemado,0,NA,NA,7,37,NA,NA,NA,NA,NA,5<4<,0,CIP,Austrocedrus chilensis,Aus,NA
+Bosque no quemado / 2,2,Bosque de coihue,Bosque no quemado,0,NA,NA,11,41,NA,NA,NA,NA,NA,13,1<2,CIP,Austrocedrus chilensis,Aus,NA
+Bosque no quemado / 2,2,Bosque de coihue,Bosque no quemado,0,NA,NA,23,53,NA,NA,7//,NA,NA,0,12<13,CIP,Austrocedrus chilensis,Aus,NA
+Bosque no quemado / 5,5,Bosque de coihue,Bosque no quemado,0,3,NA,3,60,3.5,100,5//,NA,6,0,11,CIP,Austrocedrus chilensis,Aus,NA
+Bosque no quemado / 5,5,Bosque de coihue,Bosque no quemado,0,NA,NA,7,64,NA,NA,NA,NA,NA,6<,0,CIP,Austrocedrus chilensis,Aus,NA
+Bosque no quemado / 5,5,Bosque de coihue,Bosque no quemado,0,NA,NA,16,73,NA,NA,NA,NA,NA,12<13,11<,CIP,Austrocedrus chilensis,Aus,NA
+Bosque no quemado / 5,5,Bosque de coihue,Bosque no quemado,0,NA,NA,17,74,NA,NA,NA,NA,NA,13<14<8<10,0,CIP,Austrocedrus chilensis,Aus,NA
+Bosque no quemado / 5,5,Bosque de coihue,Bosque no quemado,0,28,NA,28,85,NA,NA,NA,NA,NA,0,1<15<16,CIP,Austrocedrus chilensis,Aus,NA
+Bosque no quemado / 6,6,Bosque de coihue,Bosque no quemado,0,3,NA,3,90,4,95,11,NA,10//,0,5<6<,CIP,Austrocedrus chilensis,Aus,NA
+Bosque no quemado / 6,6,Bosque de coihue,Bosque no quemado,0,NA,NA,21,108,NA,NA,NA,NA,NA,0,11,CIP,Austrocedrus chilensis,Aus,NA
+Bosque no quemado / 6,6,Bosque de coihue,Bosque no quemado,0,NA,NA,23,110,NA,NA,NA,NA,NA,0,8,CIP,Austrocedrus chilensis,Aus,NA
+Bosque no quemado / 6,6,Bosque de coihue,Bosque no quemado,0,26,NA,26,113,NA,NA,NA,NA,NA,0,2<5<16,CIP,Austrocedrus chilensis,Aus,NA
+Bosque no quemado / 6,6,Bosque de coihue,Bosque no quemado,0,28,NA,28,115,NA,NA,NA,NA,NA,0,4<5,CIP,Austrocedrus chilensis,Aus,NA
+Bosque no quemado / 6,6,Bosque de coihue,Bosque no quemado,0,29,NA,29,116,3,85,13,NA,5.5,0,3<2<,CIP,Austrocedrus chilensis,Aus,NA
+Bosque no quemado / 6,6,Bosque de coihue,Bosque no quemado,0,NA,NA,30,117,NA,NA,NA,NA,NA,0,2,CIP,Austrocedrus chilensis,Aus,NA
+Coihual regenerando / 2,2,Coihual regenerado_extra,Coihual regenerando,1,NA,NA,46,360,NA,NA,NA,NA,NA,8<1,0,CIP,Austrocedrus chilensis,Aus,NA
+Matorral / 4,4,Matorral,Matorral,0,25,1,25,431,1,20,7,NA,NA,0,4<7,CIP,Austrocedrus chilensis,Aus,NA
+Matorral / 4,4,Matorral,Matorral,0,NA,NA,26,432,NA,NA,NA,NA,NA,0,10,CIP,Austrocedrus chilensis,Aus,NA
+Matorral / 4,4,Matorral,Matorral,0,NA,NA,34,440,NA,NA,NA,NA,NA,0,9,CIP,Austrocedrus chilensis,Aus,NA
+Matorral / 4,4,Matorral,Matorral,0,NA,NA,36,442,NA,NA,NA,NA,NA,0,1<5,CIP,Austrocedrus chilensis,Aus,NA
+Bosque no quemado / 2,2,Bosque de coihue,Bosque no quemado,0,NA,NA,12,42,NA,NA,NA,NA,NA,7,0,CO,Nothofagus dombeyi,Ndom,NA
+Bosque no quemado / 2,2,Bosque de coihue,Bosque no quemado,0,15,1,15,45,2,70,11,NA,11,0,4<5,CO,Nothofagus dombeyi,Ndom,NA
+Bosque no quemado / 2,2,Bosque de coihue,Bosque no quemado,0,NA,NA,16,46,NA,NA,NA,NA,NA,0,1,CO,Nothofagus dombeyi,Ndom,NA
+Bosque no quemado / 2,2,Bosque de coihue,Bosque no quemado,0,NA,NA,18,48,NA,NA,NA,NA,NA,0,1<2<3,CO,Nothofagus dombeyi,Ndom,NA
+Bosque no quemado / 2,2,Bosque de coihue,Bosque no quemado,0,NA,NA,19,49,NA,NA,NA,NA,NA,4<5<6<7<8<11,4<5,CO,Nothofagus dombeyi,Ndom,NA
+Bosque no quemado / 2,2,Bosque de coihue,Bosque no quemado,0,NA,NA,20,50,NA,NA,NA,NA,NA,4<5<9<,0,CO,Nothofagus dombeyi,Ndom,NA
+Bosque no quemado / 2,2,Bosque de coihue,Bosque no quemado,0,NA,NA,26,56,NA,NA,7,NA,NA,0,1,CO,Nothofagus dombeyi,Ndom,NA
+Bosque no quemado / 2,2,Bosque de coihue,Bosque no quemado,0,27,1,27,57,2,70,7,NA,8,0,1,CO,Nothofagus dombeyi,Ndom,NA
+Bosque no quemado / 4,4,Bosque de coihue,Bosque no quemado,0,NA,NA,5,5,NA,NA,NA,NA,NA,14<15<16,0,CO,Nothofagus dombeyi,Ndom,NA
+Bosque no quemado / 4,4,Bosque de coihue,Bosque no quemado,0,NA,NA,6,6,NA,NA,NA,NA,NA,13<15<16,8<9,CO,Nothofagus dombeyi,Ndom,NA
+Bosque no quemado / 4,4,Bosque de coihue,Bosque no quemado,0,NA,NA,7,7,NA,NA,NA,NA,NA,10<12,0,CO,Nothofagus dombeyi,Ndom,NA
+Bosque no quemado / 4,4,Bosque de coihue,Bosque no quemado,0,NA,NA,9,9,NA,NA,NA,NA,NA,4<8<12,0,CO,Nothofagus dombeyi,Ndom,NA
+Bosque no quemado / 4,4,Bosque de coihue,Bosque no quemado,0,10,0,10,10,NA,NA,NA,NA,NA,3<4<7<13<14<,0,CO,Nothofagus dombeyi,Ndom,NA
+Bosque no quemado / 4,4,Bosque de coihue,Bosque no quemado,0,NA,NA,12,12,NA,NA,NA,NA,NA,4,3,CO,Nothofagus dombeyi,Ndom,NA
+Bosque no quemado / 4,4,Bosque de coihue,Bosque no quemado,0,13,1,13,13,1,80,13,NA,8,1,0,CO,Nothofagus dombeyi,Ndom,NA
+Bosque no quemado / 4,4,Bosque de coihue,Bosque no quemado,0,14,0,14,14,NA,NA,NA,NA,NA,1<,0,CO,Nothofagus dombeyi,Ndom,NA
+Bosque no quemado / 4,4,Bosque de coihue,Bosque no quemado,0,NA,NA,16,16,NA,NA,NA,NA,NA,13<14<15<16,0,CO,Nothofagus dombeyi,Ndom,NA
+Bosque no quemado / 4,4,Bosque de coihue,Bosque no quemado,0,17,1,17,17,2,80,5//,NA,14,8<14,1,CO,Nothofagus dombeyi,Ndom,NA
+Bosque no quemado / 4,4,Bosque de coihue,Bosque no quemado,0,NA,NA,19,19,NA,NA,NA,NA,NA,11<12<13<14<15<16,0,CO,Nothofagus dombeyi,Ndom,NA
+Bosque no quemado / 4,4,Bosque de coihue,Bosque no quemado,0,NA,NA,21,21,NA,NA,NA,NA,NA,3<4,3,CO,Nothofagus dombeyi,Ndom,NA
+Bosque no quemado / 4,4,Bosque de coihue,Bosque no quemado,0,NA,NA,23,23,NA,NA,NA,NA,NA,2,0,CO,Nothofagus dombeyi,Ndom,NA
+Bosque no quemado / 4,4,Bosque de coihue,Bosque no quemado,0,24,0,24,24,NA,NA,NA,NA,NA,4,0,CO,Nothofagus dombeyi,Ndom,NA
+Bosque no quemado / 4,4,Bosque de coihue,Bosque no quemado,0,NA,NA,25,25,NA,NA,NA,NA,NA,2<3<4<5<9<10,0,CO,Nothofagus dombeyi,Ndom,NA
+Bosque no quemado / 4,4,Bosque de coihue,Bosque no quemado,0,26,0,26,26,NA,NA,NA,NA,NA,6<9<10<12<14<15<16,0,CO,Nothofagus dombeyi,Ndom,NA
+Bosque no quemado / 4,4,Bosque de coihue,Bosque no quemado,0,NA,NA,27,27,NA,NA,NA,NA,NA,4<11<13<14<15<16,0,CO,Nothofagus dombeyi,Ndom,NA
+Bosque no quemado / 4,4,Bosque de coihue,Bosque no quemado,0,NA,NA,28,28,NA,NA,NA,NA,NA,1,0,CO,Nothofagus dombeyi,Ndom,NA
+Bosque no quemado / 5,5,Bosque de coihue,Bosque no quemado,0,1,NA,1,58,4,100,6,13,6.5,0,1,CO,Nothofagus dombeyi,Ndom,NA
+Bosque no quemado / 5,5,Bosque de coihue,Bosque no quemado,0,NA,NA,4,61,NA,NA,NA,NA,NA,0,1<2<,CO,Nothofagus dombeyi,Ndom,NA
+Bosque no quemado / 5,5,Bosque de coihue,Bosque no quemado,0,NA,NA,5,62,NA,NA,NA,NA,NA,0,14<13,CO,Nothofagus dombeyi,Ndom,NA
+Bosque no quemado / 5,5,Bosque de coihue,Bosque no quemado,0,NA,NA,6,63,NA,NA,NA,NA,NA,0,7<9,CO,Nothofagus dombeyi,Ndom,NA
+Bosque no quemado / 5,5,Bosque de coihue,Bosque no quemado,0,10,NA,10,67,NA,NA,NA,NA,NA,0,7<8<9,CO,Nothofagus dombeyi,Ndom,NA
+Bosque no quemado / 5,5,Bosque de coihue,Bosque no quemado,0,NA,NA,11,68,NA,NA,NA,NA,NA,0,1<2<3,CO,Nothofagus dombeyi,Ndom,NA
+Bosque no quemado / 5,5,Bosque de coihue,Bosque no quemado,0,13,NA,13,70,1.5,95,9,9,9,0,2<3<4,CO,Nothofagus dombeyi,Ndom,NA
+Bosque no quemado / 5,5,Bosque de coihue,Bosque no quemado,0,NA,NA,17,74,NA,NA,NA,NA,NA,3<4<9,0,CO,Nothofagus dombeyi,Ndom,NA
+Bosque no quemado / 5,5,Bosque de coihue,Bosque no quemado,0,NA,NA,18,75,NA,NA,NA,NA,NA,7<8<,0,CO,Nothofagus dombeyi,Ndom,NA
+Bosque no quemado / 5,5,Bosque de coihue,Bosque no quemado,0,21,NA,21,78,2,95,8,NA,15,0,3,CO,Nothofagus dombeyi,Ndom,NA
+Bosque no quemado / 5,5,Bosque de coihue,Bosque no quemado,0,23,NA,23,80,2,80,16,NA,8,0,3,CO,Nothofagus dombeyi,Ndom,NA
+Bosque no quemado / 5,5,Bosque de coihue,Bosque no quemado,0,24,NA,24,81,NA,NA,NA,NA,NA,0,1<16,CO,Nothofagus dombeyi,Ndom,NA
+Bosque no quemado / 5,5,Bosque de coihue,Bosque no quemado,0,NA,NA,25,82,NA,NA,NA,NA,NA,16,0,CO,Nothofagus dombeyi,Ndom,NA
+Bosque no quemado / 5,5,Bosque de coihue,Bosque no quemado,0,NA,NA,26,83,NA,NA,NA,NA,NA,0,16,CO,Nothofagus dombeyi,Ndom,NA
+Bosque no quemado / 5,5,Bosque de coihue,Bosque no quemado,0,27,NA,27,84,1,95,3,NA,6//,0,1,CO,Nothofagus dombeyi,Ndom,NA
+Bosque no quemado / 5,5,Bosque de coihue,Bosque no quemado,0,29,NA,29,86,1,85,0,4,14//,0,12<13<2,CO,Nothofagus dombeyi,Ndom,NA
+Bosque no quemado / 5,5,Bosque de coihue,Bosque no quemado,0,30,NA,30,87,NA,NA,NA,NA,NA,0,2<7<8,CO,Nothofagus dombeyi,Ndom,NA
+Bosque no quemado / 6,6,Bosque de coihue,Bosque no quemado,0,NA,NA,1,88,NA,NA,NA,NA,NA,3<4<5<14,1<9<13<16,CO,Nothofagus dombeyi,Ndom,NA
+Bosque no quemado / 6,6,Bosque de coihue,Bosque no quemado,0,2,NA,2,89,NA,NA,NA,NA,NA,0,1<14<15,CO,Nothofagus dombeyi,Ndom,NA
+Bosque no quemado / 6,6,Bosque de coihue,Bosque no quemado,0,NA,NA,3,90,NA,NA,NA,NA,NA,0,10<12<13<14<15<16,CO,Nothofagus dombeyi,Ndom,NA
+Bosque no quemado / 6,6,Bosque de coihue,Bosque no quemado,0,9,NA,9,96,2,95,13,7 M// COIHUE MUERTO,NA,0,7<11<14<15<16,CO,Nothofagus dombeyi,Ndom,NA
+Bosque no quemado / 6,6,Bosque de coihue,Bosque no quemado,0,NA,NA,10,97,NA,NA,NA,NA,NA,14,0,CO,Nothofagus dombeyi,Ndom,NA
+Bosque no quemado / 6,6,Bosque de coihue,Bosque no quemado,0,NA,NA,12,99,NA,NA,NA,NA,NA,11,0,CO,Nothofagus dombeyi,Ndom,NA
+Bosque no quemado / 6,6,Bosque de coihue,Bosque no quemado,0,NA,NA,15,102,NA,NA,NA,NA,NA,0,16,CO,Nothofagus dombeyi,Ndom,NA
+Bosque no quemado / 6,6,Bosque de coihue,Bosque no quemado,0,NA,NA,21,108,NA,NA,NA,NA,NA,0,1,CO,Nothofagus dombeyi,Ndom,NA
+Bosque no quemado / 6,6,Bosque de coihue,Bosque no quemado,0,NA,NA,24,111,NA,NA,NA,NA,NA,0,2<7,CO,Nothofagus dombeyi,Ndom,NA
+Bosque no quemado / 6,6,Bosque de coihue,Bosque no quemado,0,27,NA,27,114,2,80,17,NA,5,14<13,0,CO,Nothofagus dombeyi,Ndom,NA
+Coihual no regenerado / 4,4,Coihual no regenerado,Coihual no regenerado,0,21,NA,21,191,1,35,6//,NA,NA,0,3<4<5<8<9<12<15<13<14,CO,Nothofagus dombeyi,Ndom,NA
+Coihual no regenerado / 4,4,Coihual no regenerado,Coihual no regenerado,0,41,NA,41,211,2,25,16,NA,NA,3<7<,1<2,CO,Nothofagus dombeyi,Ndom,NA
+Coihual no regenerado / 4,4,Coihual no regenerado,Coihual no regenerado,0,42,NA,42,212,NA,NA,NA,NA,NA,0,1<7,CO,Nothofagus dombeyi,Ndom,NA
+Coihual no regenerado / 4,4,Coihual no regenerado,Coihual no regenerado,0,52,NA,53,223,NA,NA,NA,NA,NA,1<2<3<4<5<6<8<11<12<13,0,CO,Nothofagus dombeyi,Ndom,NA
+Coihual no regenerado / 4,4,Coihual no regenerado,Coihual no regenerado,0,53,NA,54,224,1,40,7,NA,NA,0,3,CO,Nothofagus dombeyi,Ndom,NA
+Coihual regenerando / 2,2,Coihual regenerado,Coihual regenerando,0,NA,NA,2,289,NA,NA,NA,NA,NA,7<8<10<14,0,CO,Nothofagus dombeyi,Ndom,NA
+Coihual regenerando / 2,2,Coihual regenerado,Coihual regenerando,0,3,1,3,290,1.5,90,8,NA,NA,8,0,CO,Nothofagus dombeyi,Ndom,NA
+Coihual regenerando / 2,2,Coihual regenerado,Coihual regenerando,0,4,0,4,291,1,2,16,NA,NA,2<3<4<5,0,CO,Nothofagus dombeyi,Ndom,NA
+Coihual regenerando / 2,2,Coihual regenerado,Coihual regenerando,0,NA,NA,5,292,NA,NA,NA,NA,NA,4<5<3<6<7<8<9,0,CO,Nothofagus dombeyi,Ndom,NA
+Coihual regenerando / 2,2,Coihual regenerado,Coihual regenerando,0,NA,NA,7,294,NA,NA,NA,NA,NA,8<9<,0,CO,Nothofagus dombeyi,Ndom,NA
+Coihual regenerando / 2,2,Coihual regenerado,Coihual regenerando,0,NA,NA,8,295,NA,NA,NA,NA,NA,16,0,CO,Nothofagus dombeyi,Ndom,NA
+Coihual regenerando / 2,2,Coihual regenerado,Coihual regenerando,0,NA,NA,9,296,NA,NA,NA,NA,NA,2<12<13<14<15<16<6,0,CO,Nothofagus dombeyi,Ndom,NA
+Coihual regenerando / 2,2,Coihual regenerado,Coihual regenerando,0,NA,NA,10,297,NA,NA,NA,NA,NA,2<3<6,0,CO,Nothofagus dombeyi,Ndom,NA
+Coihual regenerando / 2,2,Coihual regenerado,Coihual regenerando,0,NA,NA,13,300,NA,NA,NA,NA,NA,10<11<16<,0,CO,Nothofagus dombeyi,Ndom,NA
+Coihual regenerando / 2,2,Coihual regenerado,Coihual regenerando,0,14,0,14,301,3.5,50,16,NA,NA,13<14<15<16,0,CO,Nothofagus dombeyi,Ndom,NA
+Coihual regenerando / 2,2,Coihual regenerado,Coihual regenerando,0,17,1,17,304,1,70,17,NA,NA,14<13<12<11<6<7<5<4<,0,CO,Nothofagus dombeyi,Ndom,NA
+Coihual regenerando / 2,2,Coihual regenerado,Coihual regenerando,0,NA,NA,20,307,NA,NA,NA,NA,NA,7,0,CO,Nothofagus dombeyi,Ndom,NA
+Coihual regenerando / 2,2,Coihual regenerado,Coihual regenerando,0,NA,NA,21,308,NA,NA,NA,NA,NA,8<9,0,CO,Nothofagus dombeyi,Ndom,NA
+Coihual regenerando / 2,2,Coihual regenerado,Coihual regenerando,0,22,0,22,309,1.5,70,5//,NA,NA,2<8<9<11<12,0,CO,Nothofagus dombeyi,Ndom,NA
+Coihual regenerando / 2,2,Coihual regenerado,Coihual regenerando,0,23,1,23,310,2,90,5//,NA,NA,2<3<5<6<7<10<11<12<14,0,CO,Nothofagus dombeyi,Ndom,NA
+Coihual regenerando / 2,2,Coihual regenerado,Coihual regenerando,0,24,0,24,311,2,50,5//,NA,NA,1<2<3<4<6<7<8<14<15<16<9,0,CO,Nothofagus dombeyi,Ndom,NA
+Coihual regenerando / 2,2,Coihual regenerado,Coihual regenerando,0,NA,NA,26,313,NA,NA,NA,NA,NA,1<2<3<6<8<9<10<12,0,CO,Nothofagus dombeyi,Ndom,NA
+Coihual regenerando / 2,2,Coihual regenerado,Coihual regenerando,0,27,1,27,314,1.5,95,16,NA,NA,3<4<6<7<8<16,0,CO,Nothofagus dombeyi,Ndom,NA
+Coihual regenerando / 2,2,Coihual regenerado_extra,Coihual regenerando,1,NA,NA,41,355,NA,NA,NA,NA,NA,0,2,CO,Nothofagus dombeyi,Ndom,NA
+Coihual regenerando / 2,2,Coihual regenerado_extra,Coihual regenerando,1,3,NA,43,357,NA,NA,NA,NA,NA,4,0,CO,Nothofagus dombeyi,Ndom,NA
+Coihual regenerando / 2,2,Coihual regenerado_extra,Coihual regenerando,1,NA,NA,45,359,NA,NA,NA,NA,NA,11<12<13<14<15,7,CO,Nothofagus dombeyi,Ndom,NA
+Coihual regenerando / 2,2,Coihual regenerado_extra,Coihual regenerando,1,NA,NA,46,360,NA,NA,NA,NA,NA,7<9<10<16,0,CO,Nothofagus dombeyi,Ndom,NA
+Coihual regenerando / 2,2,Coihual regenerado_extra,Coihual regenerando,1,NA,NA,47,361,NA,NA,NA,NA,NA,0,9<7<6,CO,Nothofagus dombeyi,Ndom,NA
+Coihual regenerando / 2,2,Coihual regenerado_extra,Coihual regenerando,1,8,NA,48,362,NA,NA,NA,NA,NA,1<2<4<5<9<10<12<13,0,CO,Nothofagus dombeyi,Ndom,NA
+Coihual regenerando / 2,2,Coihual regenerado_extra,Coihual regenerando,1,9,NA,49,363,NA,NA,NA,NA,NA,14<4<5<3<2<,1,CO,Nothofagus dombeyi,Ndom,NA
+Coihual regenerando / 2,2,Coihual regenerado_extra,Coihual regenerando,1,10,NA,50,364,NA,NA,NA,NA,NA,3,0,CO,Nothofagus dombeyi,Ndom,NA
+Coihual regenerando / 2,2,Coihual regenerado_extra,Coihual regenerando,1,11,NA,51,365,NA,NA,NA,NA,NA,3<4<5<6<8<9<10<11<12<14<15,0,CO,Nothofagus dombeyi,Ndom,NA
+Coihual regenerando / 2,2,Coihual regenerado_extra,Coihual regenerando,1,NA,NA,52,366,NA,NA,NA,NA,NA,2<3<4<5<6<7<10<11<12<13<14<16,3<,CO,Nothofagus dombeyi,Ndom,NA
+Coihual regenerando / 2,2,Coihual regenerado_extra,Coihual regenerando,1,NA,NA,53,367,NA,NA,NA,NA,NA,7<8<9<3<11<12<14,0,CO,Nothofagus dombeyi,Ndom,NA
+Coihual regenerando / 2,2,Coihual regenerado_extra,Coihual regenerando,1,NA,NA,54,368,NA,NA,NA,NA,NA,4<11<12,0,CO,Nothofagus dombeyi,Ndom,NA
+Coihual regenerando / 4,4,Coihual regenerado,Coihual regenerando,0,3,1,3,317,2,80,14,NA,NA,4<5<6<12,1<2,CO,Nothofagus dombeyi,Ndom,NA
+Coihual regenerando / 4,4,Coihual regenerado,Coihual regenerando,0,NA,NA,4,318,NA,NA,NA,NA,NA,3<4<9<10<12<4,4,CO,Nothofagus dombeyi,Ndom,NA
+Coihual regenerando / 4,4,Coihual regenerado,Coihual regenerando,0,NA,NA,5,319,NA,NA,NA,NA,NA,1<2<3<4<5<6<7<8<9<10<12<14,0,CO,Nothofagus dombeyi,Ndom,NA
+Coihual regenerando / 4,4,Coihual regenerado,Coihual regenerando,0,6,0,6,320,NA,NA,NA,NA,NA,2,1,CO,Nothofagus dombeyi,Ndom,NA
+Coihual regenerando / 4,4,Coihual regenerado,Coihual regenerando,0,NA,NA,7,321,NA,NA,NA,NA,NA,3<5<6<7<8<9<10<11<12<14<15,0,CO,Nothofagus dombeyi,Ndom,NA
+Coihual regenerando / 4,4,Coihual regenerado,Coihual regenerando,0,NA,NA,8,322,NA,NA,NA,NA,NA,3<4<5<7<11,1,CO,Nothofagus dombeyi,Ndom,NA
+Coihual regenerando / 4,4,Coihual regenerado,Coihual regenerando,0,9,1,9,323,3,45,5//,NA,NA,4<8<15<16,1<2,CO,Nothofagus dombeyi,Ndom,NA
+Coihual regenerando / 4,4,Coihual regenerado,Coihual regenerando,0,NA,NA,10,324,NA,NA,NA,NA,NA,6<7<10,0,CO,Nothofagus dombeyi,Ndom,NA
+Coihual regenerando / 4,4,Coihual regenerado,Coihual regenerando,0,11,1,11,325,3,30,18,NA,NA,3<4<5<6<7<8<9<10<11<12<13<14,0,CO,Nothofagus dombeyi,Ndom,NA
+Coihual regenerando / 4,4,Coihual regenerado,Coihual regenerando,0,NA,NA,12,326,NA,NA,NA,NA,NA,5<6<7<12<14,0,CO,Nothofagus dombeyi,Ndom,NA
+Coihual regenerando / 4,4,Coihual regenerado,Coihual regenerando,0,13,1,13,327,1.5,80,5.5//,NA,NA,1<2<3<4<7<8<10<11<12<13<14<15<16,0,CO,Nothofagus dombeyi,Ndom,NA
+Coihual regenerando / 4,4,Coihual regenerado,Coihual regenerando,0,NA,NA,14,328,NA,NA,NA,NA,NA,3<4<8<9<11<12<13<14<15<16,0,CO,Nothofagus dombeyi,Ndom,NA
+Coihual regenerando / 4,4,Coihual regenerado,Coihual regenerando,0,NA,NA,15,329,NA,NA,NA,NA,NA,7<8<9<10<11<12<13<14,0,CO,Nothofagus dombeyi,Ndom,NA
+Coihual regenerando / 4,4,Coihual regenerado,Coihual regenerando,0,NA,NA,17,331,NA,NA,NA,NA,NA,6<8<13,0,CO,Nothofagus dombeyi,Ndom,NA
+Coihual regenerando / 4,4,Coihual regenerado,Coihual regenerando,0,NA,NA,18,332,NA,NA,NA,NA,NA,4<5<6<7<8<9<10,0,CO,Nothofagus dombeyi,Ndom,NA
+Coihual regenerando / 4,4,Coihual regenerado,Coihual regenerando,0,NA,NA,19,333,NA,NA,NA,NA,NA,<2,0,CO,Nothofagus dombeyi,Ndom,NA
+Coihual regenerando / 4,4,Coihual regenerado,Coihual regenerando,0,NA,NA,20,334,NA,NA,NA,NA,NA,3<7<8<9<10<11<12<13,0,CO,Nothofagus dombeyi,Ndom,NA
+Coihual regenerando / 4,4,Coihual regenerado,Coihual regenerando,0,NA,NA,21,335,NA,NA,NA,NA,NA,3<4,0,CO,Nothofagus dombeyi,Ndom,NA
+Coihual regenerando / 4,4,Coihual regenerado,Coihual regenerando,0,22,0,22,336,NA,NA,NA,NA,NA,2<3<4<5<6<7<8<9<10<11<12<13<14,0,CO,Nothofagus dombeyi,Ndom,NA
+Coihual regenerando / 4,4,Coihual regenerado,Coihual regenerando,0,23,1,23,337,2,95,5//,NA,NA,3<6<7<8<9<10<11<14,0,CO,Nothofagus dombeyi,Ndom,NA
+Coihual regenerando / 4,4,Coihual regenerado,Coihual regenerando,0,NA,NA,24,338,NA,NA,NA,NA,NA,3<6<7<8,0,CO,Nothofagus dombeyi,Ndom,NA
+Coihual regenerando / 4,4,Coihual regenerado,Coihual regenerando,0,25,1,25,339,2,60,16,NA,NA,3<4<5<6<7<8<13<14<15<16,3<4,CO,Nothofagus dombeyi,Ndom,NA
+Coihual regenerando / 4,4,Coihual regenerado,Coihual regenerando,0,26,0,26,340,NA,NA,NA,NA,NA,5<6<9<14,2<1<7,CO,Nothofagus dombeyi,Ndom,NA
+Coihual regenerando / 4,4,Coihual regenerado,Coihual regenerando,0,NA,NA,28,342,NA,NA,NA,NA,NA,5<8,0,CO,Nothofagus dombeyi,Ndom,NA
+Coihual regenerando / 4,4,Coihual regenerado,Coihual regenerando,0,NA,NA,30,344,NA,NA,NA,NA,NA,2<5<6<7<9<10<12<16,0,CO,Nothofagus dombeyi,Ndom,NA
+Coihual regenerando / 4,4,Coihual regenerado,Coihual regenerando,0,NA,NA,31,345,NA,NA,NA,NA,NA,15<14<1<8<9<10<11<12<13,5,CO,Nothofagus dombeyi,Ndom,NA
+Coihual regenerando / 4,4,Coihual regenerado,Coihual regenerando,0,32,0,32,346,NA,NA,NA,NA,NA,3<4<5<9<12<13<14<15<16,2<3,CO,Nothofagus dombeyi,Ndom,NA
+Coihual regenerando / 4,4,Coihual regenerado,Coihual regenerando,0,NA,NA,33,347,NA,NA,NA,NA,NA,3<4<5<7<8<9<10<11<12,4,CO,Nothofagus dombeyi,Ndom,NA
+Coihual regenerando / 4,4,Coihual regenerado,Coihual regenerando,0,NA,NA,34,348,NA,NA,NA,NA,NA,2<3<4<5,0,CO,Nothofagus dombeyi,Ndom,NA
+Coihual regenerando / 4,4,Coihual regenerado,Coihual regenerando,0,35,1,35,349,1,60,17,NA,NA,3<4<7<8<9<15,0,CO,Nothofagus dombeyi,Ndom,NA
+Coihual regenerando / 4,4,Coihual regenerado,Coihual regenerando,0,36,0,36,350,NA,NA,NA,NA,NA,2<6<7<8<9<11<13,4<6,CO,Nothofagus dombeyi,Ndom,NA
+Coihual regenerando / 4,4,Coihual regenerado,Coihual regenerando,0,NA,NA,38,352,NA,NA,NA,NA,NA,9,0,CO,Nothofagus dombeyi,Ndom,NA
+Coihual regenerando / 4,4,Coihual regenerado,Coihual regenerando,0,39,1,39,353,2.5,60,16,NA,NA,1<2<3<4<5<6<7<8<9<10<11<12<13,2,CO,Nothofagus dombeyi,Ndom,NA
+Coihual regenerando / 6,6,Bosque de coihue regenerado,Coihual regenerando,0,1,NA,1,248,0.5,65,10,NA,NA,2<3<10,0,CO,Nothofagus dombeyi,Ndom,NA
+Coihual regenerando / 6,6,Bosque de coihue regenerado,Coihual regenerando,0,2,NA,2,249,NA,NA,NA,NA,NA,2<3<6<8<9,0,CO,Nothofagus dombeyi,Ndom,NA
+Coihual regenerando / 6,6,Bosque de coihue regenerado,Coihual regenerando,0,3,NA,3,250,1,30,17,NA,NA,3<4<5<6<7<8<9<10<13,1,CO,Nothofagus dombeyi,Ndom,NA
+Coihual regenerando / 6,6,Bosque de coihue regenerado,Coihual regenerando,0,4,NA,4,251,NA,NA,NA,NA,NA,1<2<3<4<5<6<8<9<11<12,0,CO,Nothofagus dombeyi,Ndom,NA
+Coihual regenerando / 6,6,Bosque de coihue regenerado,Coihual regenerando,0,5,NA,5,252,3,80,13,NA,NA,3<4<5<6<7<8<9<10<11,1<2<3,CO,Nothofagus dombeyi,Ndom,NA
+Coihual regenerando / 6,6,Bosque de coihue regenerado,Coihual regenerando,0,6,NA,6,253,NA,NA,NA,NA,NA,2<3<4<6<7<,0,CO,Nothofagus dombeyi,Ndom,NA
+Coihual regenerando / 6,6,Bosque de coihue regenerado,Coihual regenerando,0,7,NA,7,254,2,35,10,NA,NA,2<3<4<5<6<7<8,0,CO,Nothofagus dombeyi,Ndom,NA
+Coihual regenerando / 6,6,Bosque de coihue regenerado,Coihual regenerando,0,NA,NA,8,255,NA,NA,NA,NA,NA,6<7<8,0,CO,Nothofagus dombeyi,Ndom,NA
+Coihual regenerando / 6,6,Bosque de coihue regenerado,Coihual regenerando,0,NA,NA,11,258,NA,NA,NA,NA,NA,13<14,0,CO,Nothofagus dombeyi,Ndom,NA
+Coihual regenerando / 6,6,Bosque de coihue regenerado,Coihual regenerando,0,12,NA,12,259,NA,NA,NA,NA,NA,1<2<3<4<5<6<7<8<<13<14<15<16,0,CO,Nothofagus dombeyi,Ndom,NA
+Coihual regenerando / 6,6,Bosque de coihue regenerado,Coihual regenerando,0,NA,NA,13,260,NA,NA,NA,NA,NA,6<7<8<9<11<12<13<14<15<16,0,CO,Nothofagus dombeyi,Ndom,NA
+Coihual regenerando / 6,6,Bosque de coihue regenerado,Coihual regenerando,0,NA,NA,15,262,NA,NA,NA,NA,NA,11<13,0,CO,Nothofagus dombeyi,Ndom,NA
+Coihual regenerando / 6,6,Bosque de coihue regenerado,Coihual regenerando,0,16,NA,16,263,NA,NA,NA,NA,NA,1<2<3<6<8<9<11<12,1,CO,Nothofagus dombeyi,Ndom,NA
+Coihual regenerando / 6,6,Bosque de coihue regenerado,Coihual regenerando,0,17,NA,17,264,3,60,17,NA,NA,3<<4<5<6<8<10<11<12<13<14<15,2<3<4<5,CO,Nothofagus dombeyi,Ndom,NA
+Coihual regenerando / 6,6,Bosque de coihue regenerado,Coihual regenerando,0,NA,NA,18,265,NA,NA,NA,NA,NA,4<7<9<10<11<14,0,CO,Nothofagus dombeyi,Ndom,NA
+Coihual regenerando / 6,6,Bosque de coihue regenerado,Coihual regenerando,0,NA,NA,19,266,NA,NA,NA,NA,NA,9<11<12<15<,0,CO,Nothofagus dombeyi,Ndom,NA
+Coihual regenerando / 6,6,Bosque de coihue regenerado,Coihual regenerando,0,NA,NA,20,267,NA,NA,NA,NA,NA,4<5<6<7<8<9<12<15<,0,CO,Nothofagus dombeyi,Ndom,NA
+Coihual regenerando / 6,6,Bosque de coihue regenerado,Coihual regenerando,0,NA,NA,21,268,NA,NA,NA,NA,NA,4<7<8<9<14,0,CO,Nothofagus dombeyi,Ndom,NA
+Coihual regenerando / 6,6,Bosque de coihue regenerado,Coihual regenerando,0,NA,NA,26,273,NA,NA,NA,NA,NA,11<10,0,CO,Nothofagus dombeyi,Ndom,NA
+Coihual regenerando / 6,6,Bosque de coihue regenerado,Coihual regenerando,0,30,NA,30,277,NA,NA,NA,NA,NA,1<5<8<11,0,CO,Nothofagus dombeyi,Ndom,NA
+Coihual regenerando / 6,6,Bosque de coihue regenerado,Coihual regenerando,0,32,NA,32,279,NA,NA,NA,NA,NA,5<6<7<9<10<11<14,1,CO,Nothofagus dombeyi,Ndom,NA
+Coihual regenerando / 6,6,Bosque de coihue regenerado,Coihual regenerando,0,NA,NA,33,280,NA,NA,NA,NA,NA,4<7<10<,0,CO,Nothofagus dombeyi,Ndom,NA
+Coihual regenerando / 6,6,Bosque de coihue regenerado,Coihual regenerando,0,NA,NA,34,281,NA,NA,NA,NA,NA,3<4<5<6<7<8<9,0,CO,Nothofagus dombeyi,Ndom,NA
+Coihual regenerando / 6,6,Bosque de coihue regenerado,Coihual regenerando,0,35,NA,35,282,5,90,17,NA,NA,3<7<8<9<10<12<13<15<16,3<4<5<6<7<<8,CO,Nothofagus dombeyi,Ndom,NA
+Coihual regenerando / 6,6,Bosque de coihue regenerado,Coihual regenerando,0,NA,NA,36,283,NA,NA,NA,NA,NA,7<8<9<10<12,0,CO,Nothofagus dombeyi,Ndom,NA
+Coihual regenerando / 6,6,Bosque de coihue regenerado,Coihual regenerando,0,NA,NA,37,284,NA,NA,NA,NA,NA,9<10<11<12,0,CO,Nothofagus dombeyi,Ndom,NA
+Coihual regenerando / 6,6,Bosque de coihue regenerado,Coihual regenerando,0,NA,NA,39,286,NA,NA,NA,NA,NA,3<4<6<15,0,CO,Nothofagus dombeyi,Ndom,NA
+Coihual regenerando / 6,6,Bosque de coihue regenerado,Coihual regenerando,0,NA,NA,40,287,NA,NA,NA,NA,NA,5<11<13<14<15,0,CO,Nothofagus dombeyi,Ndom,NA
+Matorral / 4,4,Matorral,Matorral,0,2,0,2,408,NA,NA,NA,NA,NA,1<5<6<7<13,0,CO,Nothofagus dombeyi,Ndom,NA
+Matorral / 4,4,Matorral,Matorral,0,NA,NA,3,409,NA,NA,NA,NA,NA,4<3<1<2<13<14<15<16<9<10<11<5<6<7<8,0,CO,Nothofagus dombeyi,Ndom,NA
+Matorral / 4,4,Matorral,Matorral,0,NA,NA,4,410,NA,NA,NA,NA,NA,6<7<9<10<13<16,0,CO,Nothofagus dombeyi,Ndom,NA
+Matorral / 4,4,Matorral,Matorral,0,5,1,5,411,2.5,60,6.3//,NA,NA,0,1<2<3,CO,Nothofagus dombeyi,Ndom,NA
+Matorral / 4,4,Matorral,Matorral,0,11,1,11,417,2.5,80,14,NA,NA,0,1,CO,Nothofagus dombeyi,Ndom,NA
+Matorral / 4,4,Matorral,Matorral,0,NA,NA,21,427,NA,NA,NA,NA,NA,12<14<15,0,CO,Nothofagus dombeyi,Ndom,NA
+Matorral / 4,4,Matorral,Matorral,0,NA,NA,38,444,NA,NA,NA,NA,NA,7,0,CO,Nothofagus dombeyi,Ndom,NA
+Matorral / 4,4,Matorral,Matorral,0,39,1,39,445,3,90,17,NA,NA,4<5<6<7<8<9<10<11<12<13<14,0,CO,Nothofagus dombeyi,Ndom,NA
+Matorral / 4,4,Matorral,Matorral,0,NA,NA,40,446,NA,NA,NA,NA,NA,10<11,0,CO,Nothofagus dombeyi,Ndom,NA
+Coihual no regenerado / 2,2,Coihual no regenerado,Coihual no regenerado,0,NA,NA,8,128,NA,NA,NA,NA,NA,8<9<,0,FA,Fabiana imbricata,Fi,NA
+Coihual no regenerado / 2,2,Coihual no regenerado,Coihual no regenerado,0,NA,NA,15,135,NA,NA,NA,NA,NA,3,5,FA,Fabiana imbricata,Fi,NA
+Coihual no regenerado / 2,2,Coihual no regenerado,Coihual no regenerado,0,NA,NA,41,161,NA,NA,NA,NA,NA,8<10,8,FA,Fabiana imbricata,Fi,NA
+Coihual no regenerado / 4,4,Coihual no regenerado,Coihual no regenerado,0,NA,NA,15,185,NA,NA,NA,NA,NA,9<13,9,FA,Fabiana imbricata,Fi,NA
+Coihual no regenerado / 4,4,Coihual no regenerado,Coihual no regenerado,0,34,NA,34,204,NA,NA,NA,NA,NA,2<7<8<9<10<,1<2<3<4<5<7,FA,Fabiana imbricata,Fi,NA
+Coihual no regenerado / 4,4,Coihual no regenerado,Coihual no regenerado,0,35,NA,35,205,1,70,11,NA,NA,2<3<4<6<7<8,1<4<5<6<7<8<9<10<11<,FA,Fabiana imbricata,Fi,NA
+Coihual no regenerado / 4,4,Coihual no regenerado,Coihual no regenerado,0,36,NA,36,206,NA,NA,NA,NA,NA,3<4<8<10,3<10,FA,Fabiana imbricata,Fi,NA
+Coihual no regenerado / 4,4,Coihual no regenerado,Coihual no regenerado,0,NA,NA,50,220,NA,NA,NA,NA,NA,5,0,FA,Fabiana imbricata,Fi,NA
+Matorral / 2,2,Matorral,Matorral,0,18,0,18,386,1,30,12,NA,NA,8<9<10<11,3<7<8<9,FA,Fabiana imbricata,Fi,NA
+Matorral / 2,2,Matorral,Matorral,0,NA,NA,19,387,NA,NA,NA,NA,NA,10<11,8,FA,Fabiana imbricata,Fi,NA
+Matorral / 2,2,Matorral,Matorral,0,24,0,24,392,1,5,5,NA,NA,2<3<,1<3,FA,Fabiana imbricata,Fi,NA
+Matorral / 2,2,Matorral,Matorral,0,25,1,25,393,1,20,7,NA,NA,1<2<3<,1<2<3,FA,Fabiana imbricata,Fi,NA
+Matorral / 2,2,Matorral,Matorral,0,26,0,26,394,1,5,7,NA,NA,0,7,FA,Fabiana imbricata,Fi,NA
+Matorral / 2,2,Matorral,Matorral,0,27,1,27,395,0.5,2,10,NA,NA,3<4<7<8,1<2<3<8,FA,Fabiana imbricata,Fi,NA
+Matorral / 2,2,Matorral,Matorral,0,NA,NA,28,396,NA,NA,NA,NA,NA,3<4<5,2,FA,Fabiana imbricata,Fi,NA
+Matorral / 2,2,Matorral,Matorral,0,30,0,30,398,1,15,10,NA,NA,5<6<,3<4<8<9,FA,Fabiana imbricata,Fi,NA
+Matorral / 2,2,Matorral_extra,Matorral,1,NA,NA,44,492,NA,NA,NA,NA,NA,1<2,3,FA,Fabiana imbricata,Fi,NA
+Matorral / 2,2,Matorral_extra,Matorral,1,7,NA,45,493,NA,NA,NA,NA,NA,4<3<2,1<2<4,FA,Fabiana imbricata,Fi,NA
+Matorral / 2,2,Matorral_extra,Matorral,1,8,NA,46,494,NA,NA,NA,NA,NA,6<5<<4,1<2<3<4,FA,Fabiana imbricata,Fi,NA
+Matorral / 2,2,Matorral_extra,Matorral,1,NA,NA,47,495,NA,NA,NA,NA,NA,2<3<4,4<2,FA,Fabiana imbricata,Fi,NA
+Matorral / 2,2,Matorral_extra,Matorral,1,NA,NA,48,496,NA,NA,NA,NA,NA,6<5<4<3<2,3<4<2,FA,Fabiana imbricata,Fi,NA
+Matorral / 2,2,Matorral_extra,Matorral,1,NA,NA,49,497,NA,NA,NA,NA,NA,4,1<2<3<4<5,FA,Fabiana imbricata,Fi,NA
+Matorral / 2,2,Matorral_extra,Matorral,1,NA,NA,50,498,NA,NA,NA,NA,NA,0,4,FA,Fabiana imbricata,Fi,NA
+Matorral / 2,2,Matorral_extra,Matorral,1,13,NA,51,499,NA,NA,NA,NA,NA,1<2<5<6,2<5<,FA,Fabiana imbricata,Fi,NA
+Matorral / 2,2,Matorral_extra,Matorral,1,NA,NA,53,501,NA,NA,NA,NA,NA,3<4,3<4,FA,Fabiana imbricata,Fi,NA
+Matorral / 4,4,Matorral,Matorral,0,NA,NA,2,408,NA,NA,NA,NA,NA,6,5<6,FA,Fabiana imbricata,Fi,NA
+Matorral / 4,4,Matorral,Matorral,0,NA,NA,13,419,NA,NA,NA,NA,NA,9<10<,0,FA,Fabiana imbricata,Fi,NA
+Matorral / 4,4,Matorral,Matorral,0,NA,NA,27,433,NA,NA,NA,NA,NA,9<10<11,0,FA,Fabiana imbricata,Fi,NA
+Matorral / 4,4,Matorral,Matorral,0,NA,NA,28,434,NA,NA,NA,NA,NA,6<9<10<11,0,FA,Fabiana imbricata,Fi,NA
+Matorral / 4,4,Matorral,Matorral,0,NA,NA,29,435,NA,NA,NA,NA,NA,4<5<6<7,0,FA,Fabiana imbricata,Fi,NA
+Matorral / 4,4,Matorral,Matorral,0,NA,NA,30,436,NA,NA,NA,NA,NA,3<4<5<7<8<9<10<11<12<13,0,FA,Fabiana imbricata,Fi,NA
+Matorral / 4,4,Matorral,Matorral,0,NA,NA,31,437,NA,NA,NA,NA,NA,10<11<12<13,11,FA,Fabiana imbricata,Fi,NA
+Matorral / 4,4,Matorral,Matorral,0,NA,NA,32,438,NA,NA,NA,NA,NA,7<9,0,FA,Fabiana imbricata,Fi,NA
+Matorral / 4,4,Matorral,Matorral,0,NA,NA,33,439,NA,NA,NA,NA,NA,2,0,FA,Fabiana imbricata,Fi,NA
+Matorral / 4,4,Matorral,Matorral,0,NA,NA,40,446,NA,NA,NA,NA,NA,7,0,FA,Fabiana imbricata,Fi,NA
+Bosque no quemado / 2,2,Bosque de coihue,Bosque no quemado,0,2,0,2,32,4,90,4.5//,NA,10,1,0,H,Herbaceous,Herb,NA
+Bosque no quemado / 2,2,Bosque de coihue,Bosque no quemado,0,3,1,3,33,1.5,80,11,NA,9,1,0,H,Herbaceous,Herb,NA
+Bosque no quemado / 2,2,Bosque de coihue,Bosque no quemado,0,4,0,4,34,1.5,90,6,NA,8,1,0,H,Herbaceous,Herb,NA
+Bosque no quemado / 2,2,Bosque de coihue,Bosque no quemado,0,10,0,10,40,0.5,40,3,NA,10,2<3<,1,H,Herbaceous,Herb,NA
+Bosque no quemado / 2,2,Bosque de coihue,Bosque no quemado,0,11,1,11,41,4.5,90,5//,NA,10,1<2<,0,H,Herbaceous,Herb,NA
+Bosque no quemado / 2,2,Bosque de coihue,Bosque no quemado,0,13,1,13,43,0.5,65,8,NA,14,1,0,H,Herbaceous,Herb,NA
+Bosque no quemado / 2,2,Bosque de coihue,Bosque no quemado,0,NA,NA,18,48,NA,NA,NA,NA,NA,1<2<,0,H,Herbaceous,Herb,NA
+Bosque no quemado / 2,2,Bosque de coihue,Bosque no quemado,0,20,0,20,50,3,95,10,NA,14,0,1,H,Herbaceous,Herb,NA
+Bosque no quemado / 2,2,Bosque de coihue,Bosque no quemado,0,21,1,21,51,2,55,7,NA,14,0,1,H,Herbaceous,Herb,NA
+Bosque no quemado / 4,4,Bosque de coihue,Bosque no quemado,0,6,0,6,6,NA,NA,NA,NA,NA,1<2,1<2,H,Herbaceous,Herb,NA
+Bosque no quemado / 4,4,Bosque de coihue,Bosque no quemado,0,7,1,7,7,1,40,17,NA,12,1,0,H,Herbaceous,Herb,NA
+Bosque no quemado / 4,4,Bosque de coihue,Bosque no quemado,0,11,1,11,11,2,90,17,NA,9,1<2<,0,H,Herbaceous,Herb,NA
+Bosque no quemado / 4,4,Bosque de coihue,Bosque no quemado,0,23,1,23,23,1,60,8,NA,6,1<2<3<,1,H,Herbaceous,Herb,NA
+Bosque no quemado / 4,4,Bosque de coihue,Bosque no quemado,0,NA,NA,29,29,NA,NA,NA,NA,NA,1,0,H,Herbaceous,Herb,NA
+Bosque no quemado / 4,4,Bosque de coihue,Bosque no quemado,0,30,0,30,30,NA,NA,NA,NA,NA,0,0,H,Herbaceous,Herb,NA
+Bosque no quemado / 5,5,Bosque de coihue,Bosque no quemado,0,17,NA,17,74,2,90,14,NA,8,1,0,H,Herbaceous,Herb,NA
+Bosque no quemado / 5,5,Bosque de coihue,Bosque no quemado,0,19,NA,19,76,2.5,95,3,NA,8,1,0,H,Herbaceous,Herb,NA
+Bosque no quemado / 6,6,Bosque de coihue,Bosque no quemado,0,1,NA,1,88,2.5,97,16,NA,3//,0,1,H,Herbaceous,Herb,NA
+Bosque no quemado / 6,6,Bosque de coihue,Bosque no quemado,0,NA,NA,21,108,NA,NA,NA,NA,NA,1,0,H,Herbaceous,Herb,NA
+Coihual no regenerado / 2,2,Coihual no regenerado,Coihual no regenerado,0,1,1,1,121,2,50,2,NA,NA,1<2,0,H,Herbaceous,Herb,NA
+Coihual no regenerado / 2,2,Coihual no regenerado,Coihual no regenerado,0,2,0,2,122,2,35,5,NA,NA,2<4<,0,H,Herbaceous,Herb,NA
+Coihual no regenerado / 2,2,Coihual no regenerado,Coihual no regenerado,0,3,1,3,123,3.5,50,4,NA,NA,1<2,0,H,Herbaceous,Herb,NA
+Coihual no regenerado / 2,2,Coihual no regenerado,Coihual no regenerado,0,4,0,4,124,2.5,10,5,NA,NA,1<2<3<,0,H,Herbaceous,Herb,NA
+Coihual no regenerado / 2,2,Coihual no regenerado,Coihual no regenerado,0,5,1,5,125,2,10,6,NA,NA,1<2<,0,H,Herbaceous,Herb,NA
+Coihual no regenerado / 2,2,Coihual no regenerado,Coihual no regenerado,0,7,1,7,127,5,60,3,NA,NA,1<2<,0,H,Herbaceous,Herb,NA
+Coihual no regenerado / 2,2,Coihual no regenerado,Coihual no regenerado,0,8,0,8,128,2,70,9,NA,NA,1<2<3<4,0,H,Herbaceous,Herb,NA
+Coihual no regenerado / 2,2,Coihual no regenerado,Coihual no regenerado,0,9,1,9,129,3,6,3,NA,NA,1<2<3<,0,H,Herbaceous,Herb,NA
+Coihual no regenerado / 2,2,Coihual no regenerado,Coihual no regenerado,0,10,0,10,130,2,5,3,NA,NA,1<2<3<,0,H,Herbaceous,Herb,NA
+Coihual no regenerado / 2,2,Coihual no regenerado,Coihual no regenerado,0,11,1,11,131,2,20,4,NA,NA,1<2<3<4<,0,H,Herbaceous,Herb,NA
+Coihual no regenerado / 2,2,Coihual no regenerado,Coihual no regenerado,0,12,0,12,132,3,5,4,NA,NA,2<3<,0,H,Herbaceous,Herb,NA
+Coihual no regenerado / 2,2,Coihual no regenerado,Coihual no regenerado,0,13,1,13,133,2,40,3,NA,NA,1<,0,H,Herbaceous,Herb,NA
+Coihual no regenerado / 2,2,Coihual no regenerado,Coihual no regenerado,0,14,0,14,134,2.5,20,3,NA,NA,1<2<,0,H,Herbaceous,Herb,NA
+Coihual no regenerado / 2,2,Coihual no regenerado,Coihual no regenerado,0,15,1,15,135,2.5,10,10,NA,NA,<1<2<3<4<5,0,H,Herbaceous,Herb,NA
+Coihual no regenerado / 2,2,Coihual no regenerado,Coihual no regenerado,0,16,0,16,136,0.5,5,3,NA,NA,1,0,H,Herbaceous,Herb,NA
+Coihual no regenerado / 2,2,Coihual no regenerado,Coihual no regenerado,0,17,1,17,137,1,5,3,NA,NA,1<2<,0,H,Herbaceous,Herb,NA
+Coihual no regenerado / 2,2,Coihual no regenerado,Coihual no regenerado,0,18,0,18,138,2,40,5,NA,NA,1<3<,0,H,Herbaceous,Herb,NA
+Coihual no regenerado / 2,2,Coihual no regenerado,Coihual no regenerado,0,19,1,19,139,1,10,5,NA,NA,1,0,H,Herbaceous,Herb,NA
+Coihual no regenerado / 2,2,Coihual no regenerado,Coihual no regenerado,0,20,0,20,140,3,20,6,NA,NA,1<2<3<,0,H,Herbaceous,Herb,NA
+Coihual no regenerado / 2,2,Coihual no regenerado,Coihual no regenerado,0,21,1,21,141,2.5,15,7,NA,NA,1<2<,0,H,Herbaceous,Herb,NA
+Coihual no regenerado / 2,2,Coihual no regenerado,Coihual no regenerado,0,22,0,22,142,2.5,20,2,NA,NA,1<2<,0,H,Herbaceous,Herb,NA
+Coihual no regenerado / 2,2,Coihual no regenerado,Coihual no regenerado,0,23,1,23,143,3,70,9,NA,NA,1<2<,0,H,Herbaceous,Herb,NA
+Coihual no regenerado / 2,2,Coihual no regenerado,Coihual no regenerado,0,24,0,24,144,2,40,6,NA,NA,1<2<3<,0,H,Herbaceous,Herb,NA
+Coihual no regenerado / 2,2,Coihual no regenerado,Coihual no regenerado,0,25,1,25,145,2,40,5,NA,NA,1<2<,0,H,Herbaceous,Herb,NA
+Coihual no regenerado / 2,2,Coihual no regenerado,Coihual no regenerado,0,26,0,26,146,2,5,4,NA,NA,1<2<3<,0,H,Herbaceous,Herb,NA
+Coihual no regenerado / 2,2,Coihual no regenerado,Coihual no regenerado,0,28,0,28,148,2,80,7,NA,NA,2<3<,0,H,Herbaceous,Herb,NA
+Coihual no regenerado / 2,2,Coihual no regenerado,Coihual no regenerado,0,NA,NA,30,150,NA,NA,NA,NA,NA,2<3<,0,H,Herbaceous,Herb,NA
+Coihual no regenerado / 2,2,Coihual no regenerado,Coihual no regenerado,0,31,1,31,151,3,25,7,NA,NA,1<2<,0,H,Herbaceous,Herb,NA
+Coihual no regenerado / 2,2,Coihual no regenerado,Coihual no regenerado,0,32,0,32,152,1,5,3,NA,NA,1<,0,H,Herbaceous,Herb,NA
+Coihual no regenerado / 2,2,Coihual no regenerado,Coihual no regenerado,0,33,1,33,153,0.5,10,3,NA,NA,1,0,H,Herbaceous,Herb,NA
+Coihual no regenerado / 2,2,Coihual no regenerado,Coihual no regenerado,0,34,0,34,154,0.5,5,3,NA,NA,1,0,H,Herbaceous,Herb,NA
+Coihual no regenerado / 2,2,Coihual no regenerado,Coihual no regenerado,0,35,1,35,155,0,0,3,NA,NA,1<2<,0,H,Herbaceous,Herb,NA
+Coihual no regenerado / 2,2,Coihual no regenerado,Coihual no regenerado,0,36,0,36,156,1,10,3,NA,NA,1<2<,0,H,Herbaceous,Herb,NA
+Coihual no regenerado / 2,2,Coihual no regenerado,Coihual no regenerado,0,37,1,37,157,0.5,5,5,NA,NA,1,0,H,Herbaceous,Herb,NA
+Coihual no regenerado / 2,2,Coihual no regenerado,Coihual no regenerado,0,38,0,38,158,1,2,2,NA,NA,1,0,H,Herbaceous,Herb,NA
+Coihual no regenerado / 2,2,Coihual no regenerado,Coihual no regenerado,0,40,0,40,160,2.5,75,75,NA,NA,1,0,H,Herbaceous,Herb,NA
+Coihual no regenerado / 2,2,Coihual no regenerado,Coihual no regenerado,0,41,1,41,161,0.5,40,40,NA,NA,1,0,H,Herbaceous,Herb,NA
+Coihual no regenerado / 2,2,Coihual no regenerado,Coihual no regenerado,0,43,1,43,163,1.5,50,50,NA,NA,1<2<,0,H,Herbaceous,Herb,NA
+Coihual no regenerado / 2,2,Coihual no regenerado,Coihual no regenerado,0,44,0,44,164,1.5,30,30,NA,NA,1,0,H,Herbaceous,Herb,NA
+Coihual no regenerado / 2,2,Coihual no regenerado,Coihual no regenerado,0,45,1,45,165,3,80,80,NA,NA,1<2<4<,0,H,Herbaceous,Herb,NA
+Coihual no regenerado / 2,2,Coihual no regenerado,Coihual no regenerado,0,47,1,47,167,1,15,15,NA,NA,1<2<,0,H,Herbaceous,Herb,NA
+Coihual no regenerado / 2,2,Coihual no regenerado,Coihual no regenerado,0,49,1,49,169,3.5,70,70,NA,NA,1<2<3,0,H,Herbaceous,Herb,NA
+Coihual no regenerado / 2,2,Coihual no regenerado,Coihual no regenerado,0,50,0,50,170,2,5,5,NA,NA,1<2<3,0,H,Herbaceous,Herb,NA
+Coihual no regenerado / 2,2,Coihual no regenerado_extra,Coihual no regenerado,1,1,NA,63,233,NA,NA,NA,NA,NA,0,1<2,H,Herbaceous,Herb,NA
+Coihual no regenerado / 2,2,Coihual no regenerado_extra,Coihual no regenerado,1,2,NA,64,234,NA,NA,NA,NA,NA,1<2,0,H,Herbaceous,Herb,NA
+Coihual no regenerado / 2,2,Coihual no regenerado_extra,Coihual no regenerado,1,3,NA,65,235,NA,NA,NA,NA,NA,0,1<2,H,Herbaceous,Herb,NA
+Coihual no regenerado / 2,2,Coihual no regenerado_extra,Coihual no regenerado,1,5,NA,67,237,NA,NA,NA,NA,NA,1<2<3,1,H,Herbaceous,Herb,NA
+Coihual no regenerado / 2,2,Coihual no regenerado_extra,Coihual no regenerado,1,6,NA,68,238,NA,NA,NA,NA,NA,1<2,0,H,Herbaceous,Herb,NA
+Coihual no regenerado / 2,2,Coihual no regenerado_extra,Coihual no regenerado,1,7,NA,69,239,NA,NA,NA,NA,NA,1<2<3,1,H,Herbaceous,Herb,NA
+Coihual no regenerado / 2,2,Coihual no regenerado_extra,Coihual no regenerado,1,8,NA,70,240,NA,NA,NA,NA,NA,1,0,H,Herbaceous,Herb,NA
+Coihual no regenerado / 2,2,Coihual no regenerado_extra,Coihual no regenerado,1,9,NA,71,241,NA,NA,NA,NA,NA,1<2<3<4,0,H,Herbaceous,Herb,NA
+Coihual no regenerado / 2,2,Coihual no regenerado_extra,Coihual no regenerado,1,10,NA,72,242,NA,NA,NA,NA,NA,1<2<3,0,H,Herbaceous,Herb,NA
+Coihual no regenerado / 2,2,Coihual no regenerado_extra,Coihual no regenerado,1,12,NA,74,244,NA,NA,NA,NA,NA,2,0,H,Herbaceous,Herb,NA
+Coihual no regenerado / 2,2,Coihual no regenerado_extra,Coihual no regenerado,1,13,NA,75,245,NA,NA,NA,NA,NA,1,0,H,Herbaceous,Herb,NA
+Coihual no regenerado / 2,2,Coihual no regenerado_extra,Coihual no regenerado,1,14,NA,76,246,NA,NA,NA,NA,NA,1<2<3,0,H,Herbaceous,Herb,NA
+Coihual no regenerado / 2,2,Coihual no regenerado_extra,Coihual no regenerado,1,15,NA,77,247,NA,NA,NA,NA,NA,1<2,1,H,Herbaceous,Herb,NA
+Coihual no regenerado / 4,4,Coihual no regenerado,Coihual no regenerado,0,1,NA,1,171,0.5,20,1,NA,NA,1,1,H,Herbaceous,Herb,NA
+Coihual no regenerado / 4,4,Coihual no regenerado,Coihual no regenerado,0,NA,NA,3,173,NA,NA,NA,NA,NA,1<2,0,H,Herbaceous,Herb,NA
+Coihual no regenerado / 4,4,Coihual no regenerado,Coihual no regenerado,0,4,NA,4,174,NA,NA,NA,NA,NA,1,0,H,Herbaceous,Herb,NA
+Coihual no regenerado / 4,4,Coihual no regenerado,Coihual no regenerado,0,5,NA,5,175,0.5,5,2,NA,NA,1<2,<,H,Herbaceous,Herb,NA
+Coihual no regenerado / 4,4,Coihual no regenerado,Coihual no regenerado,0,6,NA,6,176,NA,NA,NA,NA,NA,1<2,0,H,Herbaceous,Herb,NA
+Coihual no regenerado / 4,4,Coihual no regenerado,Coihual no regenerado,0,7,NA,7,177,0.5,5,1,NA,NA,0,1,H,Herbaceous,Herb,NA
+Coihual no regenerado / 4,4,Coihual no regenerado,Coihual no regenerado,0,8,NA,8,178,NA,NA,NA,NA,NA,0,1<2<3,H,Herbaceous,Herb,NA
+Coihual no regenerado / 4,4,Coihual no regenerado,Coihual no regenerado,0,9,NA,9,179,1,50,12,NA,NA,0,1,H,Herbaceous,Herb,NA
+Coihual no regenerado / 4,4,Coihual no regenerado,Coihual no regenerado,0,10,NA,10,180,NA,NA,NA,NA,NA,0,1<3,H,Herbaceous,Herb,NA
+Coihual no regenerado / 4,4,Coihual no regenerado,Coihual no regenerado,0,12,NA,12,182,NA,NA,NA,NA,NA,0,1,H,Herbaceous,Herb,NA
+Coihual no regenerado / 4,4,Coihual no regenerado,Coihual no regenerado,0,15,NA,15,185,1,45,NA,NA,NA,1,0,H,Herbaceous,Herb,NA
+Coihual no regenerado / 4,4,Coihual no regenerado,Coihual no regenerado,0,17,NA,17,187,1,20,2,NA,NA,0,1,H,Herbaceous,Herb,NA
+Coihual no regenerado / 4,4,Coihual no regenerado,Coihual no regenerado,0,18,NA,18,188,NA,NA,NA,NA,NA,1<2,0,H,Herbaceous,Herb,NA
+Coihual no regenerado / 4,4,Coihual no regenerado,Coihual no regenerado,0,19,NA,19,189,0.5,7,1,NA,NA,0,2<3,H,Herbaceous,Herb,NA
+Coihual no regenerado / 4,4,Coihual no regenerado,Coihual no regenerado,0,22,NA,22,192,NA,NA,NA,NA,NA,0,1,H,Herbaceous,Herb,NA
+Coihual no regenerado / 4,4,Coihual no regenerado,Coihual no regenerado,0,23,NA,23,193,0.5,30,1,NA,NA,1,0,H,Herbaceous,Herb,NA
+Coihual no regenerado / 4,4,Coihual no regenerado,Coihual no regenerado,0,26,NA,26,196,NA,NA,NA,NA,NA,1,0,H,Herbaceous,Herb,NA
+Coihual no regenerado / 4,4,Coihual no regenerado,Coihual no regenerado,0,28,NA,28,198,NA,NA,NA,NA,NA,0,1,H,Herbaceous,Herb,NA
+Coihual no regenerado / 4,4,Coihual no regenerado,Coihual no regenerado,0,29,NA,29,199,1,8,1,NA,NA,0,1,H,Herbaceous,Herb,NA
+Coihual no regenerado / 4,4,Coihual no regenerado,Coihual no regenerado,0,30,NA,30,200,NA,NA,NA,NA,NA,0,1,H,Herbaceous,Herb,NA
+Coihual no regenerado / 4,4,Coihual no regenerado,Coihual no regenerado,0,31,NA,31,201,0.5,4,1,NA,NA,0,1,H,Herbaceous,Herb,NA
+Coihual no regenerado / 4,4,Coihual no regenerado,Coihual no regenerado,0,32,NA,32,202,NA,NA,NA,NA,NA,0,2,H,Herbaceous,Herb,NA
+Coihual no regenerado / 4,4,Coihual no regenerado,Coihual no regenerado,0,33,NA,33,203,0.5,8,11,NA,NA,0,1,H,Herbaceous,Herb,NA
+Coihual no regenerado / 4,4,Coihual no regenerado,Coihual no regenerado,0,38,NA,38,208,NA,NA,NA,NA,NA,1,0,H,Herbaceous,Herb,NA
+Coihual no regenerado / 4,4,Coihual no regenerado,Coihual no regenerado,0,39,NA,39,209,0.5,7,1,NA,NA,1,0,H,Herbaceous,Herb,NA
+Coihual no regenerado / 4,4,Coihual no regenerado,Coihual no regenerado,0,43,NA,43,213,0.5,20,1,NA,NA,1,0,H,Herbaceous,Herb,NA
+Coihual no regenerado / 4,4,Coihual no regenerado,Coihual no regenerado,0,46,NA,46,216,1,70,NA,NA,NA,0,1,H,Herbaceous,Herb,NA
+Coihual no regenerado / 4,4,Coihual no regenerado,Coihual no regenerado,0,46_BIS,NA,47,217,NA,NA,NA,NA,NA,0,1<2,H,Herbaceous,Herb,NA
+Coihual no regenerado / 4,4,Coihual no regenerado,Coihual no regenerado,0,47,NA,48,218,1,80,NA,NA,NA,1,1,H,Herbaceous,Herb,NA
+Coihual no regenerado / 4,4,Coihual no regenerado,Coihual no regenerado,0,48,NA,49,219,NA,NA,NA,NA,NA,1<2,0,H,Herbaceous,Herb,NA
+Coihual no regenerado / 4,4,Coihual no regenerado,Coihual no regenerado,0,NA,NA,54,224,NA,NA,NA,NA,NA,0,1,H,Herbaceous,Herb,NA
+Coihual no regenerado / 4,4,Coihual no regenerado,Coihual no regenerado,0,54,NA,55,225,NA,NA,NA,NA,NA,0,2,H,Herbaceous,Herb,NA
+Coihual no regenerado / 4,4,Coihual no regenerado,Coihual no regenerado,0,55,NA,56,226,0.5,15,6,NA,NA,1,0,H,Herbaceous,Herb,NA
+Coihual no regenerado / 4,4,Coihual no regenerado,Coihual no regenerado,0,56,NA,57,227,NA,NA,NA,NA,NA,0,1,H,Herbaceous,Herb,NA
+Coihual no regenerado / 4,4,Coihual no regenerado,Coihual no regenerado,0,57,NA,58,228,0.5,8,NA,NA,NA,1,1,H,Herbaceous,Herb,NA
+Coihual no regenerado / 4,4,Coihual no regenerado,Coihual no regenerado,0,58,NA,59,229,0.5,20,NA,NA,NA,1,0,H,Herbaceous,Herb,NA
+Coihual no regenerado / 4,4,Coihual no regenerado,Coihual no regenerado,0,58_BIS,NA,60,230,NA,NA,NA,NA,NA,1,1,H,Herbaceous,Herb,NA
+Coihual regenerando / 2,2,Coihual regenerado,Coihual regenerando,0,NA,NA,3,290,NA,NA,NA,NA,NA,0,1,H,Herbaceous,Herb,NA
+Coihual regenerando / 2,2,Coihual regenerado,Coihual regenerando,0,7,1,7,294,2,40,15,NA,NA,2<3<4,0,H,Herbaceous,Herb,NA
+Coihual regenerando / 2,2,Coihual regenerado,Coihual regenerando,0,10,0,10,297,2,75,5//,NA,NA,1,0,H,Herbaceous,Herb,NA
+Coihual regenerando / 2,2,Coihual regenerado,Coihual regenerando,0,11,1,11,298,1,40,1,NA,NA,0,1<2,H,Herbaceous,Herb,NA
+Coihual regenerando / 2,2,Coihual regenerado,Coihual regenerando,0,12,0,12,299,6,70,14,NA,NA,0,1,H,Herbaceous,Herb,NA
+Coihual regenerando / 2,2,Coihual regenerado,Coihual regenerando,0,NA,NA,15,302,NA,NA,NA,NA,NA,3<4<5,0,H,Herbaceous,Herb,NA
+Coihual regenerando / 2,2,Coihual regenerado,Coihual regenerando,0,NA,NA,16,303,NA,NA,NA,NA,NA,3<4<5,0,H,Herbaceous,Herb,NA
+Coihual regenerando / 2,2,Coihual regenerado,Coihual regenerando,0,NA,NA,19,306,NA,NA,NA,NA,NA,1<2<3<4,0,H,Herbaceous,Herb,NA
+Coihual regenerando / 2,2,Coihual regenerado_extra,Coihual regenerando,1,NA,NA,46,360,NA,NA,NA,NA,NA,1,1,H,Herbaceous,Herb,NA
+Coihual regenerando / 2,2,Coihual regenerado_extra,Coihual regenerando,1,7,NA,47,361,NA,NA,NA,NA,NA,1<2,0,H,Herbaceous,Herb,NA
+Coihual regenerando / 4,4,Coihual regenerado,Coihual regenerando,0,2,0,2,316,NA,NA,NA,NA,NA,0,1,H,Herbaceous,Herb,NA
+Coihual regenerando / 4,4,Coihual regenerado,Coihual regenerando,0,4,0,4,318,NA,NA,NA,NA,NA,1,0,H,Herbaceous,Herb,NA
+Coihual regenerando / 4,4,Coihual regenerado,Coihual regenerando,0,18,0,18,332,NA,NA,NA,NA,NA,1,0,H,Herbaceous,Herb,NA
+Coihual regenerando / 4,4,Coihual regenerado,Coihual regenerando,0,19,1,19,333,1,80,12,NA,NA,1,0,H,Herbaceous,Herb,NA
+Coihual regenerando / 4,4,Coihual regenerado,Coihual regenerando,0,20,0,20,334,NA,NA,NA,NA,NA,1<2<3,0,H,Herbaceous,Herb,NA
+Coihual regenerando / 4,4,Coihual regenerado,Coihual regenerando,0,NA,NA,23,337,NA,NA,NA,NA,NA,3,0,H,Herbaceous,Herb,NA
+Coihual regenerando / 4,4,Coihual regenerado,Coihual regenerando,0,28,0,28,342,NA,NA,NA,NA,NA,1,0,H,Herbaceous,Herb,NA
+Coihual regenerando / 4,4,Coihual regenerado,Coihual regenerando,0,30,0,30,344,NA,NA,NA,NA,NA,1<2,0,H,Herbaceous,Herb,NA
+Coihual regenerando / 4,4,Coihual regenerado,Coihual regenerando,0,33,1,33,347,1.5,90,13,NA,NA,1,0,H,Herbaceous,Herb,NA
+Coihual regenerando / 4,4,Coihual regenerado,Coihual regenerando,0,40,0,40,354,NA,NA,NA,NA,NA,0,1<,H,Herbaceous,Herb,NA
+Coihual regenerando / 6,6,Bosque de coihue regenerado,Coihual regenerando,0,NA,NA,1,248,NA,NA,NA,NA,NA,1,1,H,Herbaceous,Herb,NA
+Coihual regenerando / 6,6,Bosque de coihue regenerado,Coihual regenerando,0,8,NA,8,255,NA,NA,NA,NA,NA,3,1<2,H,Herbaceous,Herb,NA
+Coihual regenerando / 6,6,Bosque de coihue regenerado,Coihual regenerando,0,10,NA,10,257,NA,NA,NA,NA,NA,0,1,H,Herbaceous,Herb,NA
+Coihual regenerando / 6,6,Bosque de coihue regenerado,Coihual regenerando,0,11,NA,11,258,1.5,70,5.5//,NA,NA,4,0,H,Herbaceous,Herb,NA
+Coihual regenerando / 6,6,Bosque de coihue regenerado,Coihual regenerando,0,NA,NA,16,263,NA,NA,NA,NA,NA,4,0,H,Herbaceous,Herb,NA
+Coihual regenerando / 6,6,Bosque de coihue regenerado,Coihual regenerando,0,18,NA,18,265,NA,NA,NA,NA,NA,0,1,H,Herbaceous,Herb,NA
+Coihual regenerando / 6,6,Bosque de coihue regenerado,Coihual regenerando,0,19,NA,19,266,1.5,45,18,NA,NA,3<4<5,0,H,Herbaceous,Herb,NA
+Coihual regenerando / 6,6,Bosque de coihue regenerado,Coihual regenerando,0,20,NA,20,267,NA,NA,NA,NA,NA,2<3,1<2<3<4,H,Herbaceous,Herb,NA
+Coihual regenerando / 6,6,Bosque de coihue regenerado,Coihual regenerando,0,21,NA,21,268,1.5,85,18,NA,NA,0,1,H,Herbaceous,Herb,NA
+Coihual regenerando / 6,6,Bosque de coihue regenerado,Coihual regenerando,0,27,NA,27,274,3,85,16,NA,NA,1<2,1,H,Herbaceous,Herb,NA
+Coihual regenerando / 6,6,Bosque de coihue regenerado,Coihual regenerando,0,28,NA,28,275,NA,NA,NA,NA,NA,0,1,H,Herbaceous,Herb,NA
+Coihual regenerando / 6,6,Bosque de coihue regenerado,Coihual regenerando,0,NA,NA,30,277,NA,NA,NA,NA,NA,1,0,H,Herbaceous,Herb,NA
+Coihual regenerando / 6,6,Bosque de coihue regenerado,Coihual regenerando,0,31,NA,31,278,2,65,8,NA,NA,1,1,H,Herbaceous,Herb,NA
+Coihual regenerando / 6,6,Bosque de coihue regenerado,Coihual regenerando,0,33,NA,33,280,1.5,60,5.5,NA,NA,1,1,H,Herbaceous,Herb,NA
+Coihual regenerando / 6,6,Bosque de coihue regenerado,Coihual regenerando,0,34,NA,34,281,NA,NA,NA,NA,NA,1<2<3<4,0,H,Herbaceous,Herb,NA
+Coihual regenerando / 6,6,Bosque de coihue regenerado,Coihual regenerando,0,36,NA,36,283,NA,NA,NA,NA,NA,0,1,H,Herbaceous,Herb,NA
+Coihual regenerando / 6,6,Bosque de coihue regenerado,Coihual regenerando,0,39,NA,39,286,2.5,70,5//,NA,NA,0,1,H,Herbaceous,Herb,NA
+Matorral / 2,2,Matorral,Matorral,0,15,1,15,383,4.5,100,11,NA,NA,1<2<3<,0,H,Herbaceous,Herb,NA
+Matorral / 2,2,Matorral,Matorral,0,NA,NA,20,388,NA,NA,NA,NA,NA,3,0,H,Herbaceous,Herb,NA
+Matorral / 2,2,Matorral,Matorral,0,23,1,23,391,0.5,5,10,NA,NA,1,0,H,Herbaceous,Herb,NA
+Matorral / 2,2,Matorral,Matorral,0,NA,NA,31,399,NA,NA,NA,NA,NA,2<,0,H,Herbaceous,Herb,NA
+Matorral / 2,2,Matorral,Matorral,0,34,0,34,402,2.5,100,12,NA,NA,1<2<3,0,H,Herbaceous,Herb,NA
+Matorral / 2,2,Matorral,Matorral,0,NA,NA,36,404,NA,NA,NA,NA,NA,1<2<,0,H,Herbaceous,Herb,NA
+Matorral / 2,2,Matorral,Matorral,0,37,1,37,405,2,90,9,NA,NA,0,1,H,Herbaceous,Herb,NA
+Matorral / 2,2,Matorral,Matorral,0,38,0,38,406,9,100,11,NA,NA,1<2,0,H,Herbaceous,Herb,NA
+Matorral / 2,2,Matorral_extra,Matorral,1,1,NA,39,487,NA,NA,NA,NA,NA,<1<2<3,1,H,Herbaceous,Herb,NA
+Matorral / 2,2,Matorral_extra,Matorral,1,3,NA,41,489,NA,NA,NA,NA,NA,0,1,H,Herbaceous,Herb,NA
+Matorral / 2,2,Matorral_extra,Matorral,1,NA,NA,44,492,NA,NA,NA,NA,NA,0,1,H,Herbaceous,Herb,NA
+Matorral / 2,2,Matorral_extra,Matorral,1,9,NA,47,495,NA,NA,NA,NA,NA,1,0,H,Herbaceous,Herb,NA
+Matorral / 2,2,Matorral_extra,Matorral,1,NA,NA,51,499,NA,NA,NA,NA,NA,0,1,H,Herbaceous,Herb,NA
+Matorral / 2,2,Matorral de cania,Matorral,0,1,1,1,502,NA,NA,NA,NA,NA,1<2<3,0,H,Herbaceous,Herb,NA
+Matorral / 2,2,Matorral de cania,Matorral,0,NA,NA,2,503,NA,NA,NA,NA,NA,2<3,0,H,Herbaceous,Herb,NA
+Matorral / 2,2,Matorral de cania,Matorral,0,NA,NA,4,505,NA,NA,NA,NA,NA,1,0,H,Herbaceous,Herb,NA
+Matorral / 2,2,Matorral de cania,Matorral,0,NA,NA,7,508,NA,NA,NA,NA,NA,1<2,0,H,Herbaceous,Herb,NA
+Matorral / 2,2,Matorral de cania,Matorral,0,9,1,9,510,NA,NA,NA,NA,NA,1<2,0,H,Herbaceous,Herb,NA
+Matorral / 2,2,Matorral de cania,Matorral,0,10,0,10,511,NA,NA,NA,NA,NA,1<2,0,H,Herbaceous,Herb,NA
+Matorral / 2,2,Matorral de cania,Matorral,0,11,1,11,512,NA,NA,NA,NA,NA,1<2<3,0,H,Herbaceous,Herb,NA
+Matorral / 2,2,Matorral de cania,Matorral,0,12,0,12,513,NA,NA,NA,NA,NA,2<3<4<5,0,H,Herbaceous,Herb,NA
+Matorral / 4,4,Matorral,Matorral,0,1,1,1,407,1,10,9,NA,NA,1<2,0,H,Herbaceous,Herb,NA
+Matorral / 4,4,Matorral,Matorral,0,4,0,4,410,NA,NA,NA,NA,NA,1,0,H,Herbaceous,Herb,NA
+Matorral / 4,4,Matorral,Matorral,0,6,0,6,412,NA,NA,NA,NA,NA,0,1,H,Herbaceous,Herb,NA
+Matorral / 4,4,Matorral,Matorral,0,7,1,7,413,0.5,40,10,NA,NA,1,1,H,Herbaceous,Herb,NA
+Matorral / 4,4,Matorral,Matorral,0,NA,NA,8,414,NA,NA,NA,NA,NA,0,1,H,Herbaceous,Herb,NA
+Matorral / 4,4,Matorral,Matorral,0,9,1,9,415,1.5,70,10,NA,NA,1,0,H,Herbaceous,Herb,NA
+Matorral / 4,4,Matorral,Matorral,0,10,0,10,416,NA,NA,NA,NA,NA,1<,0,H,Herbaceous,Herb,NA
+Matorral / 4,4,Matorral,Matorral,0,12,0,12,418,NA,NA,NA,NA,NA,1,0,H,Herbaceous,Herb,NA
+Matorral / 4,4,Matorral,Matorral,0,13,1,13,419,2,50,11,NA,NA,1<2,0,H,Herbaceous,Herb,NA
+Matorral / 4,4,Matorral,Matorral,0,14,0,14,420,NA,NA,NA,NA,NA,1<2<,1,H,Herbaceous,Herb,NA
+Matorral / 4,4,Matorral,Matorral,0,17,1,17,423,2,40,3,NA,NA,1,0,H,Herbaceous,Herb,NA
+Matorral / 4,4,Matorral,Matorral,0,NA,NA,18,424,NA,NA,NA,NA,NA,1,0,H,Herbaceous,Herb,NA
+Matorral / 4,4,Matorral,Matorral,0,19,1,19,425,4,80,3,NA,NA,1<2,1,H,Herbaceous,Herb,NA
+Matorral / 4,4,Matorral,Matorral,0,20,0,20,426,NA,NA,NA,NA,NA,1,1,H,Herbaceous,Herb,NA
+Matorral / 4,4,Matorral,Matorral,0,21,1,21,427,3,60,17,NA,NA,1<2<,1,H,Herbaceous,Herb,NA
+Matorral / 4,4,Matorral,Matorral,0,22,0,22,428,NA,NA,NA,NA,NA,1<2<,1,H,Herbaceous,Herb,NA
+Matorral / 4,4,Matorral,Matorral,0,23,1,23,429,1,65,10,NA,NA,0,1,H,Herbaceous,Herb,NA
+Matorral / 4,4,Matorral,Matorral,0,24,0,24,430,NA,NA,NA,NA,NA,1,0,H,Herbaceous,Herb,NA
+Matorral / 4,4,Matorral,Matorral,0,NA,NA,30,436,NA,NA,NA,NA,NA,0,1,H,Herbaceous,Herb,NA
+Matorral / 4,4,Matorral,Matorral,0,32,0,32,438,NA,NA,NA,NA,NA,1<2,0,H,Herbaceous,Herb,NA
+Matorral / 4,4,Matorral,Matorral,0,33,1,33,439,1,70,7,NA,NA,1,1,H,Herbaceous,Herb,NA
+Matorral / 4,4,Matorral,Matorral,0,36,0,36,442,NA,NA,NA,NA,NA,1<2<3,1,H,Herbaceous,Herb,NA
+Matorral / 4,4,Matorral,Matorral,0,37,1,37,443,3,80,4,NA,NA,1,1,H,Herbaceous,Herb,NA
+Matorral / 4,4,Matorral,Matorral,0,40,0,40,446,NA,NA,NA,NA,NA,1,1,H,Herbaceous,Herb,NA
+Matorral / 5,5,Matorral,Matorral,0,1,NA,1,447,1,70,13,NA,NA,3,1<2,H,Herbaceous,Herb,NA
+Matorral / 5,5,Matorral,Matorral,0,2,NA,2,448,NA,NA,NA,NA,NA,1,0,H,Herbaceous,Herb,NA
+Matorral / 5,5,Matorral,Matorral,0,4,NA,4,450,NA,NA,NA,NA,NA,0,1,H,Herbaceous,Herb,NA
+Matorral / 5,5,Matorral,Matorral,0,6,NA,6,452,NA,NA,NA,NA,NA,0,1<2,H,Herbaceous,Herb,NA
+Matorral / 5,5,Matorral,Matorral,0,7,NA,7,453,9,95,15,NA,NA,1,0,H,Herbaceous,Herb,NA
+Matorral / 5,5,Matorral,Matorral,0,NA,NA,8,454,NA,NA,NA,NA,NA,0,2<3,H,Herbaceous,Herb,NA
+Matorral / 5,5,Matorral,Matorral,0,9,NA,9,455,7,90,13,NA,NA,0,1<2<3,H,Herbaceous,Herb,NA
+Matorral / 5,5,Matorral,Matorral,0,12,NA,12,458,NA,NA,NA,NA,NA,0,1<2,H,Herbaceous,Herb,NA
+Matorral / 5,5,Matorral,Matorral,0,18,NA,18,464,NA,NA,NA,NA,NA,0,1<2,H,Herbaceous,Herb,NA
+Matorral / 5,5,Matorral,Matorral,0,19,NA,19,465,0.5,80,9,NA,NA,1,1<2,H,Herbaceous,Herb,NA
+Matorral / 5,5,Matorral,Matorral,0,20,NA,20,466,NA,NA,NA,NA,NA,1<2,1,H,Herbaceous,Herb,NA
+Matorral / 5,5,Matorral,Matorral,0,NA,NA,23,469,NA,NA,NA,NA,NA,0,1,H,Herbaceous,Herb,NA
+Matorral / 5,5,Matorral,Matorral,0,NA,NA,27,473,NA,NA,NA,NA,NA,0,4<5,H,Herbaceous,Herb,NA
+Matorral / 5,5,Matorral,Matorral,0,NA,NA,28,474,NA,NA,NA,NA,NA,2<3,0,H,Herbaceous,Herb,NA
+Matorral / 5,5,Matorral,Matorral,0,29,NA,29,475,5,95,11,NA,NA,0,1,H,Herbaceous,Herb,NA
+Matorral / 5,5,Matorral,Matorral,0,32,NA,32,478,NA,NA,NA,NA,NA,1<,2,H,Herbaceous,Herb,NA
+Matorral / 5,5,Matorral,Matorral,0,NA,NA,34,480,NA,NA,NA,NA,NA,0,2,H,Herbaceous,Herb,NA
+Matorral / 5,5,Matorral,Matorral,0,36,NA,36,482,NA,NA,NA,NA,NA,0,1<2<3,H,Herbaceous,Herb,NA
+Bosque no quemado / 2,2,Bosque de coihue,Bosque no quemado,0,1,1,1,31,2.5,95,5.2//,NA,7.5,1<2<6<,0,L,Schinus patagonicus,Sp,NA
+Bosque no quemado / 2,2,Bosque de coihue,Bosque no quemado,0,NA,NA,3,33,NA,NA,NA,NA,NA,7<8<9<,0,L,Schinus patagonicus,Sp,NA
+Bosque no quemado / 2,2,Bosque de coihue,Bosque no quemado,0,NA,NA,4,34,NA,NA,NA,NA,NA,0,5,L,Schinus patagonicus,Sp,NA
+Bosque no quemado / 2,2,Bosque de coihue,Bosque no quemado,0,5,1,5,35,2,80,7,NA,12,2<3<4<,0,L,Schinus patagonicus,Sp,NA
+Bosque no quemado / 2,2,Bosque de coihue,Bosque no quemado,0,NA,NA,12,42,NA,NA,NA,NA,NA,4<5,0,L,Schinus patagonicus,Sp,NA
+Bosque no quemado / 2,2,Bosque de coihue,Bosque no quemado,0,NA,NA,13,43,NA,NA,NA,NA,NA,4<5<7<8<,0,L,Schinus patagonicus,Sp,NA
+Bosque no quemado / 2,2,Bosque de coihue,Bosque no quemado,0,16,0,16,46,1.5,80,6,NA,10,0,1,L,Schinus patagonicus,Sp,NA
+Bosque no quemado / 2,2,Bosque de coihue,Bosque no quemado,0,18,0,18,48,1,45,6,NA,9,2,0,L,Schinus patagonicus,Sp,NA
+Bosque no quemado / 2,2,Bosque de coihue,Bosque no quemado,0,19,1,19,49,2,70,11,NA,14,1<2<,0,L,Schinus patagonicus,Sp,NA
+Bosque no quemado / 2,2,Bosque de coihue,Bosque no quemado,0,NA,NA,20,50,NA,NA,NA,NA,NA,4<5,0,L,Schinus patagonicus,Sp,NA
+Bosque no quemado / 2,2,Bosque de coihue,Bosque no quemado,0,NA,NA,21,51,NA,NA,NA,NA,NA,5<6,0,L,Schinus patagonicus,Sp,NA
+Bosque no quemado / 2,2,Bosque de coihue,Bosque no quemado,0,26,0,26,56,2,80,4//,NA,10,1,0,L,Schinus patagonicus,Sp,NA
+Bosque no quemado / 4,4,Bosque de coihue,Bosque no quemado,0,1,1,1,1,0.5,25,11,NA,7.5,7<8<9<,1,L,Schinus patagonicus,Sp,NA
+Bosque no quemado / 4,4,Bosque de coihue,Bosque no quemado,0,3,1,3,3,1,80,18,NA,8,8<9<10,0,L,Schinus patagonicus,Sp,NA
+Bosque no quemado / 4,4,Bosque de coihue,Bosque no quemado,0,4,0,4,4,NA,NA,NA,NA,NA,1<3,0,L,Schinus patagonicus,Sp,NA
+Bosque no quemado / 4,4,Bosque de coihue,Bosque no quemado,0,5,1,5,5,3,80,6//,NA,12,11,0,L,Schinus patagonicus,Sp,NA
+Bosque no quemado / 4,4,Bosque de coihue,Bosque no quemado,0,NA,NA,6,6,NA,NA,NA,NA,NA,4<5,0,L,Schinus patagonicus,Sp,NA
+Bosque no quemado / 4,4,Bosque de coihue,Bosque no quemado,0,NA,NA,8,8,NA,NA,NA,NA,NA,3<6<7,0,L,Schinus patagonicus,Sp,NA
+Bosque no quemado / 4,4,Bosque de coihue,Bosque no quemado,0,9,1,9,9,1.5,90,16,NA,9,1<2<4<5<7<8<6<,0,L,Schinus patagonicus,Sp,NA
+Bosque no quemado / 4,4,Bosque de coihue,Bosque no quemado,0,NA,NA,11,11,NA,NA,NA,NA,NA,2,0,L,Schinus patagonicus,Sp,NA
+Bosque no quemado / 4,4,Bosque de coihue,Bosque no quemado,0,NA,NA,12,12,NA,NA,NA,NA,NA,8<9,0,L,Schinus patagonicus,Sp,NA
+Bosque no quemado / 4,4,Bosque de coihue,Bosque no quemado,0,NA,NA,16,16,NA,NA,NA,NA,NA,2,0,L,Schinus patagonicus,Sp,NA
+Bosque no quemado / 4,4,Bosque de coihue,Bosque no quemado,0,NA,NA,17,17,NA,NA,NA,NA,NA,1,0,L,Schinus patagonicus,Sp,NA
+Bosque no quemado / 4,4,Bosque de coihue,Bosque no quemado,0,19,1,19,19,1.5,80,17,NA,7,1,0,L,Schinus patagonicus,Sp,NA
+Bosque no quemado / 4,4,Bosque de coihue,Bosque no quemado,0,NA,NA,23,23,NA,NA,NA,NA,NA,6,0,L,Schinus patagonicus,Sp,NA
+Bosque no quemado / 4,4,Bosque de coihue,Bosque no quemado,0,NA,NA,24,24,NA,NA,NA,NA,NA,12,8<10<11,L,Schinus patagonicus,Sp,NA
+Bosque no quemado / 4,4,Bosque de coihue,Bosque no quemado,0,NA,NA,25,25,NA,NA,NA,NA,NA,12,0,L,Schinus patagonicus,Sp,NA
+Bosque no quemado / 4,4,Bosque de coihue,Bosque no quemado,0,27,1,27,27,3.5,80,17,NA,13,2,0,L,Schinus patagonicus,Sp,NA
+Bosque no quemado / 4,4,Bosque de coihue,Bosque no quemado,0,NA,NA,28,28,NA,NA,NA,NA,NA,6,0,L,Schinus patagonicus,Sp,NA
+Bosque no quemado / 5,5,Bosque de coihue,Bosque no quemado,0,NA,NA,21,78,NA,NA,NA,NA,NA,6,0,L,Schinus patagonicus,Sp,NA
+Bosque no quemado / 5,5,Bosque de coihue,Bosque no quemado,0,22,NA,22,79,NA,NA,NA,NA,NA,1,0,L,Schinus patagonicus,Sp,NA
+Bosque no quemado / 6,6,Bosque de coihue,Bosque no quemado,0,NA,NA,13,100,NA,NA,NA,NA,NA,9<10<,0,L,Schinus patagonicus,Sp,NA
+Bosque no quemado / 6,6,Bosque de coihue,Bosque no quemado,0,NA,NA,14,101,NA,NA,NA,NA,NA,6<7,0,L,Schinus patagonicus,Sp,NA
+Bosque no quemado / 6,6,Bosque de coihue,Bosque no quemado,0,NA,NA,15,102,NA,NA,NA,NA,NA,2<3,0,L,Schinus patagonicus,Sp,NA
+Bosque no quemado / 6,6,Bosque de coihue,Bosque no quemado,0,NA,NA,17,104,NA,NA,NA,NA,NA,6,0,L,Schinus patagonicus,Sp,NA
+Bosque no quemado / 6,6,Bosque de coihue,Bosque no quemado,0,20,NA,20,107,NA,NA,NA,NA,NA,4<5<6<7,0,L,Schinus patagonicus,Sp,NA
+Bosque no quemado / 6,6,Bosque de coihue,Bosque no quemado,0,24,NA,24,111,NA,NA,NA,NA,NA,2<3,0,L,Schinus patagonicus,Sp,NA
+Bosque no quemado / 6,6,Bosque de coihue,Bosque no quemado,0,25,NA,25,112,1.5,98,8,NA,6,6,6<5,L,Schinus patagonicus,Sp,NA
+Coihual no regenerado / 2,2,Coihual no regenerado,Coihual no regenerado,0,NA,NA,24,144,NA,NA,NA,NA,NA,1,0,L,Schinus patagonicus,Sp,NA
+Coihual no regenerado / 2,2,Coihual no regenerado_extra,Coihual no regenerado,1,NA,NA,63,233,NA,NA,NA,NA,NA,2<4<5<6,0,L,Schinus patagonicus,Sp,NA
+Coihual no regenerado / 2,2,Coihual no regenerado_extra,Coihual no regenerado,1,NA,NA,64,234,NA,NA,NA,NA,NA,3<2,0,L,Schinus patagonicus,Sp,NA
+Coihual no regenerado / 4,4,Coihual no regenerado,Coihual no regenerado,0,13,NA,13,183,1.5,70,11,NA,NA,2<3<4<6<7<8<10<11,1<2<3,L,Schinus patagonicus,Sp,NA
+Coihual no regenerado / 4,4,Coihual no regenerado,Coihual no regenerado,0,14,NA,14,184,NA,NA,NA,NA,NA,8<7<5<,3<4,L,Schinus patagonicus,Sp,NA
+Coihual no regenerado / 4,4,Coihual no regenerado,Coihual no regenerado,0,NA,NA,26,196,NA,NA,NA,NA,NA,2,0,L,Schinus patagonicus,Sp,NA
+Coihual no regenerado / 4,4,Coihual no regenerado,Coihual no regenerado,0,27,NA,27,197,1,50,7,NA,NA,2<3<4<5<6<7,1<2<3,L,Schinus patagonicus,Sp,NA
+Coihual no regenerado / 4,4,Coihual no regenerado,Coihual no regenerado,0,40,NA,40,210,NA,NA,NA,NA,NA,1<2<3,0,L,Schinus patagonicus,Sp,NA
+Coihual regenerando / 2,2,Coihual regenerado,Coihual regenerando,0,NA,NA,6,293,NA,NA,NA,NA,NA,2<3<,0,L,Schinus patagonicus,Sp,NA
+Coihual regenerando / 2,2,Coihual regenerado,Coihual regenerando,0,NA,NA,11,298,NA,NA,NA,NA,NA,2<,0,L,Schinus patagonicus,Sp,NA
+Coihual regenerando / 2,2,Coihual regenerado,Coihual regenerando,0,NA,NA,16,303,NA,NA,NA,NA,NA,5<6,0,L,Schinus patagonicus,Sp,NA
+Coihual regenerando / 2,2,Coihual regenerado,Coihual regenerando,0,NA,NA,18,305,NA,NA,NA,NA,NA,1<2<,0,L,Schinus patagonicus,Sp,NA
+Coihual regenerando / 2,2,Coihual regenerado_extra,Coihual regenerando,1,NA,NA,44,358,NA,NA,NA,NA,NA,6<5<4,0,L,Schinus patagonicus,Sp,NA
+Coihual regenerando / 2,2,Coihual regenerado_extra,Coihual regenerando,1,NA,NA,45,359,NA,NA,NA,NA,NA,6<7,0,L,Schinus patagonicus,Sp,NA
+Coihual regenerando / 2,2,Coihual regenerado_extra,Coihual regenerando,1,NA,NA,46,360,NA,NA,NA,NA,NA,0,1,L,Schinus patagonicus,Sp,NA
+Coihual regenerando / 2,2,Coihual regenerado_extra,Coihual regenerando,1,NA,NA,47,361,NA,NA,NA,NA,NA,3<5<6<7<8<9<10<12<13<14,0,L,Schinus patagonicus,Sp,NA
+Coihual regenerando / 2,2,Coihual regenerado_extra,Coihual regenerando,1,NA,NA,49,363,NA,NA,NA,NA,NA,2<5<6<,0,L,Schinus patagonicus,Sp,NA
+Coihual regenerando / 2,2,Coihual regenerado_extra,Coihual regenerando,1,12,NA,52,366,NA,NA,NA,NA,NA,2<,0,L,Schinus patagonicus,Sp,NA
+Coihual regenerando / 2,2,Coihual regenerado_extra,Coihual regenerando,1,NA,NA,53,367,NA,NA,NA,NA,NA,6,0,L,Schinus patagonicus,Sp,NA
+Coihual regenerando / 4,4,Coihual regenerado,Coihual regenerando,0,NA,NA,1,315,NA,NA,NA,NA,NA,4<5<7<8,0,L,Schinus patagonicus,Sp,NA
+Coihual regenerando / 4,4,Coihual regenerado,Coihual regenerando,0,10,0,10,324,NA,NA,NA,NA,NA,1,0,L,Schinus patagonicus,Sp,NA
+Coihual regenerando / 4,4,Coihual regenerado,Coihual regenerando,0,NA,NA,12,326,NA,NA,NA,NA,NA,2,0,L,Schinus patagonicus,Sp,NA
+Coihual regenerando / 4,4,Coihual regenerado,Coihual regenerando,0,14,0,14,328,NA,NA,NA,NA,NA,1,0,L,Schinus patagonicus,Sp,NA
+Coihual regenerando / 4,4,Coihual regenerado,Coihual regenerando,0,NA,NA,20,334,NA,NA,NA,NA,NA,7<8<5,0,L,Schinus patagonicus,Sp,NA
+Coihual regenerando / 4,4,Coihual regenerado,Coihual regenerando,0,37,1,37,351,1,40,17,NA,NA,4,0,L,Schinus patagonicus,Sp,NA
+Coihual regenerando / 6,6,Bosque de coihue regenerado,Coihual regenerando,0,26,NA,26,273,NA,NA,NA,NA,NA,1<2,0,L,Schinus patagonicus,Sp,NA
+Coihual regenerando / 6,6,Bosque de coihue regenerado,Coihual regenerando,0,38,NA,38,285,NA,NA,NA,NA,NA,1<2<3<4<5<6<,0,L,Schinus patagonicus,Sp,NA
+Coihual regenerando / 6,6,Bosque de coihue regenerado,Coihual regenerando,0,40,NA,40,287,NA,NA,NA,NA,NA,1,0,L,Schinus patagonicus,Sp,NA
+Matorral / 2,2,Matorral,Matorral,0,NA,NA,14,382,NA,NA,NA,NA,NA,3<5<6<,0,L,Schinus patagonicus,Sp,NA
+Matorral / 2,2,Matorral,Matorral,0,NA,NA,24,392,NA,NA,NA,NA,NA,2,0,L,Schinus patagonicus,Sp,NA
+Matorral / 2,2,Matorral,Matorral,0,29,1,29,397,1.5,70,1,NA,NA,3,1<3,L,Schinus patagonicus,Sp,NA
+Matorral / 2,2,Matorral,Matorral,0,31,1,31,399,3.5,75,11,NA,NA,0,1<2,L,Schinus patagonicus,Sp,NA
+Matorral / 2,2,Matorral de cania,Matorral,0,NA,NA,2,503,NA,NA,NA,NA,NA,2<3,0,L,Schinus patagonicus,Sp,NA
+Matorral / 2,2,Matorral de cania,Matorral,0,NA,NA,3,504,NA,NA,NA,NA,NA,4,0,L,Schinus patagonicus,Sp,NA
+Matorral / 2,2,Matorral de cania,Matorral,0,NA,NA,10,511,NA,NA,NA,NA,NA,4,0,L,Schinus patagonicus,Sp,NA
+Matorral / 4,4,Matorral,Matorral,0,NA,NA,10,416,NA,NA,NA,NA,NA,4,0,L,Schinus patagonicus,Sp,NA
+Matorral / 4,4,Matorral,Matorral,0,NA,NA,11,417,NA,NA,NA,NA,NA,0,6,L,Schinus patagonicus,Sp,NA
+Matorral / 4,4,Matorral,Matorral,0,NA,NA,16,422,NA,NA,NA,NA,NA,6<7,0,L,Schinus patagonicus,Sp,NA
+Matorral / 4,4,Matorral,Matorral,0,NA,NA,21,427,NA,NA,NA,NA,NA,4<5<6<7<,4<7,L,Schinus patagonicus,Sp,NA
+Matorral / 4,4,Matorral,Matorral,0,NA,NA,23,429,NA,NA,NA,NA,NA,3<4<6,0,L,Schinus patagonicus,Sp,NA
+Matorral / 4,4,Matorral,Matorral,0,NA,NA,24,430,NA,NA,NA,NA,NA,3<4<5<6,0,L,Schinus patagonicus,Sp,NA
+Matorral / 4,4,Matorral,Matorral,0,26,0,26,432,NA,NA,NA,NA,NA,1<2<4<5<6,2<3<4,L,Schinus patagonicus,Sp,NA
+Matorral / 4,4,Matorral,Matorral,0,NA,NA,27,433,NA,NA,NA,NA,NA,3<4<5<6<7,0,L,Schinus patagonicus,Sp,NA
+Matorral / 4,4,Matorral,Matorral,0,29,1,29,435,1,45,15,NA,NA,1,0,L,Schinus patagonicus,Sp,NA
+Matorral / 4,4,Matorral,Matorral,0,31,1,31,437,2,45,13,NA,NA,<2<3<4<5<6,1<2<4,L,Schinus patagonicus,Sp,NA
+Matorral / 4,4,Matorral,Matorral,0,NA,NA,32,438,NA,NA,NA,NA,NA,4<5<6<8,0,L,Schinus patagonicus,Sp,NA
+Matorral / 4,4,Matorral,Matorral,0,NA,NA,36,442,NA,NA,NA,NA,NA,6<5<,0,L,Schinus patagonicus,Sp,NA
+Matorral / 4,4,Matorral,Matorral,0,38,0,38,444,NA,NA,NA,NA,NA,0,2,L,Schinus patagonicus,Sp,NA
+Matorral / 4,4,Matorral,Matorral,0,NA,NA,40,446,NA,NA,NA,NA,NA,6<7<8<9<10,3,L,Schinus patagonicus,Sp,NA
+Matorral / 5,5,Matorral,Matorral,0,3,NA,3,449,2.5,90,8,NA,NA,5<4<3<2<1<,0,L,Schinus patagonicus,Sp,NA
+Matorral / 5,5,Matorral,Matorral,0,NA,NA,9,455,NA,NA,NA,NA,NA,2<3,0,L,Schinus patagonicus,Sp,NA
+Matorral / 5,5,Matorral,Matorral,0,NA,NA,14,460,NA,NA,NA,NA,NA,7<8,0,L,Schinus patagonicus,Sp,NA
+Matorral / 5,5,Matorral,Matorral,0,NA,NA,35,481,NA,NA,NA,NA,NA,5,0,L,Schinus patagonicus,Sp,NA
+Bosque no quemado / 2,2,Bosque de coihue,Bosque no quemado,0,12,0,12,42,0.5,10,10,NA,15,8,3<14,MAITEN,Maytenus boaria,Mb,NA
+Coihual no regenerado / 2,2,Coihual no regenerado,Coihual no regenerado,0,42,0,42,162,1.5,35,35,NA,NA,3<4<5<,0,MAITEN,Maytenus boaria,Mb,NA
+Coihual no regenerado / 4,4,Coihual no regenerado,Coihual no regenerado,0,49,NA,50,220,3,85,12,NA,NA,5,1,MAITEN,Maytenus boaria,Mb,NA
+Coihual regenerando / 6,6,Bosque de coihue regenerado,Coihual regenerando,0,NA,NA,22,269,NA,NA,NA,NA,NA,8<9,0,MAITEN,Maytenus boaria,Mb,NA
+Matorral / 2,2,Matorral,Matorral,0,NA,NA,14,382,NA,NA,NA,NA,NA,7<6<5<,0,MAITEN,Maytenus boaria,Mb,NA
+Matorral / 2,2,Matorral,Matorral,0,NA,NA,17,385,NA,NA,NA,NA,NA,9<10<7<6,0,MAITEN,Maytenus boaria,Mb,NA
+Matorral / 2,2,Matorral,Matorral,0,NA,NA,26,394,NA,NA,NA,NA,NA,1<2<3<4<5<,0,MAITEN,Maytenus boaria,Mb,NA
+Matorral / 2,2,Matorral,Matorral,0,NA,NA,29,397,NA,NA,NA,NA,NA,7<8,7,MAITEN,Maytenus boaria,Mb,NA
+Matorral / 2,2,Matorral,Matorral,0,35,1,35,403,2.5,100,10,NA,NA,2<3,0,MAITEN,Maytenus boaria,Mb,NA
+Matorral / 5,5,Matorral,Matorral,0,NA,NA,37,483,NA,NA,NA,NA,NA,4<5<,0,MAITEN,Maytenus boaria,Mb,NA
+Matorral / 5,5,Matorral,Matorral,0,NA,NA,39,485,NA,NA,NA,NA,NA,4<5<,0,MAITEN,Maytenus boaria,Mb,NA
+Coihual no regenerado / 4,4,Coihual no regenerado,Coihual no regenerado,0,NA,NA,36,206,NA,NA,NA,NA,NA,1,0,MANZ,Gaultheria mucronata,Gamu,NA
+Coihual regenerando / 4,4,Coihual regenerado,Coihual regenerando,0,7,1,7,321,1,95,16,NA,NA,1,0,MANZ,Gaultheria mucronata,Gamu,NA
+Coihual regenerando / 4,4,Coihual regenerado,Coihual regenerando,0,NA,NA,16,330,NA,NA,NA,NA,NA,1,0,MANZ,Gaultheria mucronata,Gamu,NA
+Coihual regenerando / 4,4,Coihual regenerado,Coihual regenerando,0,17,1,17,331,1.5,95,16,NA,NA,1,0,MANZ,Gaultheria mucronata,Gamu,NA
+Matorral / 4,4,Matorral,Matorral,0,NA,NA,15,421,NA,NA,NA,NA,NA,1<,0,MANZ,Gaultheria mucronata,Gamu,NA
+Matorral / 4,4,Matorral,Matorral,0,30,0,30,436,NA,NA,NA,NA,NA,1<2<,0,MANZ,Gaultheria mucronata,Gamu,NA
+Bosque no quemado / 2,2,Bosque de coihue,Bosque no quemado,0,NA,NA,1,31,NA,NA,NA,NA,NA,2<3<4<,0,MAQUI,Aristotelia chilensis,Ari,NA
+Bosque no quemado / 2,2,Bosque de coihue,Bosque no quemado,0,NA,NA,4,34,NA,NA,NA,NA,NA,2<3<4<,0,MAQUI,Aristotelia chilensis,Ari,NA
+Bosque no quemado / 2,2,Bosque de coihue,Bosque no quemado,0,14,0,14,44,2.5,80,6,NA,12,1<4<5<,0,MAQUI,Aristotelia chilensis,Ari,NA
+Bosque no quemado / 4,4,Bosque de coihue,Bosque no quemado,0,NA,NA,4,4,NA,NA,NA,NA,NA,4<5<8<9<10<11<16,11<16,MAQUI,Aristotelia chilensis,Ari,NA
+Bosque no quemado / 4,4,Bosque de coihue,Bosque no quemado,0,NA,NA,6,6,NA,NA,NA,NA,NA,8,0,MAQUI,Aristotelia chilensis,Ari,NA
+Bosque no quemado / 4,4,Bosque de coihue,Bosque no quemado,0,25,1,25,25,3,80,13,NA,12,1<2<,0,MAQUI,Aristotelia chilensis,Ari,NA
+Coihual regenerando / 2,2,Coihual regenerado,Coihual regenerando,0,2,0,2,289,2,40,6//,NA,NA,3<4<5,0,MAQUI,Aristotelia chilensis,Ari,NA
+Coihual regenerando / 2,2,Coihual regenerado,Coihual regenerando,0,NA,NA,7,294,NA,NA,NA,NA,NA,4<5<,0,MAQUI,Aristotelia chilensis,Ari,NA
+Coihual regenerando / 2,2,Coihual regenerado,Coihual regenerando,0,NA,NA,8,295,NA,NA,NA,NA,NA,8<9<4<5<,0,MAQUI,Aristotelia chilensis,Ari,NA
+Coihual regenerando / 2,2,Coihual regenerado,Coihual regenerando,0,NA,NA,13,300,NA,NA,NA,NA,NA,6<7<,0,MAQUI,Aristotelia chilensis,Ari,NA
+Coihual regenerando / 2,2,Coihual regenerado,Coihual regenerando,0,NA,NA,17,304,NA,NA,NA,NA,NA,6<8<9<,0,MAQUI,Aristotelia chilensis,Ari,NA
+Coihual regenerando / 2,2,Coihual regenerado,Coihual regenerando,0,NA,NA,21,308,NA,NA,NA,NA,NA,2<3<,0,MAQUI,Aristotelia chilensis,Ari,NA
+Coihual regenerando / 2,2,Coihual regenerado,Coihual regenerando,0,NA,NA,22,309,NA,NA,NA,NA,NA,8<7<6,0,MAQUI,Aristotelia chilensis,Ari,NA
+Coihual regenerando / 2,2,Coihual regenerado_extra,Coihual regenerando,1,NA,NA,48,362,NA,NA,NA,NA,NA,5<6<7,0,MAQUI,Aristotelia chilensis,Ari,NA
+Coihual regenerando / 2,2,Coihual regenerado_extra,Coihual regenerando,1,13,NA,53,367,NA,NA,NA,NA,NA,0,2,MAQUI,Aristotelia chilensis,Ari,NA
+Coihual regenerando / 4,4,Coihual regenerado,Coihual regenerando,0,NA,NA,4,318,NA,NA,NA,NA,NA,5<6<7<8<9<10,0,MAQUI,Aristotelia chilensis,Ari,NA
+Coihual regenerando / 4,4,Coihual regenerado,Coihual regenerando,0,21,1,21,335,2.5,70,10,NA,NA,2<3,0,MAQUI,Aristotelia chilensis,Ari,NA
+Coihual regenerando / 4,4,Coihual regenerado,Coihual regenerando,0,24,0,24,338,NA,NA,NA,NA,NA,3<4<,0,MAQUI,Aristotelia chilensis,Ari,NA
+Coihual regenerando / 4,4,Coihual regenerado,Coihual regenerando,0,38,0,38,352,NA,NA,NA,NA,NA,6,0,MAQUI,Aristotelia chilensis,Ari,NA
+Coihual regenerando / 6,6,Bosque de coihue regenerado,Coihual regenerando,0,NA,NA,36,283,NA,NA,NA,NA,NA,3<4<5,0,MAQUI,Aristotelia chilensis,Ari,NA
+Matorral / 2,2,Matorral de cania,Matorral,0,NA,NA,8,509,NA,NA,NA,NA,NA,0,6,MAQUI,Aristotelia chilensis,Ari,NA
+Matorral / 2,2,Matorral de cania,Matorral,0,NA,NA,12,513,NA,NA,NA,NA,NA,3,0,MAQUI,Aristotelia chilensis,Ari,NA
+Coihual no regenerado / 2,2,Coihual no regenerado,Coihual no regenerado,0,NA,NA,4,124,NA,NA,NA,NA,NA,2<3<4<,1<2,MUTISIA,Mutisia spinosa,Ms,NA
+Coihual no regenerado / 2,2,Coihual no regenerado,Coihual no regenerado,0,NA,NA,10,130,NA,NA,NA,NA,NA,1<2<3<,0,MUTISIA,Mutisia spinosa,Ms,NA
+Coihual no regenerado / 2,2,Coihual no regenerado,Coihual no regenerado,0,NA,NA,12,132,NA,NA,NA,NA,NA,3<,1<2,MUTISIA,Mutisia spinosa,Ms,NA
+Coihual no regenerado / 2,2,Coihual no regenerado,Coihual no regenerado,0,NA,NA,18,138,NA,NA,NA,NA,NA,3<4<,0,MUTISIA,Mutisia spinosa,Ms,NA
+Coihual no regenerado / 2,2,Coihual no regenerado,Coihual no regenerado,0,NA,NA,26,146,NA,NA,NA,NA,NA,1<2<3,0,MUTISIA,Mutisia spinosa,Ms,NA
+Coihual no regenerado / 2,2,Coihual no regenerado,Coihual no regenerado,0,27,1,27,147,2,5,4,NA,NA,1<2<3<,1<2<3<,MUTISIA,Mutisia spinosa,Ms,NA
+Coihual no regenerado / 2,2,Coihual no regenerado,Coihual no regenerado,0,NA,NA,28,148,NA,NA,NA,NA,NA,3<4<5<6<,0,MUTISIA,Mutisia spinosa,Ms,NA
+Coihual no regenerado / 2,2,Coihual no regenerado,Coihual no regenerado,0,29,1,29,149,0,0,3,NA,NA,0,1<2<,MUTISIA,Mutisia spinosa,Ms,NA
+Coihual no regenerado / 2,2,Coihual no regenerado,Coihual no regenerado,0,30,0,30,150,2,5,6,NA,NA,3<4<,1<2<3,MUTISIA,Mutisia spinosa,Ms,NA
+Coihual no regenerado / 2,2,Coihual no regenerado,Coihual no regenerado,0,NA,NA,33,153,NA,NA,NA,NA,NA,1,1,MUTISIA,Mutisia spinosa,Ms,NA
+Coihual no regenerado / 2,2,Coihual no regenerado,Coihual no regenerado,0,NA,NA,35,155,NA,NA,NA,NA,NA,1,1,MUTISIA,Mutisia spinosa,Ms,NA
+Coihual no regenerado / 2,2,Coihual no regenerado,Coihual no regenerado,0,NA,NA,45,165,NA,NA,NA,NA,NA,3<4<5,2<3<4,MUTISIA,Mutisia spinosa,Ms,NA
+Coihual no regenerado / 2,2,Coihual no regenerado,Coihual no regenerado,0,46,0,46,166,0.5,10,10,NA,NA,1<2<3<4<,1<2<,MUTISIA,Mutisia spinosa,Ms,NA
+Coihual no regenerado / 2,2,Coihual no regenerado,Coihual no regenerado,0,48,0,48,168,1,5,5,NA,NA,1<2<3<4<,1,MUTISIA,Mutisia spinosa,Ms,NA
+Coihual no regenerado / 2,2,Coihual no regenerado_extra,Coihual no regenerado,1,NA,NA,65,235,NA,NA,NA,NA,NA,3,2,MUTISIA,Mutisia spinosa,Ms,NA
+Coihual no regenerado / 2,2,Coihual no regenerado_extra,Coihual no regenerado,1,4,NA,66,236,NA,NA,NA,NA,NA,1<2,1<2,MUTISIA,Mutisia spinosa,Ms,NA
+Coihual no regenerado / 2,2,Coihual no regenerado_extra,Coihual no regenerado,1,NA,NA,71,241,NA,NA,NA,NA,NA,2<3<4,0,MUTISIA,Mutisia spinosa,Ms,NA
+Coihual no regenerado / 2,2,Coihual no regenerado_extra,Coihual no regenerado,1,NA,NA,72,242,NA,NA,NA,NA,NA,1<2<3,0,MUTISIA,Mutisia spinosa,Ms,NA
+Coihual no regenerado / 2,2,Coihual no regenerado_extra,Coihual no regenerado,1,11,NA,73,243,NA,NA,NA,NA,NA,2<3,0,MUTISIA,Mutisia spinosa,Ms,NA
+Coihual no regenerado / 2,2,Coihual no regenerado_extra,Coihual no regenerado,1,NA,NA,76,246,NA,NA,NA,NA,NA,<1<2<3,0,MUTISIA,Mutisia spinosa,Ms,NA
+Coihual no regenerado / 2,2,Coihual no regenerado_extra,Coihual no regenerado,1,NA,NA,77,247,NA,NA,NA,NA,NA,<1<2,0,MUTISIA,Mutisia spinosa,Ms,NA
+Coihual no regenerado / 4,4,Coihual no regenerado,Coihual no regenerado,0,3,NA,3,173,0,0,6,NA,NA,0,1,MUTISIA,Mutisia spinosa,Ms,NA
+Coihual regenerando / 2,2,Coihual regenerado,Coihual regenerando,0,1,1,1,288,2.5,60,17,NA,NA,1,0,MUTISIA,Mutisia spinosa,Ms,NA
+Coihual regenerando / 2,2,Coihual regenerado,Coihual regenerando,0,NA,NA,4,291,NA,NA,NA,NA,NA,9<,0,MUTISIA,Mutisia spinosa,Ms,NA
+Coihual regenerando / 2,2,Coihual regenerado,Coihual regenerando,0,6,0,6,293,3,70,4,NA,NA,0,1<2,MUTISIA,Mutisia spinosa,Ms,NA
+Coihual regenerando / 2,2,Coihual regenerado,Coihual regenerando,0,NA,NA,7,294,NA,NA,NA,NA,NA,3<4<,0,MUTISIA,Mutisia spinosa,Ms,NA
+Coihual regenerando / 2,2,Coihual regenerado,Coihual regenerando,0,8,0,8,295,3,70,5.5//,NA,NA,4<8<9,0,MUTISIA,Mutisia spinosa,Ms,NA
+Coihual regenerando / 2,2,Coihual regenerado,Coihual regenerando,0,9,1,9,296,3,80,6.5//,NA,NA,8<9<10<11,3<4<5<6<7,MUTISIA,Mutisia spinosa,Ms,NA
+Coihual regenerando / 2,2,Coihual regenerado,Coihual regenerando,0,NA,NA,12,299,NA,NA,NA,NA,NA,0,1<2<3<4,MUTISIA,Mutisia spinosa,Ms,NA
+Coihual regenerando / 2,2,Coihual regenerado,Coihual regenerando,0,13,1,13,300,4,90,7.5//,NA,NA,7<8<,1<2<3<4<5<6,MUTISIA,Mutisia spinosa,Ms,NA
+Coihual regenerando / 2,2,Coihual regenerado,Coihual regenerando,0,NA,NA,14,301,NA,NA,NA,NA,NA,0,1<2<3<4<5,MUTISIA,Mutisia spinosa,Ms,NA
+Coihual regenerando / 2,2,Coihual regenerado,Coihual regenerando,0,15,1,15,302,5,90,11,NA,NA,0,1<2,MUTISIA,Mutisia spinosa,Ms,NA
+Coihual regenerando / 2,2,Coihual regenerado,Coihual regenerando,0,16,0,16,303,3,80,17,NA,NA,1<4<5<6<7<,2<3<4<5,MUTISIA,Mutisia spinosa,Ms,NA
+Coihual regenerando / 2,2,Coihual regenerado,Coihual regenerando,0,NA,NA,17,304,NA,NA,NA,NA,NA,5<6,0,MUTISIA,Mutisia spinosa,Ms,NA
+Coihual regenerando / 2,2,Coihual regenerado,Coihual regenerando,0,18,0,18,305,1,80,18,NA,NA,5<6<,1<2<3<4,MUTISIA,Mutisia spinosa,Ms,NA
+Coihual regenerando / 2,2,Coihual regenerado,Coihual regenerando,0,19,1,19,306,2,60,9,NA,NA,1<2<3<4,1,MUTISIA,Mutisia spinosa,Ms,NA
+Coihual regenerando / 2,2,Coihual regenerado,Coihual regenerando,0,20,0,20,307,2,50,15,NA,NA,2<3<,1<2,MUTISIA,Mutisia spinosa,Ms,NA
+Coihual regenerando / 2,2,Coihual regenerado,Coihual regenerando,0,21,1,21,308,2,80,17,NA,NA,0,1<2<3<,MUTISIA,Mutisia spinosa,Ms,NA
+Coihual regenerando / 2,2,Coihual regenerado,Coihual regenerando,0,NA,NA,22,309,NA,NA,NA,NA,NA,0,4<5<6,MUTISIA,Mutisia spinosa,Ms,NA
+Coihual regenerando / 2,2,Coihual regenerado,Coihual regenerando,0,25,1,25,312,3,90,7//,NA,NA,4<5<7<8,1<2<3<4<5,MUTISIA,Mutisia spinosa,Ms,NA
+Coihual regenerando / 2,2,Coihual regenerado,Coihual regenerando,0,26,0,26,313,1,40,14,NA,NA,0,2<3,MUTISIA,Mutisia spinosa,Ms,NA
+Coihual regenerando / 2,2,Coihual regenerado_extra,Coihual regenerando,1,NA,NA,41,355,NA,NA,NA,NA,NA,5<4<3<2,1<2,MUTISIA,Mutisia spinosa,Ms,NA
+Coihual regenerando / 2,2,Coihual regenerado_extra,Coihual regenerando,1,NA,NA,42,356,NA,NA,NA,NA,NA,0,7<6<5<4<3,MUTISIA,Mutisia spinosa,Ms,NA
+Coihual regenerando / 2,2,Coihual regenerado_extra,Coihual regenerando,1,4,NA,44,358,NA,NA,NA,NA,NA,0,2<3<4<5<6,MUTISIA,Mutisia spinosa,Ms,NA
+Coihual regenerando / 2,2,Coihual regenerado_extra,Coihual regenerando,1,5,NA,45,359,NA,NA,NA,NA,NA,4<7<8,2<3<4<5<6<7,MUTISIA,Mutisia spinosa,Ms,NA
+Coihual regenerando / 2,2,Coihual regenerado_extra,Coihual regenerando,1,6,NA,46,360,NA,NA,NA,NA,NA,0,1,MUTISIA,Mutisia spinosa,Ms,NA
+Coihual regenerando / 2,2,Coihual regenerado_extra,Coihual regenerando,1,NA,NA,47,361,NA,NA,NA,NA,NA,4<5,4<5<9,MUTISIA,Mutisia spinosa,Ms,NA
+Coihual regenerando / 2,2,Coihual regenerado_extra,Coihual regenerando,1,NA,NA,51,365,NA,NA,NA,NA,NA,6,5<3<,MUTISIA,Mutisia spinosa,Ms,NA
+Coihual regenerando / 2,2,Coihual regenerado_extra,Coihual regenerando,1,NA,NA,53,367,NA,NA,NA,NA,NA,8<,0,MUTISIA,Mutisia spinosa,Ms,NA
+Coihual regenerando / 2,2,Coihual regenerado_extra,Coihual regenerando,1,14,NA,54,368,NA,NA,NA,NA,NA,3<4<5,1<2<3,MUTISIA,Mutisia spinosa,Ms,NA
+Coihual regenerando / 4,4,Coihual regenerado,Coihual regenerando,0,NA,NA,7,321,NA,NA,NA,NA,NA,4,0,MUTISIA,Mutisia spinosa,Ms,NA
+Coihual regenerando / 4,4,Coihual regenerado,Coihual regenerando,0,NA,NA,8,322,NA,NA,NA,NA,NA,6<9,2,MUTISIA,Mutisia spinosa,Ms,NA
+Coihual regenerando / 4,4,Coihual regenerado,Coihual regenerando,0,NA,NA,16,330,NA,NA,NA,NA,NA,3,0,MUTISIA,Mutisia spinosa,Ms,NA
+Coihual regenerando / 4,4,Coihual regenerado,Coihual regenerando,0,NA,NA,17,331,NA,NA,NA,NA,NA,1<3<4,0,MUTISIA,Mutisia spinosa,Ms,NA
+Coihual regenerando / 4,4,Coihual regenerado,Coihual regenerando,0,NA,NA,31,345,NA,NA,NA,NA,NA,6,0,MUTISIA,Mutisia spinosa,Ms,NA
+Coihual regenerando / 4,4,Coihual regenerado,Coihual regenerando,0,NA,NA,39,353,NA,NA,NA,NA,NA,6,5<6,MUTISIA,Mutisia spinosa,Ms,NA
+Coihual regenerando / 4,4,Coihual regenerado,Coihual regenerando,0,NA,NA,40,354,NA,NA,NA,NA,NA,1<2<6<5,1<2,MUTISIA,Mutisia spinosa,Ms,NA
+Matorral / 2,2,Matorral,Matorral,0,NA,NA,14,382,NA,NA,NA,NA,NA,0,1,MUTISIA,Mutisia spinosa,Ms,NA
+Matorral / 2,2,Matorral,Matorral,0,NA,NA,15,383,NA,NA,NA,NA,NA,5<6<,0,MUTISIA,Mutisia spinosa,Ms,NA
+Matorral / 2,2,Matorral,Matorral,0,16,0,16,384,3,95,10,NA,NA,0,1<2<3<4<5,MUTISIA,Mutisia spinosa,Ms,NA
+Matorral / 2,2,Matorral,Matorral,0,NA,NA,31,399,NA,NA,NA,NA,NA,6<7<,2,MUTISIA,Mutisia spinosa,Ms,NA
+Matorral / 2,2,Matorral,Matorral,0,NA,NA,32,400,NA,NA,NA,NA,NA,5<6,0,MUTISIA,Mutisia spinosa,Ms,NA
+Matorral / 2,2,Matorral,Matorral,0,NA,NA,34,402,NA,NA,NA,NA,NA,0,3,MUTISIA,Mutisia spinosa,Ms,NA
+Matorral / 2,2,Matorral,Matorral,0,NA,NA,36,404,NA,NA,NA,NA,NA,0,8<11,MUTISIA,Mutisia spinosa,Ms,NA
+Matorral / 2,2,Matorral,Matorral,0,NA,NA,38,406,NA,NA,NA,NA,NA,8<5,3<4,MUTISIA,Mutisia spinosa,Ms,NA
+Matorral / 2,2,Matorral_extra,Matorral,1,NA,NA,40,488,NA,NA,NA,NA,NA,7<8<6,7<6<,MUTISIA,Mutisia spinosa,Ms,NA
+Matorral / 2,2,Matorral_extra,Matorral,1,NA,NA,41,489,NA,NA,NA,NA,NA,8<7<6<,7,MUTISIA,Mutisia spinosa,Ms,NA
+Matorral / 2,2,Matorral_extra,Matorral,1,4,NA,42,490,NA,NA,NA,NA,NA,2<3<7<8,1,MUTISIA,Mutisia spinosa,Ms,NA
+Matorral / 2,2,Matorral_extra,Matorral,1,NA,NA,43,491,NA,NA,NA,NA,NA,3<5,1<2<5<,MUTISIA,Mutisia spinosa,Ms,NA
+Matorral / 2,2,Matorral de cania,Matorral,0,NA,NA,1,502,NA,NA,NA,NA,NA,7,1<2<3<5,MUTISIA,Mutisia spinosa,Ms,NA
+Matorral / 2,2,Matorral de cania,Matorral,0,2,0,2,503,NA,NA,NA,NA,NA,2<3,0,MUTISIA,Mutisia spinosa,Ms,NA
+Matorral / 2,2,Matorral de cania,Matorral,0,3,1,3,504,NA,NA,NA,NA,NA,2<3,2<3,MUTISIA,Mutisia spinosa,Ms,NA
+Matorral / 2,2,Matorral de cania,Matorral,0,7,1,7,508,NA,NA,NA,NA,NA,1<2,0,MUTISIA,Mutisia spinosa,Ms,NA
+Matorral / 2,2,Matorral de cania,Matorral,0,8,0,8,509,NA,NA,NA,NA,NA,1<2,0,MUTISIA,Mutisia spinosa,Ms,NA
+Matorral / 2,2,Matorral de cania,Matorral,0,NA,NA,9,510,NA,NA,NA,NA,NA,1<2,0,MUTISIA,Mutisia spinosa,Ms,NA
+Matorral / 2,2,Matorral de cania,Matorral,0,NA,NA,10,511,NA,NA,NA,NA,NA,0,2,MUTISIA,Mutisia spinosa,Ms,NA
+Matorral / 2,2,Matorral de cania,Matorral,0,NA,NA,12,513,NA,NA,NA,NA,NA,5,1<4,MUTISIA,Mutisia spinosa,Ms,NA
+Matorral / 4,4,Matorral,Matorral,0,NA,NA,13,419,NA,NA,NA,NA,NA,9,0,MUTISIA,Mutisia spinosa,Ms,NA
+Matorral / 4,4,Matorral,Matorral,0,NA,NA,14,420,NA,NA,NA,NA,NA,2<,0,MUTISIA,Mutisia spinosa,Ms,NA
+Matorral / 4,4,Matorral,Matorral,0,16,0,16,422,NA,NA,NA,NA,NA,3<4<7,1<2<3<4<7,MUTISIA,Mutisia spinosa,Ms,NA
+Matorral / 4,4,Matorral,Matorral,0,27,1,27,433,3,70,13,NA,NA,0,2<3<4,MUTISIA,Mutisia spinosa,Ms,NA
+Matorral / 4,4,Matorral,Matorral,0,28,0,28,434,NA,NA,NA,NA,NA,3<4<5<6,1<2<3<4<5,MUTISIA,Mutisia spinosa,Ms,NA
+Matorral / 4,4,Matorral,Matorral,0,NA,NA,29,435,NA,NA,NA,NA,NA,3<4<,2<3<4,MUTISIA,Mutisia spinosa,Ms,NA
+Matorral / 4,4,Matorral,Matorral,0,NA,NA,32,438,NA,NA,NA,NA,NA,6,2,MUTISIA,Mutisia spinosa,Ms,NA
+Matorral / 4,4,Matorral,Matorral,0,NA,NA,40,446,NA,NA,NA,NA,NA,4<5<6<7,0,MUTISIA,Mutisia spinosa,Ms,NA
+Bosque no quemado / 2,2,Bosque de coihue,Bosque no quemado,0,NA,NA,8,38,NA,NA,NA,NA,NA,2<3<,0,NA,NA,NA,NA
+Bosque no quemado / 2,2,Bosque de coihue,Bosque no quemado,0,22,0,22,52,1,70,0,NA,7,0,0,NA,NA,NA,NA
+Bosque no quemado / 5,5,Bosque de coihue,Bosque no quemado,0,12,NA,12,69,NA,NA,NA,NA,NA,0,0,NA,NA,NA,NA
+Bosque no quemado / 5,5,Bosque de coihue,Bosque no quemado,0,15,NA,15,72,1.5,55,6,NA,9,0,0,NA,NA,NA,NA
+Bosque no quemado / 6,6,Bosque de coihue,Bosque no quemado,0,4,NA,4,91,NA,NA,NA,NA,NA,0,0,NA,NA,NA,NA
+Bosque no quemado / 6,6,Bosque de coihue,Bosque no quemado,0,11,NA,11,98,2,90,5//,NA,9,0,0,NA,NA,NA,NA
+Coihual no regenerado / 2,2,Coihual no regenerado,Coihual no regenerado,0,6,0,6,126,1,5,6,NA,NA,0,0,NA,NA,NA,NA
+Coihual no regenerado / 4,4,Coihual no regenerado,Coihual no regenerado,0,2,NA,2,172,NA,NA,NA,NA,NA,0,0,NA,NA,NA,NA
+Coihual no regenerado / 4,4,Coihual no regenerado,Coihual no regenerado,0,11,NA,11,181,1,8,1,NA,NA,0,0,NA,NA,NA,NA
+Coihual no regenerado / 4,4,Coihual no regenerado,Coihual no regenerado,0,16,NA,16,186,NA,NA,NA,NA,NA,0,0,NA,NA,NA,NA
+Coihual no regenerado / 4,4,Coihual no regenerado,Coihual no regenerado,0,20,NA,20,190,NA,NA,NA,NA,NA,0,0,NA,NA,NA,NA
+Coihual no regenerado / 4,4,Coihual no regenerado,Coihual no regenerado,0,24,NA,24,194,NA,NA,NA,NA,NA,0,0,NA,NA,NA,NA
+Coihual no regenerado / 4,4,Coihual no regenerado,Coihual no regenerado,0,25,NA,25,195,0.5,10,1,NA,NA,0,0,NA,NA,NA,NA
+Coihual no regenerado / 4,4,Coihual no regenerado,Coihual no regenerado,0,45,NA,45,215,1,5,NA,NA,NA,0,0,NA,NA,NA,NA
+Coihual no regenerado / 4,4,Coihual no regenerado,Coihual no regenerado,0,50,NA,51,221,NA,NA,NA,NA,NA,0,0,NA,NA,NA,NA
+Coihual no regenerado / 4,4,Coihual no regenerado,Coihual no regenerado,0,51,NA,52,222,2,5,0,NA,NA,0,0,NA,NA,NA,NA
+Coihual no regenerado / 4,4,Coihual no regenerado,Coihual no regenerado,0,59,NA,61,231,0.5,15,NA,NA,NA,0,0,NA,NA,NA,NA
+Coihual no regenerado / 4,4,Coihual no regenerado,Coihual no regenerado,0,60,NA,62,232,NA,NA,NA,NA,NA,0,0,NA,NA,NA,NA
+Coihual regenerando / 4,4,Coihual regenerado,Coihual regenerando,0,27,1,27,341,2,30,13,NA,NA,0,0,NA,NA,NA,NA
+Coihual regenerando / 4,4,Coihual regenerado,Coihual regenerando,0,29,1,29,343,1.5,15,15,NA,NA,0,0,NA,NA,NA,NA
+Matorral / 2,2,Matorral,Matorral,0,1,1,1,369,9,80,0,NA,NA,0,0,NA,NA,NA,NA
+Matorral / 2,2,Matorral,Matorral,0,NA,NA,1,369,NA,NA,NA,NA,NA,0,0,NA,NA,NA,NA
+Matorral / 2,2,Matorral,Matorral,0,2,0,2,370,7.5,95,14,NA,NA,0,0,NA,NA,NA,NA
+Matorral / 2,2,Matorral,Matorral,0,3,1,3,371,2.5,70,10,NA,NA,0,0,NA,NA,NA,NA
+Matorral / 2,2,Matorral,Matorral,0,4,0,4,372,1,15,7,NA,NA,0,0,NA,NA,NA,NA
+Matorral / 2,2,Matorral,Matorral,0,NA,NA,4,372,NA,NA,NA,NA,NA,0,0,NA,NA,NA,NA
+Matorral / 2,2,Matorral,Matorral,0,5,1,5,373,0.5,5,4,NA,NA,0,0,NA,NA,NA,NA
+Matorral / 2,2,Matorral,Matorral,0,6,0,6,374,3,10,7,NA,NA,0,0,NA,NA,NA,NA
+Matorral / 2,2,Matorral,Matorral,0,7,1,7,375,1,5,11,NA,NA,0,0,NA,NA,NA,NA
+Matorral / 2,2,Matorral,Matorral,0,NA,NA,7,375,NA,NA,NA,NA,NA,0,0,NA,NA,NA,NA
+Matorral / 2,2,Matorral,Matorral,0,8,0,8,376,8,100,13,NA,NA,0,0,NA,NA,NA,NA
+Matorral / 2,2,Matorral,Matorral,0,NA,NA,8,376,NA,NA,NA,NA,NA,0,0,NA,NA,NA,NA
+Matorral / 2,2,Matorral,Matorral,0,9,1,9,377,1,65,6,NA,NA,0,0,NA,NA,NA,NA
+Matorral / 2,2,Matorral,Matorral,0,NA,NA,9,377,NA,NA,NA,NA,NA,0,0,NA,NA,NA,NA
+Matorral / 2,2,Matorral,Matorral,0,NA,NA,9,377,NA,NA,NA,NA,NA,0,0,NA,NA,NA,NA
+Matorral / 2,2,Matorral,Matorral,0,10,0,10,378,2,55,8,NA,NA,0,0,NA,NA,NA,NA
+Matorral / 2,2,Matorral,Matorral,0,NA,NA,10,378,NA,NA,NA,NA,NA,0,0,NA,NA,NA,NA
+Matorral / 2,2,Matorral,Matorral,0,11,1,11,379,4,95,7,NA,NA,0,0,NA,NA,NA,NA
+Matorral / 2,2,Matorral,Matorral,0,12,0,12,380,1.5,90,10,NA,NA,0,0,NA,NA,NA,NA
+Matorral / 2,2,Matorral,Matorral,0,NA,NA,12,380,NA,NA,NA,NA,NA,0,0,NA,NA,NA,NA
+Matorral / 2,2,Matorral,Matorral,0,13,1,13,381,3,95,13,NA,NA,0,0,NA,NA,NA,NA
+Matorral / 2,2,Matorral,Matorral,0,NA,NA,13,381,NA,NA,NA,NA,NA,0,0,NA,NA,NA,NA
+Bosque no quemado / 5,5,Bosque de coihue,Bosque no quemado,0,NA,NA,30,87,NA,NA,NA,NA,NA,0,14<15,NIRE,Nothofagus antarctica,Nant,NA
+Matorral / 2,2,Matorral,Matorral,0,NA,NA,16,384,NA,NA,NA,NA,NA,3<4<5<6<7<8<,0,NIRE,Nothofagus antarctica,Nant,NA
+Matorral / 2,2,Matorral,Matorral,0,17,1,17,385,3,100,13,NA,NA,2<3<4<5<6<7<,0,NIRE,Nothofagus antarctica,Nant,NA
+Matorral / 2,2,Matorral,Matorral,0,28,0,28,396,1,10,10,NA,NA,1,1<,NIRE,Nothofagus antarctica,Nant,NA
+Matorral / 2,2,Matorral,Matorral,0,NA,NA,34,402,NA,NA,NA,NA,NA,1<2<3<4<5<6<7<8<9,0,NIRE,Nothofagus antarctica,Nant,NA
+Matorral / 2,2,Matorral,Matorral,0,NA,NA,35,403,NA,NA,NA,NA,NA,7<8<9,0,NIRE,Nothofagus antarctica,Nant,NA
+Matorral / 2,2,Matorral,Matorral,0,NA,NA,37,405,NA,NA,NA,NA,NA,2<3<4<5<6<7<8,0,NIRE,Nothofagus antarctica,Nant,NA
+Matorral / 2,2,Matorral,Matorral,0,NA,NA,38,406,NA,NA,NA,NA,NA,<2<3<4<5<7,0,NIRE,Nothofagus antarctica,Nant,NA
+Matorral / 2,2,Matorral_extra,Matorral,1,NA,NA,41,489,NA,NA,NA,NA,NA,5,0,NIRE,Nothofagus antarctica,Nant,NA
+Matorral / 2,2,Matorral_extra,Matorral,1,NA,NA,42,490,NA,NA,NA,NA,NA,2<3<10<11,1<3<2,NIRE,Nothofagus antarctica,Nant,NA
+Matorral / 2,2,Matorral_extra,Matorral,1,5,NA,43,491,NA,NA,NA,NA,NA,0,1<2,NIRE,Nothofagus antarctica,Nant,NA
+Matorral / 4,4,Matorral,Matorral,0,NA,NA,10,416,NA,NA,NA,NA,NA,2<3<11,0,NIRE,Nothofagus antarctica,Nant,NA
+Matorral / 4,4,Matorral,Matorral,0,NA,NA,11,417,NA,NA,NA,NA,NA,3<4<5,0,NIRE,Nothofagus antarctica,Nant,NA
+Matorral / 5,5,Matorral,Matorral,0,4,NA,5,451,5,95,14,NA,NA,1<2<3<4<5<6<7<8<9<11<12<13,0,NIRE,Nothofagus antarctica,Nant,NA
+Matorral / 5,5,Matorral,Matorral,0,NA,NA,6,452,NA,NA,NA,NA,NA,2<3<4<5<6<8<9<10<11<12,0,NIRE,Nothofagus antarctica,Nant,NA
+Matorral / 5,5,Matorral,Matorral,0,NA,NA,7,453,NA,NA,NA,NA,NA,4<5<6<7<9<10<11<12,1<3<2,NIRE,Nothofagus antarctica,Nant,NA
+Matorral / 5,5,Matorral,Matorral,0,8,NA,8,454,NA,NA,NA,NA,NA,3<4<5<6<7<8<9,1<2<3,NIRE,Nothofagus antarctica,Nant,NA
+Matorral / 5,5,Matorral,Matorral,0,NA,NA,9,455,NA,NA,NA,NA,NA,3<4<6<7<8<12,0,NIRE,Nothofagus antarctica,Nant,NA
+Matorral / 5,5,Matorral,Matorral,0,NA,NA,11,457,NA,NA,NA,NA,NA,1<2<3<4<5<6<7<8<9<10<11<12,0,NIRE,Nothofagus antarctica,Nant,NA
+Matorral / 5,5,Matorral,Matorral,0,NA,NA,12,458,NA,NA,NA,NA,NA,5<6<7<8<9<12<11,3<4<,NIRE,Nothofagus antarctica,Nant,NA
+Matorral / 5,5,Matorral,Matorral,0,NA,NA,13,459,NA,NA,NA,NA,NA,1<4<5<6<7<8<9,0,NIRE,Nothofagus antarctica,Nant,NA
+Matorral / 5,5,Matorral,Matorral,0,14,NA,14,460,NA,NA,NA,NA,NA,4<5<6<7<8<9<10,1<2<3<4<,NIRE,Nothofagus antarctica,Nant,NA
+Matorral / 5,5,Matorral,Matorral,0,15,NA,15,461,5,95,15,NA,NA,<5<6<7<8<9<11<12<13<14,1<3<5,NIRE,Nothofagus antarctica,Nant,NA
+Matorral / 5,5,Matorral,Matorral,0,16,NA,16,462,NA,NA,NA,NA,NA,1<2<3<4<5<6<7<8<10<11<12,2<4,NIRE,Nothofagus antarctica,Nant,NA
+Matorral / 5,5,Matorral,Matorral,0,17,NA,17,463,5,95,12,NA,NA,2<3<4<5<6<8<9<10<11,0,NIRE,Nothofagus antarctica,Nant,NA
+Matorral / 5,5,Matorral,Matorral,0,NA,NA,18,464,NA,NA,NA,NA,NA,2<4<5<6<7<8<10,0,NIRE,Nothofagus antarctica,Nant,NA
+Matorral / 5,5,Matorral,Matorral,0,NA,NA,20,466,NA,NA,NA,NA,NA,2,0,NIRE,Nothofagus antarctica,Nant,NA
+Matorral / 5,5,Matorral,Matorral,0,NA,NA,21,467,NA,NA,NA,NA,NA,1<2<7<8,0,NIRE,Nothofagus antarctica,Nant,NA
+Matorral / 5,5,Matorral,Matorral,0,22,NA,22,468,NA,NA,NA,NA,NA,1<2<3<4<5<7,1,NIRE,Nothofagus antarctica,Nant,NA
+Matorral / 5,5,Matorral,Matorral,0,23,NA,23,469,2,90,14,NA,NA,1<3<4<5<6<8<9<10<11,0,NIRE,Nothofagus antarctica,Nant,NA
+Matorral / 5,5,Matorral,Matorral,0,NA,NA,24,470,NA,NA,NA,NA,NA,3<4<5<6<11<12<13,2<3,NIRE,Nothofagus antarctica,Nant,NA
+Matorral / 5,5,Matorral,Matorral,0,NA,NA,25,471,NA,NA,NA,NA,NA,1<2<4<5<6<7<9<,0,NIRE,Nothofagus antarctica,Nant,NA
+Matorral / 5,5,Matorral,Matorral,0,26,NA,26,472,NA,NA,NA,NA,NA,1<2<4<5<6<7<8<,1<,NIRE,Nothofagus antarctica,Nant,NA
+Matorral / 5,5,Matorral,Matorral,0,27,NA,27,473,6,95,15,NA,NA,2<3<4<5<6<7<8<10<11<12,0,NIRE,Nothofagus antarctica,Nant,NA
+Matorral / 5,5,Matorral,Matorral,0,NA,NA,28,474,NA,NA,NA,NA,NA,2<3<5<6<7<8,1<4<5,NIRE,Nothofagus antarctica,Nant,NA
+Matorral / 5,5,Matorral,Matorral,0,NA,NA,29,475,NA,NA,NA,NA,NA,1<<2<3<4<5<6<7<8,1<2,NIRE,Nothofagus antarctica,Nant,NA
+Matorral / 5,5,Matorral,Matorral,0,NA,NA,32,478,NA,NA,NA,NA,NA,1<4<2<3<6<7<8<9<10<11<12,1<2<3,NIRE,Nothofagus antarctica,Nant,NA
+Matorral / 5,5,Matorral,Matorral,0,33,NA,33,479,5,95,17,NA,NA,4<5<6<7<8<9<10<11<12<13<14<15<16,1<2<3,NIRE,Nothofagus antarctica,Nant,NA
+Matorral / 5,5,Matorral,Matorral,0,NA,NA,34,480,NA,NA,NA,NA,NA,11,0,NIRE,Nothofagus antarctica,Nant,NA
+Matorral / 5,5,Matorral,Matorral,0,NA,NA,35,481,NA,NA,NA,NA,NA,4<5<6<7<8<9<11<13<15,3<,NIRE,Nothofagus antarctica,Nant,NA
+Matorral / 5,5,Matorral,Matorral,0,NA,NA,37,483,NA,NA,NA,NA,NA,1<2<3<5<6<7<9<,0,NIRE,Nothofagus antarctica,Nant,NA
+Matorral / 5,5,Matorral,Matorral,0,NA,NA,38,484,NA,NA,NA,NA,NA,13,0,NIRE,Nothofagus antarctica,Nant,NA
+Matorral / 5,5,Matorral,Matorral,0,NA,NA,39,485,NA,NA,NA,NA,NA,4<5,6,NIRE,Nothofagus antarctica,Nant,NA
+Matorral / 5,5,Matorral,Matorral,0,NA,NA,40,486,NA,NA,NA,NA,NA,<5<6<7<8<9<11<12<13,4<5,NIRE,Nothofagus antarctica,Nant,NA
+Bosque no quemado / 4,4,Bosque de coihue,Bosque no quemado,0,NA,NA,11,11,NA,NA,NA,NA,NA,6<7<8<9<10<,0,NOTRO,Embothrium coccineum,Ec,NA
+Matorral / 2,2,Matorral_extra,Matorral,1,NA,NA,41,489,NA,NA,NA,NA,NA,8<7<16<15<14,0,NOTRO,Embothrium coccineum,Ec,NA
+Bosque no quemado / 6,6,Bosque de coihue,Bosque no quemado,0,10,NA,10,97,NA,NA,NA,NA,NA,1<2,0,MAYTENUS CHUBUTENSIS,Maytenus chubutensis,Mc,NA
+Matorral / 4,4,Matorral,Matorral,0,3,1,3,409,3,95,6//,NA,NA,1<2,0,MAYTENUS CHUBUTENSIS,Maytenus chubutensis,Mc,NA
+Bosque no quemado / 6,6,Bosque de coihue,Bosque no quemado,0,12,NA,12,99,NA,NA,NA,NA,NA,2,0,MAYTENUS MAGELLANICA,Maytenus magellanica,Mm,NA
+Bosque no quemado / 4,4,Bosque de coihue,Bosque no quemado,0,NA,NA,4,4,NA,NA,NA,NA,NA,0,0,NA,NA,NA,NA
+Bosque no quemado / 4,4,Bosque de coihue,Bosque no quemado,0,NA,NA,19,19,NA,NA,NA,NA,NA,0,0,NA,NA,NA,NA
+Bosque no quemado / 2,2,Bosque de coihue,Bosque no quemado,0,NA,NA,24,54,NA,NA,8,NA,NA,0,0,NA,NA,NA,NA
+Matorral / 2,2,Matorral_extra,Matorral,1,NA,NA,43,491,NA,NA,NA,NA,NA,5,0,MYOB,Myoschilos oblongum,Myob,flores amarillas/ identificado por thomas
+Matorral / 2,2,Matorral_extra,Matorral,1,14,NA,52,500,NA,NA,NA,NA,NA,1<2,0,MYOB,Myoschilos oblongum,Myob,NA
+Bosque no quemado / 2,2,Bosque de coihue,Bosque no quemado,0,NA,NA,19,49,NA,NA,NA,NA,NA,0,16,RADAL,Lomatia hirsuta,Lh,NA
+Bosque no quemado / 4,4,Bosque de coihue,Bosque no quemado,0,NA,NA,8,8,NA,NA,NA,NA,NA,0,1,RADAL,Lomatia hirsuta,Lh,NA
+Bosque no quemado / 6,6,Bosque de coihue,Bosque no quemado,0,5,NA,5,92,2.5,96,8,NA,8//,8<9,16,RADAL,Lomatia hirsuta,Lh,NA
+Bosque no quemado / 6,6,Bosque de coihue,Bosque no quemado,0,6,NA,6,93,NA,NA,NA,NA,NA,9,0,RADAL,Lomatia hirsuta,Lh,NA
+Bosque no quemado / 6,6,Bosque de coihue,Bosque no quemado,0,NA,NA,18,105,NA,NA,NA,NA,NA,6,0,RADAL,Lomatia hirsuta,Lh,NA
+Bosque no quemado / 6,6,Bosque de coihue,Bosque no quemado,0,NA,NA,28,115,NA,NA,NA,NA,NA,15<16<14<,14,RADAL,Lomatia hirsuta,Lh,NA
+Coihual no regenerado / 4,4,Coihual no regenerado,Coihual no regenerado,0,NA,NA,9,179,NA,NA,NA,NA,NA,0,7,RADAL,Lomatia hirsuta,Lh,NA
+Coihual regenerando / 2,2,Coihual regenerado,Coihual regenerando,0,NA,NA,4,291,NA,NA,NA,NA,NA,9,0,RADAL,Lomatia hirsuta,Lh,NA
+Coihual regenerando / 2,2,Coihual regenerado,Coihual regenerando,0,NA,NA,12,299,NA,NA,NA,NA,NA,3<4<5<6<7<8<9<10<13,0,RADAL,Lomatia hirsuta,Lh,NA
+Coihual regenerando / 2,2,Coihual regenerado,Coihual regenerando,0,NA,NA,24,311,NA,NA,NA,NA,NA,12,0,RADAL,Lomatia hirsuta,Lh,NA
+Coihual regenerando / 2,2,Coihual regenerado,Coihual regenerando,0,NA,NA,25,312,NA,NA,NA,NA,NA,1<2<5<7<8<9<12<14<15<16,0,RADAL,Lomatia hirsuta,Lh,NA
+Coihual regenerando / 2,2,Coihual regenerado,Coihual regenerando,0,NA,NA,26,313,NA,NA,NA,NA,NA,5<7<,0,RADAL,Lomatia hirsuta,Lh,NA
+Coihual regenerando / 2,2,Coihual regenerado_extra,Coihual regenerando,1,1,NA,41,355,NA,NA,NA,NA,NA,1<6<11<12<13<14,0,RADAL,Lomatia hirsuta,Lh,NA
+Coihual regenerando / 2,2,Coihual regenerado_extra,Coihual regenerando,1,2,NA,42,356,NA,NA,NA,NA,NA,2<3<5<6<7<8<9<10<11,0,RADAL,Lomatia hirsuta,Lh,NA
+Coihual regenerando / 2,2,Coihual regenerado_extra,Coihual regenerando,1,NA,NA,43,357,NA,NA,NA,NA,NA,8,0,RADAL,Lomatia hirsuta,Lh,NA
+Coihual regenerando / 2,2,Coihual regenerado_extra,Coihual regenerando,1,NA,NA,53,367,NA,NA,NA,NA,NA,13<14,0,RADAL,Lomatia hirsuta,Lh,NA
+Coihual regenerando / 2,2,Coihual regenerado_extra,Coihual regenerando,1,NA,NA,54,368,NA,NA,NA,NA,NA,12<13<14<16,0,RADAL,Lomatia hirsuta,Lh,NA
+Coihual regenerando / 6,6,Bosque de coihue regenerado,Coihual regenerando,0,NA,NA,28,275,NA,NA,NA,NA,NA,5<10,0,RADAL,Lomatia hirsuta,Lh,NA
+Matorral / 2,2,Matorral,Matorral,0,19,1,19,387,4.5,95,13,NA,NA,6<7<8<,0,RADAL,Lomatia hirsuta,Lh,NA
+Matorral / 2,2,Matorral,Matorral,0,20,0,20,388,4,100,12,NA,NA,2<3<4<5<6<7<8<9<10,0,RADAL,Lomatia hirsuta,Lh,NA
+Matorral / 2,2,Matorral,Matorral,0,NA,NA,35,403,NA,NA,NA,NA,NA,5,0,RADAL,Lomatia hirsuta,Lh,NA
+Matorral / 2,2,Matorral,Matorral,0,36,0,36,404,3.5,100,11,NA,NA,1<2<3<8<9<10<11,0,RADAL,Lomatia hirsuta,Lh,NA
+Matorral / 2,2,Matorral_extra,Matorral,1,NA,NA,39,487,NA,NA,NA,NA,NA,4<5<6<7<8<9<10<11<13<14,0,RADAL,Lomatia hirsuta,Lh,NA
+Matorral / 2,2,Matorral_extra,Matorral,1,2,NA,40,488,NA,NA,NA,NA,NA,4<5<12<13<15,0,RADAL,Lomatia hirsuta,Lh,NA
+Matorral / 2,2,Matorral_extra,Matorral,1,NA,NA,41,489,NA,NA,NA,NA,NA,6<7,0,RADAL,Lomatia hirsuta,Lh,NA
+Matorral / 2,2,Matorral_extra,Matorral,1,NA,NA,41,489,NA,NA,NA,NA,NA,9,0,RADAL,Lomatia hirsuta,Lh,NA
+Matorral / 2,2,Matorral de cania,Matorral,0,NA,NA,11,512,NA,NA,NA,NA,NA,3<4<6<7<15<16,0,RADAL,Lomatia hirsuta,Lh,NA
+Matorral / 4,4,Matorral,Matorral,0,NA,NA,1,407,NA,NA,NA,NA,NA,4,0,RADAL,Lomatia hirsuta,Lh,NA
+Matorral / 4,4,Matorral,Matorral,0,NA,NA,5,411,NA,NA,NA,NA,NA,2<3<7<8<9<10<11,0,RADAL,Lomatia hirsuta,Lh,NA
+Matorral / 4,4,Matorral,Matorral,0,8,0,8,414,NA,NA,NA,NA,NA,2<3<4<5<6<7<9<10,0,RADAL,Lomatia hirsuta,Lh,NA
+Matorral / 4,4,Matorral,Matorral,0,NA,NA,9,415,NA,NA,NA,NA,NA,2<3<6<7<8<9,9,RADAL,Lomatia hirsuta,Lh,NA
+Matorral / 4,4,Matorral,Matorral,0,NA,NA,14,420,NA,NA,NA,NA,NA,8,0,RADAL,Lomatia hirsuta,Lh,NA
+Matorral / 4,4,Matorral,Matorral,0,NA,NA,15,421,NA,NA,NA,NA,NA,3<10<11,0,RADAL,Lomatia hirsuta,Lh,NA
+Matorral / 4,4,Matorral,Matorral,0,18,0,18,424,NA,NA,NA,NA,NA,0,1,RADAL,Lomatia hirsuta,Lh,NA
+Matorral / 4,4,Matorral,Matorral,0,NA,NA,19,425,NA,NA,NA,NA,NA,4<5<6<7<8<9<10<11<12<13,0,RADAL,Lomatia hirsuta,Lh,NA
+Matorral / 4,4,Matorral,Matorral,0,NA,NA,22,428,NA,NA,NA,NA,NA,8<9<10,0,RADAL,Lomatia hirsuta,Lh,NA
+Matorral / 4,4,Matorral,Matorral,0,34,0,34,440,NA,NA,NA,NA,NA,4<5<6,1<2<4<5,RADAL,Lomatia hirsuta,Lh,NA
+Matorral / 4,4,Matorral,Matorral,0,35,1,35,441,5,75,14,NA,NA,6<7<8<9<10<,0,RADAL,Lomatia hirsuta,Lh,NA
+Coihual no regenerado / 2,2,Coihual no regenerado,Coihual no regenerado,0,39,1,39,159,0.5,30,30,NA,NA,4<5<12,4<5,RET,Diostea juncea,Dj,NA
+Matorral / 2,2,Matorral,Matorral,0,NA,NA,15,383,NA,NA,NA,NA,NA,6<,7,RET,Diostea juncea,Dj,NA
+Matorral / 2,2,Matorral,Matorral,0,NA,NA,31,399,NA,NA,NA,NA,NA,6<7<8<9,6<,RET,Diostea juncea,Dj,NA
+Matorral / 2,2,Matorral,Matorral,0,32,0,32,400,2.5,95,13,NA,NA,0,1<2<3,RET,Diostea juncea,Dj,NA
+Matorral / 2,2,Matorral,Matorral,0,33,1,33,401,5,95,14,NA,NA,11<12<13<9,1<2<3<11<12<13,RET,Diostea juncea,Dj,NA
+Matorral / 2,2,Matorral_extra,Matorral,1,10,NA,48,496,NA,NA,NA,NA,NA,1,1<2,RET,Diostea juncea,Dj,NA
+Matorral / 2,2,Matorral de cania,Matorral,0,NA,NA,1,502,NA,NA,NA,NA,NA,5<6,0,RET,Diostea juncea,Dj,NA
+Matorral / 2,2,Matorral de cania,Matorral,0,4,0,4,505,NA,NA,NA,NA,NA,5<6<10,0,RET,Diostea juncea,Dj,NA
+Matorral / 5,5,Matorral,Matorral,0,NA,NA,20,466,NA,NA,NA,NA,NA,5<6<7<9<,2<3<4<5<6<7<,RET,Diostea juncea,Dj,NA
+Matorral / 5,5,Matorral,Matorral,0,21,NA,21,467,9,90,12,NA,NA,3<4<7<8<9<10<11,1<2<3<7<,RET,Diostea juncea,Dj,NA
+Matorral / 5,5,Matorral,Matorral,0,NA,NA,25,471,NA,NA,NA,NA,NA,9<10,9<10<5,RET,Diostea juncea,Dj,NA
+Matorral / 5,5,Matorral,Matorral,0,NA,NA,33,479,NA,NA,NA,NA,NA,0,8,RET,Diostea juncea,Dj,NA
+Matorral / 5,5,Matorral,Matorral,0,NA,NA,36,482,NA,NA,NA,NA,NA,5,2<3<4<5,RET,Diostea juncea,Dj,NA
+Matorral / 5,5,Matorral,Matorral,0,NA,NA,38,484,NA,NA,NA,NA,NA,7<8<9<10<11<12<13<,3<4<5<6<7<8<9<10<11<12<,RET,Diostea juncea,Dj,NA
+Coihual regenerando / 2,2,Coihual regenerado,Coihual regenerando,0,5,1,5,292,3,60,12,NA,NA,3<4,0,RIBES,Ribes magellanicum,Rm,NA
+Coihual regenerando / 2,2,Coihual regenerado_extra,Coihual regenerando,1,NA,NA,54,368,NA,NA,NA,NA,NA,6,0,RIBES,Ribes magellanicum,Rm,NA
+Coihual regenerando / 4,4,Coihual regenerado,Coihual regenerando,0,NA,NA,5,319,NA,NA,NA,NA,NA,8,0,RIBES,Ribes magellanicum,Rm,NA
+Coihual regenerando / 4,4,Coihual regenerado,Coihual regenerando,0,15,1,15,329,2,90,15,NA,NA,0,3,RIBES,Ribes magellanicum,Rm,NA
+Coihual regenerando / 4,4,Coihual regenerado,Coihual regenerando,0,NA,NA,26,340,NA,NA,NA,NA,NA,11<12,0,RIBES,Ribes magellanicum,Rm,NA
+Coihual regenerando / 6,6,Bosque de coihue regenerado,Coihual regenerando,0,NA,NA,26,273,NA,NA,NA,NA,NA,9<10<,4,RIBES,Ribes magellanicum,Rm,NA
+Coihual regenerando / 6,6,Bosque de coihue regenerado,Coihual regenerando,0,NA,NA,40,287,NA,NA,NA,NA,NA,2,0,RIBES,Ribes magellanicum,Rm,NA
+Matorral / 2,2,Matorral de cania,Matorral,0,NA,NA,6,507,NA,NA,NA,NA,NA,0,3,RIBES,Ribes magellanicum,Rm,NA
+Matorral / 4,4,Matorral,Matorral,0,NA,NA,34,440,NA,NA,NA,NA,NA,1,0,RIBES,Ribes magellanicum,Rm,NA
+Bosque no quemado / 4,4,Bosque de coihue,Bosque no quemado,0,29,1,29,29,2,80,4,NA,16,2,0,RM,Rosa rubiginosa,Rr,NA
+Matorral / 2,2,Matorral de cania,Matorral,0,NA,NA,12,513,NA,NA,NA,NA,NA,9<8<,0,RM,Rosa rubiginosa,Rr,NA
+Coihual regenerando / 4,4,Coihual regenerado,Coihual regenerando,0,34,0,34,348,NA,NA,NA,NA,NA,1,0,SIMIL BERBERIS,NA,NA,NA
