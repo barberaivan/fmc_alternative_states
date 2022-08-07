@@ -496,6 +496,13 @@ ggplot(airmeans,
     geom_point(size = 4) +
     geom_linerange(size = 2, alpha = 0.4) +
     
+    ## observed means (not shown because they match well the observed):
+    # ggnewscale::new_scale_fill() +
+    # scale_shape_manual(values = c(0, 1, 2, 5)) +
+    # scale_fill_manual(values = colorcines) +
+    # geom_point(airmeans, mapping = aes(y = vpd_max),
+    #            size = 2.8, stroke = 0.5) +
+
     # probabilities
     geom_text(diff_air3, 
               mapping = aes(label = p, y = vpd_upper * 1.05, x = Community,
@@ -561,9 +568,18 @@ rain_leg <- grid.arrange(rain_plot + theme(plot.margin = margin(l = 4.7, r = 2, 
 # merge all
 vpd_rain <- grid.arrange(vpd_ts_mean, rain_leg, nrow = 2, heights = c(2.8, 1))
 
+plot(vpd_ts_mean)
+plot(vpd_rain)
+plot(vpd_means2)
+
 ggsave("plots/Fig 02_vpd_ts_means_rain.png", plot = vpd_rain, 
        width = fig_width, height = fig_height + 4, # fig_height + 7,
        units = "cm") # fig_height_full leaves 4 cm margins and 3 cm text
+
+ggsave("plots/Fig 02_vpd_ts_means_rain.jpg", plot = vpd_rain, 
+       width = fig_width, height = fig_height + 4, # fig_height + 7,
+       units = "cm", dpi = 500) # fig_height_full leaves 4 cm margins and 3 cm text
+
 
 # Fig 3 Dead fuel ts and means --------------------------------------------
 
@@ -740,10 +756,13 @@ p5 <- grid.arrange(arrangeGrob(dead_ts + theme(legend.position ="none"),
                                nrow = 1, widths = c(1.5, 1)),
                    dead_legend, nrow = 2, heights = c(10, 0.8))
 
-ggsave("plots/Fig 03_dead_ts_means.png", plot = p5, 
-       width = fig_width, height = fig_height + 0,#fig_height_full - 8, 
-       units = "cm") # fig_height_full leaves 4 cm margins and 3 cm text
-
+# ggsave("plots/Fig 03_dead_ts_means.png", plot = p5, 
+#        width = fig_width, height = fig_height + 0,#fig_height_full - 8, 
+#        units = "cm") # fig_height_full leaves 4 cm margins and 3 cm text
+# 
+# ggsave("plots/Fig 03_dead_ts_means.jpg", plot = p5, 
+#        width = fig_width, height = fig_height + 0,#fig_height_full - 8, 
+#        units = "cm", dpi = 500) # fig_height_full leaves 4 cm margins and 3 cm text
 
 # Fig 4 Live fuel ts and means --------------------------------------------
 
@@ -878,10 +897,13 @@ p4 <- grid.arrange(arrangeGrob(live_ts + theme(legend.position = "none"),
                                nrow = 1, widths = c(1.5, 1)),
                    live_legend, nrow = 2, heights = c(10, 1))
 
-ggsave("plots/Fig 04_live_ts_means.png", plot = p4, 
-       width = fig_width, height =  fig_height + 3, # fig_height + 7,
-       units = "cm") # fig_height_full leaves 4 cm margins and 3 cm text
-
+# ggsave("plots/Fig 04_live_ts_means.png", plot = p4, 
+#        width = fig_width, height =  fig_height + 3, # fig_height + 7,
+#        units = "cm") # fig_height_full leaves 4 cm margins and 3 cm text
+# 
+# ggsave("plots/Fig 04_live_ts_means.jpg", plot = p4, 
+#        width = fig_width, height =  fig_height + 3, # fig_height + 7,
+#        units = "cm", dpi = 500) # fig_height_full leaves 4 cm margins and 3 cm text
 
 
 # Fig 3: mc ts and means for all fuel types together ----------------------
@@ -1062,9 +1084,12 @@ ggsave("plots/Fig 03_mc_ts_means.png", plot = p5,
        width = fig_width, height = fig_height_full + 1.5, 
        units = "cm") # fig_height_full leaves 4 cm margins and 3 cm text
 
+ggsave("plots/Fig 03_mc_ts_means.jpg", plot = p5, 
+       width = fig_width, height = fig_height_full + 1.5, 
+       units = "cm", dpi = 500) # fig_height_full leaves 4 cm margins and 3 cm text
 
 
-# Fig 5: FMC as a function of VPD -----------------------------------------
+# Fig 4: FMC as a function of VPD -----------------------------------------
 
 theme_set(theme_mine())
 
@@ -1119,11 +1144,20 @@ ggplot(vpd_sites,
   xlim(min(vpd_pred$vpd[filter_vpd]), max(vpd_pred$vpd[filter_vpd]))
 
 
-ggsave("plots/Fig 05_fmc and vpd.png",
-       width = fig_width, height = fig_height_full, units = "cm")
+ggsave("plots/Fig 04_fmc and vpd.png",
+       width = fig_width, height = fig_height_full - 2, units = "cm")
+
+ggsave("plots/Fig 04_fmc and vpd.jpg",
+       width = fig_width, height = fig_height_full - 2, units = "cm",
+       dpi = 500)
+
+# use this:
+ggsave("plots/Fig 04_fmc and vpd_narrow.jpg",
+       width = fig_width - 3, height = fig_height_full - 2, units = "cm",
+       dpi = 500)
 
 
-# Fig 6: Ordination --------------------------------------------------------
+# Fig 5: Ordination --------------------------------------------------------
 
 # structure data: normalized abundance by site to compute NMDS
 sp_touch_norm <- readRDS("vegetation_structure/sp_abundance_norm_by_site_Robject.R")
@@ -1225,8 +1259,13 @@ ggplot(data = dplot,
   coord_fixed() +  # para resaltar la correlación
   ylab("NMDS axis 2") + xlab("NMDS axis 1") 
 
-ggsave("plots/Fig 06_ordination.png",
-       width = fig_width, height = fig_height, units = "cm")
+# ggsave("plots/Fig 05_ordination.png",
+#        width = fig_width, height = fig_height, units = "cm")
+
+# use this:
+ggsave("plots/Fig 05_ordination.jpg",
+       width = fig_width - 3, height = fig_height - 4, units = "cm")
+
 
 # table with full names for image caption:
 veg <- read.csv("vegetation_structure/data_vegetation_structure.csv")
@@ -1269,7 +1308,7 @@ left_join(dnames, veg_translate, by = "sp_code")
 # explained variability of each axis:
 # https://stackoverflow.com/questions/49223740/cumulative-variance-explained-for-nmds-in-r
 
-# Fig 7: Ignition probability ----------------------------------------------
+# Fig 6: Ignition probability ----------------------------------------------
 
 p_ig <- rbind(
   flist[["Litter"]]$p_ig,
@@ -1316,6 +1355,7 @@ alpha_bar <- 0.6
     legend.box.margin = margin(-2, 0, 0, 0, "mm"),
     legend.position = "none",
     panel.spacing = unit(3, "mm"),
+    strip.text = element_text(size = 10),
     strip.text.y = element_text(angle = 270, hjust = 0.5, vjust = 0.5)
   )
 )
@@ -1351,6 +1391,7 @@ alpha_bar <- 0.6
     legend.box.margin = margin(-2, 0, 0, 0, "mm"), # era -2
     legend.position = "bottom",
     panel.spacing = unit(3, "mm"),
+    strip.text = element_text(size = 10),
     strip.text.y = element_text(angle = 270, hjust = 0.5, vjust = 0.5),
     strip.text.x = element_text(size = 0, margin = margin(0,0,0,0, "mm")), # tamaño de la cajita
     strip.background = element_rect(fill = "gray10", color = "gray10"),
@@ -1359,16 +1400,22 @@ alpha_bar <- 0.6
 )
 
 # ggsave doen't work 
-png(
-  "plots/Fig 07_ignition probability_means.png",
-  height = fig_height * 1.15, width = fig_width,
-  units = "cm", res = 300,
+# png(
+#   "plots/Fig 07_ignition probability_means.png",
+#   height = fig_height * 1.15, width = fig_width,
+#   units = "cm", res = 300,
+# )
+jpeg(
+  "plots/Fig 06_ignition probability_means.jpg",
+  height = fig_height - 2, width = fig_width - 3,
+  units = "cm", res = 500,
 )
 grid.arrange(arrangeGrob(p1 + theme(legend.position = "none") + ylab(NULL),
                          p2 + ylab(NULL),
-                         nrow = 2, heights = c(1, 1.18),
+                         nrow = 2, heights = c(1, 1.29),
                          left = grid::textGrob("Ignition probability", 
-                                               rot = 90, vjust = 1)))
+                                               rot = 90, vjust = 0.95, 
+                                               hjust = 0.3)))
 dev.off()
 # Since the packages were updated, ggsave doen't work well for plots made with 
 # ggarrange, adding a gray grided background to images. 
@@ -1676,3 +1723,121 @@ aggregate(moisture ~ fuel_type, data = fd[complete.cases(fd$moisture) &
 aggregate(moisture ~ fuel_type, data = fd, FUN = length)
 
 
+
+
+
+# Moisture ~ c(rh, temp) --------------------------------------------------
+
+# Load models predictions
+lll2 <- list.files("fmc_models_rh_temp/")
+
+listitas_rhtemp <- lll2[startsWith(lll2, "model_predictions")]
+
+flist2 <- lapply(1:length(listitas_rhtemp), function(f) {
+  readRDS(paste("fmc_models_rh_temp/", listitas_rhtemp[f], sep = ""))
+}) 
+
+
+# Table with FMC as a function of (rh-temp) - sites estimates (Fig 3)
+vpd_sites_rht <- do.call("rbind", lapply(1:length(flist2), function(f) {
+  #f = 3
+  d <- as.data.frame(flist2[[f]]$site_vpd_prediction)
+  d$clim_var <- flist2[[f]]$clim_var
+  return(d)
+}))
+
+# Table with FMC as a function of VPD - prediction (Fig 3)
+vpd_pred_rht <- do.call("rbind", lapply(1:length(flist2), function(f) {
+  d <- as.data.frame(flist2[[f]]$vpd_prediction)
+  d$clim_var <- flist2[[f]]$clim_var
+  return(d)
+}))
+
+# rename all
+vpd_sites_rht <- renamer(vpd_sites_rht)
+vpd_pred_rht <- renamer(vpd_pred_rht)
+
+
+# Relative humidity plot
+rh_in_sites <- vpd_sites_rht$clim_var == "rh"
+rh_in_pred <- vpd_pred_rht$clim_var == "rh"
+
+ggplot(vpd_sites_rht[rh_in_sites, ],
+       aes(x = vpd_max, #xmin = vpd_lower, xmax = vpd_upper,
+           y = fmc_mean, ymin = fmc_lower, ymax = fmc_upper,
+           color = Community, shape = transect)) +
+  geom_line(data = vpd_pred_rht[rh_in_pred, ], linetype = "dotted",
+            mapping = aes(x = vpd, y = fmc_mean),
+            inherit.aes = FALSE) + 
+  geom_ribbon(data = vpd_pred_rht[rh_in_pred, ], alpha = 0.1, 
+              mapping = aes(x = vpd, y = fmc_mean, ymin = fmc_lower, 
+                            ymax = fmc_upper),
+              inherit.aes = FALSE) + 
+  geom_point(size = 2.75) +
+  # geom_point(mapping = aes(y = moisture), 
+  #            size = 2.75, shape = 1) +
+  geom_errorbar(alpha = 0.7, size = 0.9, width = 0) +
+  #geom_errorbarh(alpha = 0.7, size = 0.9, height = 0) +
+  facet_wrap(vars(fuel_type), ncol = 2, scales = "free_y",
+             labeller = label_parsed) +
+  rotate_x_facet_text(angle = 0, align = 0.05) +
+  scale_color_manual(values = colorcines) +
+  scale_fill_manual(values = colorcines) + 
+  ylab("Moisture content (%)") + 
+  xlab("Mimimum relative humidity (%)") +
+  theme(
+    legend.box = "horizontal",    # una legend arriba de la otra
+    #legend.spacing.y = unit(2, "cm"),
+    legend.text = element_text(margin = margin(t = 2, b = 2, l = 0, r = 0, unit = "mm")), # mejora el asunto de separación de símbolosc("#FFFFFF", "#FFFFFF", "#FFFFFF")
+    legend.box.margin = margin(-3, 0, 0, 0, "mm"),
+    legend.position = c(0.75, 0.12),
+    panel.spacing = unit(3, "mm"),
+  ) 
+
+ggsave("plots/Fig S_fmc and rh.png",
+       width = fig_width, height = fig_height_full - 2, units = "cm")
+
+
+# Temperature plot
+temp_in_sites <- vpd_sites_rht$clim_var == "temp"
+temp_in_pred <- vpd_pred_rht$clim_var == "temp"
+
+ggplot(vpd_sites_rht[temp_in_sites, ],
+       aes(x = vpd_max, #xmin = vpd_lower, xmax = vpd_upper,
+           y = fmc_mean, ymin = fmc_lower, ymax = fmc_upper,
+           color = Community, shape = transect)) +
+  geom_line(data = vpd_pred_rht[temp_in_pred, ], linetype = "dotted",
+            mapping = aes(x = vpd, y = fmc_mean),
+            inherit.aes = FALSE) + 
+  geom_ribbon(data = vpd_pred_rht[temp_in_pred, ], alpha = 0.1, 
+              mapping = aes(x = vpd, y = fmc_mean, ymin = fmc_lower, 
+                            ymax = fmc_upper),
+              inherit.aes = FALSE) + 
+  geom_point(size = 2.75) +
+  # geom_point(mapping = aes(y = moisture), 
+  #            size = 2.75, shape = 1) +
+  geom_errorbar(alpha = 0.7, size = 0.9, width = 0) +
+  #geom_errorbarh(alpha = 0.7, size = 0.9, height = 0) +
+  facet_wrap(vars(fuel_type), ncol = 2, scales = "free_y",
+             labeller = label_parsed) +
+  rotate_x_facet_text(angle = 0, align = 0.05) +
+  scale_color_manual(values = colorcines) +
+  scale_fill_manual(values = colorcines) + 
+  ylab("Moisture content (%)") + 
+  xlab("Maximum temperature (°C)") +
+  theme(
+    legend.box = "horizontal",    # una legend arriba de la otra
+    #legend.spacing.y = unit(2, "cm"),
+    legend.text = element_text(margin = margin(t = 2, b = 2, l = 0, r = 0, unit = "mm")), # mejora el asunto de separación de símbolosc("#FFFFFF", "#FFFFFF", "#FFFFFF")
+    legend.box.margin = margin(-3, 0, 0, 0, "mm"),
+    legend.position = c(0.75, 0.12),
+    panel.spacing = unit(3, "mm"),
+  ) 
+
+ggsave("plots/Fig S_fmc and temp.png",
+       width = fig_width, height = fig_height_full - 2, units = "cm")
+
+
+
+# queda correr los modelos de coihue, que se me pasaron
+# también revisar el neff de palitos 1 h para temp

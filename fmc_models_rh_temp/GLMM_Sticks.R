@@ -9,7 +9,7 @@
 # dispersion parameter model: 
 # phi ~ 
 #   site +   // random effect
-#   ds       // random effect, with sigma_ds varyng by site as fixed effects (only for litter)
+#   ds       // random effect, with sigma_ds constant across sites.
 
 
 # Packages  ---------------------------------------------------------------
@@ -67,7 +67,8 @@ normalize <- function(x) x / sum(x)
 # I don't loop because each model has to be checked and tuned 
 # (stan parameters as max_treedepth and adapt_delta) carefully.
 
-f <- "Litter"
+f <- "1 h fuel sticks"#"10 h fuel sticks"#
+clim_var <- "rh" #"temp" # temp
 prior_mean <- 50
 K <- 2 # basis functions for spline
 
@@ -80,11 +81,18 @@ fdata <- fdata[fdata$fuel_type == f, ]
 if(f == "Litter" & alternative) {
   fdata <- fdata[fdata$time != min(fdata$time), ]
 }
+#nrow(fdata) # 517 # or 468 (alternative for litter)
 
-# Bring vapour pressure deficit data (vpd)
-air_data <- readRDS("microclimate/predictions_vpd.R")
-air_temp <- air_data$together
-air_temp$site <- paste(air_temp$Community, air_temp$transect, sep = " / ")
+
+# Bring RH and temperature data
+micro_daily <- read.csv("microclimate/data_microclimate_daily.csv")
+if(clim_var == "rh") names(micro_daily)[which(names(micro_daily) == "hum_min")] <- "var"
+if(clim_var == "temp") names(micro_daily)[which(names(micro_daily) == "temp_max")] <- "var"
+air_temp <- aggregate(var ~ transect + Community + site, 
+                      micro_daily, mean)
+# rename variable to vpd_max so the code remains the same.
+names(air_temp)[ncol(air_temp)] <- "vpd_max" 
+
 
 # filter sites
 sites_filter <- which(levels(fdata$site) %in% unique(fdata$site) &
@@ -120,7 +128,7 @@ fdata_site <- left_join(fdata_site, air_temp, by = c("transect", "Community", "s
 
 # vpd sequence for prediction
 N_pred <- 200
-vpd_pred <- seq(min(fdata_site$vpd_lower), max(fdata_site$vpd_upper), 
+vpd_pred <- seq(min(fdata_site$vpd_max), max(fdata_site$vpd_max), 
                 length.out = N_pred)
 
 # scale vpd
@@ -223,48 +231,48 @@ nc <- 10    # chains and cores
 ns <- 1000  # samples 
 nw <- 1000  # warm up iterations
 
+if(f == "1 h fuel sticks") {  # more samples needed to reach min(N_eff) ~ 1000
+  nc <- 10    # chains and cores
+  ns <- 5000  # samples (higher than for vpd model)
+  nw <- 1000  # warm up iterations
+}
+
 N_samples <- nc * ns # to use later
 
 # Model fit ----------------------------------------------------------------
 
 # Compile, sample and save
-# Hierarchical variances do not converge.
-# stan_code <- stan_model("fmc_models/GLMM_Litter.stan", verbose = TRUE)
-# glm1 <- sampling(
-#   stan_code, data = sdata, seed = 564, refresh = 10,
-#   chains = nc, cores = nc, iter = ns + nw, warmup = nw,
-#   #chains = 1, cores = 1, iter = 10,
-#   control = list(adapt_delta = 0.999, max_treedepth = 15),
-#   pars = c("mu_sigma_sites", "mu_sigma_ds",
-#            "mu_lambda",
-#            "phi_sigma_sites", "phi_sigma_ds",
-#            "sites_phi", "pred_phi",
-#            "phi",
-#            "sites_mu", "pred_mu",
-#            "mu")
-# ) # mu are mu for truncnorm. They are not means due to truncation.
-# saveRDS(glm1, paste("fmc_models/model samples_", f, ".R", sep = ""))
-# sglm1 <- summary(glm1)[[1]]
-# saveRDS(sglm1, paste("fmc_models/model summary_", f, ".R", sep = ""))
-# head(sglm1)
-# min(sglm1[, "n_eff"]); max(sglm1[, "Rhat"])
+stan_code <- stan_model("fmc_models/GLMM_Sticks.stan", verbose = TRUE)
+glm1 <- sampling(
+  stan_code, data = sdata, seed = 564, refresh = 10,
+  chains = nc, cores = nc, iter = ns + nw, warmup = nw,
+  #chains = 1, cores = 1, iter = 10,
+  control = list(adapt_delta = 0.999, max_treedepth = 15),
+  pars = c("mu_sigma_sites", "mu_sigma_ds",
+           "mu_lambda",
+           "phi_sigma_sites", "phi_sigma_ds",
+           "sites_phi", "pred_phi",
+           "phi",
+           "sites_mu", "pred_mu",
+           "mu")
+) # mu are mu for truncnorm. They are not means due to truncation.
+saveRDS(glm1, paste("fmc_models_rh_temp/model samples_", f, "_", clim_var, ".R", sep = ""))
+sglm1 <- summary(glm1)[[1]]
+saveRDS(sglm1, paste("fmc_models_rh_temp/model summary_", f, "_", clim_var, ".R", sep = ""))
+head(sglm1)
+min(sglm1[, "n_eff"]); max(sglm1[, "Rhat"])
 # Done.
 
-# Litter:
-# there are very fast and very slow chains.
-# 1974.32 / 60 = 32 min; all fine
-
 # 1 h stick:
-# 2870.06 / 60 = 47 min; ESS too low (397) running 1000 * 10
+# 1456.3 / 60 = 24 min;  # with 1000 iter min neff is 400. run more iters
 #plot(sglm1[, "n_eff"], ylim = c(0, 1000))
 
 # 10 h stick:
-# 2351.17 / 60 =  39 min; all good
+# 1142 / 60 =  19 min; all good
 
 # load model
-glm1 <- readRDS(paste("fmc_models/model samples_", f, ".R", sep = ""))
-sglm1 <- readRDS(paste("fmc_models/model summary_", f, ".R", sep = ""))
-
+glm1 <- readRDS(paste("fmc_models_rh_temp/model samples_", f, "_", clim_var, ".R", sep = ""))
+sglm1 <- readRDS(paste("fmc_models_rh_temp/model summary_", f, "_", clim_var, ".R", sep = ""))
 
 
 # Diagnosis with pairs plots ----------------------------------------------
@@ -348,10 +356,10 @@ ggplot(site_vpd_prediction,
 #   plot(density(site_mean[i, ], from = 0, to = 100), 
 #        main = site_vpd_prediction$site[i],
 #        xlim = c(0, 40))
-# } # OK, very asymmetric ones
+# } # OK, very assymetric ones
 
 
-# Within transect differences ------------------------------------------------
+# Within transect differences --------------------------------------------
 
 # Compute difference as community_x - forest
 diff_trans_raw <- do.call("rbind", lapply(levels(fdata_site$transect), function(tran) {
@@ -479,208 +487,32 @@ ggplot(ds_predictions, aes(x = time, y = mu_mean, ymin = mu_lower, ymax = mu_upp
 # Le emboca perfecto a los datos este último modelo. 
 
 
-# P(ignition) mean by site ------------------------------------------------
-
-# Use ignition p function from Bianchi & Defossé 2014, the complete-pooling curve.
-# Coefficients from their table 1, first row (both sites):
-a = 6.65; b = -0.28
-# Plot curve according to bianchi 2014
-curve(plogis(a + b * x), from = 0, to = 60)
-# find x for p = 0.5
-# p = ilogit(a + b * x)
-# p = 0.5
-# logit(p) = a + b * x
-# (logit(p) - a) / b = x
-abline(v = (logit(0.5) - a) / b) # 23.75
-
-# function to predict ignition p
-predict_ig <- function(fmc) plogis(a + b * fmc)
-
-if (f == "Litter") {
-  
-  # for every posterior sample, simulate fmc values from every date and site.
-  # compute ignition probability and average over simulated data.
-  # Summarize the mean p(ig) between posterior samples.
-  # Do the same with the observed data.
-  
-  # matrices to fill with summary of the posterior predictive distribution.
-  post_ig <- data.frame(matrix(NA, nrow(fdata_site), 3))
-  names(post_ig) <- paste("ig", c("lower", "mean", "upper"), sep = "_")
-  
-  nsamp <- 50
-  
-  for(i in 1:nrow(fdata_site)) {
-    #i = 1
-    print(i)
-
-    filter <- which(
-      as.character(fdata_ds$transect) == as.character(fdata_site$transect[i]) & 
-      fdata_ds$Community == fdata_site$Community[i]
-    )
-    
-    ig_means <- sapply(1:N_samples, function(s) {
-      #s = 1
-      mus <- as.numeric(mu_uni[filter, s])
-      phis <- as.numeric(phi_uni[filter, s])
-      
-      # simulate fmc
-      y_sim <- rtruncnorm(n = length(mus) * nsamp, 
-                          a = 0, mean = mus, sd = phis)
-      
-      # compute ignition probability
-      ig_sim <- predict_ig(y_sim)
-      
-      # get the mean for that site and posterior sample
-      return(mean(ig_sim)) 
-    })
-    
-    post_ig[i, ] <- hdmean(ig_means, name = "ig")
-  }
-  
-  # merge predictions
-  ig_data <- cbind(site_vpd_prediction, post_ig)  
-  
-  # get "observed" probability (for fmc data)
-  ig_data$ig_obs <- NA
-  for(i in 1:nrow(ig_data)) {
-    #i = 1
-    filter <- which(
-      as.character(fdata$transect) == as.character(ig_data$transect[i]) & 
-      fdata$Community == ig_data$Community[i]
-    )
-    
-    moisture <- fdata$moisture[filter]
-    # compute ignition probability
-    ig_obs <- predict_ig(moisture)
-    ig_data$ig_obs[i] <- mean(ig_obs)
-  }
-  
-  # plot
-  alpha_bar <- 0.6
-  ggplot(ig_data, aes(x = fmc_mean, xmin = fmc_lower, xmax = fmc_upper,
-                      y = ig_mean, ymin = ig_lower, ymax = ig_upper,
-                      colour = Community, shape = Community)) +
-    scale_shape_manual(values = c(21, 22, 23, 24)) +
-    geom_point(size = 3, alpha = 1) + 
-    geom_errorbar(alpha = alpha_bar) +
-    geom_errorbarh(alpha = alpha_bar) +
-    #ylim(0, 1) +
-    geom_point(mapping = aes(y = ig_obs, x = moisture, fill = Community)) + 
-    facet_wrap(vars(transect)) + 
-    theme(panel.grid.minor = element_blank()) +
-    ggtitle("litter")
-  
-  p_ig_data <- ig_data
-  p_ig_data$fuel_type <- f
-  
-}
-
-
-# Number of days below thresholds and constrasts (only observed) ---------
-# Only for litter, using all dates (n = 9)
-
-if(f == "Litter") {
-  
-  thres_calc <- function(p) (logit(p) - a) / b
-  # local thresholds defined for p = c(0.5, 0.98)
-  
-  N_dates <- length(unique(fdata$date))
-  fdata_dates <- aggregate(moisture ~ date + time + transect + Community,
-                           fdata, mean)
-  ddates_wide <- pivot_wider(fdata_dates, names_from = "Community", values_from = "moisture")
-  coms <- levels(fdata$Community)
-  # View(ddates_wide)
-  
-  m <- as.matrix(ddates_wide[, names(ddates_wide) %in% coms])
-  
-  thres_pairs <- list("aus" = c(7, 16), 
-                      "here" = c(thres_calc(0.98), thres_calc(0.5)) )
-  thres_raw <- unlist( flatten(thres_pairs) )
-  
-  below <- lapply(thres_raw, function(th) {
-    (m < th) * 1
-  })
-  names(below) <- round(thres_raw, 2)
-  
-  # this is part of the final table
-  percents_below <- do.call("rbind", lapply(1:length(below), function(m) {
-    mat <- below[[m]]
-    d <- aggregate(mat ~ transect, ddates_wide, 
-                   FUN = function(x) sum(x) / N_dates * 100,
-                   na.action = "na.pass")
-    d$thres <- names(below)[m]
-    d$data_type <- "below threshold"
-    return(d)
-  }))
-  
-  # contrasts table
-  cont_table <- do.call("rbind", lapply(1:2, function(par) {
-    #par = 1
-    th <- thres_pairs[[par]]
-    cont <- (m[, 2:4] < th[1]) * (m[, 1] > th[2]) # non forest is lower than low threshold
-    # when forest is higher than high threshold
-    cont <- cbind("U forest" = NA, cont)                                                
-    d <- aggregate(cont ~ transect, ddates_wide, 
-                   FUN = function(x) sum(x) / N_dates * 100,
-                   na.action = "na.pass")
-    d$thres <- paste(round(th, digits = 2), collapse = "; ")
-    d$data_type <- "contrast"
-    return(d)
-  }))
-  
-  (litter_table <- rbind(percents_below, cont_table))
-  #write.csv(litter_table, "fmc_models/table_litter_thresholds.csv")
-}
-
-
 # Export ------------------------------------------------------------------
 
-diff_table_avg$fuel_type <- f
+# diff_table_avg$fuel_type <- f
 site_vpd_prediction$fuel_type <- f
 vpd_prediction$fuel_type <- f
-ds_predictions$fuel_type <- f
-p_ig_data$fuel_type <- f
-
-if (f == "Litter") {
+# ds_predictions$fuel_type <- f
 
 export_list <- list(
-  diff_table = diff_table_avg,
+  # diff_table = diff_table_avg,
   
   # fmc ~ vpd by site
   site_vpd_prediction = site_vpd_prediction,
   vpd_prediction = vpd_prediction, # line and ribbon
   
   # for posterior predictive check (means as a function of time):
-  fdata = fdata,
-  ds_predictions = ds_predictions,
+  # fdata = fdata,
+  # ds_predictions = ds_predictions,
   
-  # ignition probability predictions
-  p_ig = p_ig_data,
-  
-  notes = paste("Created in \"", rstudioapi::getSourceEditorContext()$path, 
-                "\". \nDate: ", Sys.Date(), sep = "")
-)
-} else {
-
-export_list <- list(
-  diff_table = diff_table_avg,
-  
-  # fmc ~ vpd by site
-  site_vpd_prediction = site_vpd_prediction,
-  vpd_prediction = vpd_prediction, # line and ribbon
-  
-  # for posterior predictive check (means as a function of time):
-  fdata = fdata,
-  ds_predictions = ds_predictions,
+  clim_var = clim_var,
   
   notes = paste("Created in \"", rstudioapi::getSourceEditorContext()$path, 
                 "\". \nDate: ", Sys.Date(), sep = "")
 )
-}
 
 saveRDS(export_list, 
-        paste("fmc_models/model_predictions_r_object_", f, ".R", sep = ""))
-
+        paste("fmc_models_rh_temp/model_predictions_r_object_", f, "_", clim_var, ".R", sep = ""))
 
 # Ckeck fit to means by date-site and site ----------------------------------
 

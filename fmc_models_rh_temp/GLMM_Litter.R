@@ -68,6 +68,7 @@ normalize <- function(x) x / sum(x)
 # (stan parameters as max_treedepth and adapt_delta) carefully.
 
 f <- "Litter"
+clim_var <- "temp" #"rh" # "temp" #
 prior_mean <- 50
 K <- 2 # basis functions for spline
 
@@ -77,14 +78,16 @@ setwd("/home/ivan/Insync/Humedad y EEA/fmc_alternative_states") # to run in raw 
 
 fdata <- readRDS("data_fmc_dataframe.R")
 fdata <- fdata[fdata$fuel_type == f, ]
-if(f == "Litter" & alternative) {
-  fdata <- fdata[fdata$time != min(fdata$time), ]
-}
 
-# Bring vapour pressure deficit data (vpd)
-air_data <- readRDS("microclimate/predictions_vpd.R")
-air_temp <- air_data$together
-air_temp$site <- paste(air_temp$Community, air_temp$transect, sep = " / ")
+# Bring RH and temperature data
+micro_daily <- read.csv("microclimate/data_microclimate_daily.csv")
+if(clim_var == "rh") names(micro_daily)[which(names(micro_daily) == "hum_min")] <- "var"
+if(clim_var == "temp") names(micro_daily)[which(names(micro_daily) == "temp_max")] <- "var"
+air_temp <- aggregate(var ~ transect + Community + site, 
+                      micro_daily, mean)
+# rename variable to vpd_max so the code remains the same.
+names(air_temp)[ncol(air_temp)] <- "vpd_max" 
+
 
 # filter sites
 sites_filter <- which(levels(fdata$site) %in% unique(fdata$site) &
@@ -120,7 +123,7 @@ fdata_site <- left_join(fdata_site, air_temp, by = c("transect", "Community", "s
 
 # vpd sequence for prediction
 N_pred <- 200
-vpd_pred <- seq(min(fdata_site$vpd_lower), max(fdata_site$vpd_upper), 
+vpd_pred <- seq(min(fdata_site$vpd_max), max(fdata_site$vpd_max), 
                 length.out = N_pred)
 
 # scale vpd
@@ -229,25 +232,25 @@ N_samples <- nc * ns # to use later
 
 # Compile, sample and save
 # Hierarchical variances do not converge.
-# stan_code <- stan_model("fmc_models/GLMM_Litter.stan", verbose = TRUE)
-# glm1 <- sampling(
-#   stan_code, data = sdata, seed = 564, refresh = 10,
-#   chains = nc, cores = nc, iter = ns + nw, warmup = nw,
-#   #chains = 1, cores = 1, iter = 10,
-#   control = list(adapt_delta = 0.999, max_treedepth = 15),
-#   pars = c("mu_sigma_sites", "mu_sigma_ds",
-#            "mu_lambda",
-#            "phi_sigma_sites", "phi_sigma_ds",
-#            "sites_phi", "pred_phi",
-#            "phi",
-#            "sites_mu", "pred_mu",
-#            "mu")
-# ) # mu are mu for truncnorm. They are not means due to truncation.
-# saveRDS(glm1, paste("fmc_models/model samples_", f, ".R", sep = ""))
-# sglm1 <- summary(glm1)[[1]]
-# saveRDS(sglm1, paste("fmc_models/model summary_", f, ".R", sep = ""))
-# head(sglm1)
-# min(sglm1[, "n_eff"]); max(sglm1[, "Rhat"])
+stan_code <- stan_model("fmc_models/GLMM_Litter.stan", verbose = TRUE)
+glm1 <- sampling(
+  stan_code, data = sdata, seed = 564, refresh = 10,
+  chains = nc, cores = nc, iter = ns + nw, warmup = nw,
+  #chains = 1, cores = 1, iter = 10,
+  control = list(adapt_delta = 0.999, max_treedepth = 15),
+  pars = c("mu_sigma_sites", "mu_sigma_ds",
+           "mu_lambda",
+           "phi_sigma_sites", "phi_sigma_ds",
+           "sites_phi", "pred_phi",
+           "phi",
+           "sites_mu", "pred_mu",
+           "mu")
+) # mu are mu for truncnorm. They are not means due to truncation.
+saveRDS(glm1, paste("fmc_models_rh_temp/model samples_", f, "_", clim_var, ".R", sep = ""))
+sglm1 <- summary(glm1)[[1]]
+saveRDS(sglm1, paste("fmc_models_rh_temp/model summary_", f, "_", clim_var, ".R", sep = ""))
+head(sglm1)
+min(sglm1[, "n_eff"]); max(sglm1[, "Rhat"])
 # Done.
 
 # Litter:
@@ -262,9 +265,8 @@ N_samples <- nc * ns # to use later
 # 2351.17 / 60 =  39 min; all good
 
 # load model
-glm1 <- readRDS(paste("fmc_models/model samples_", f, ".R", sep = ""))
-sglm1 <- readRDS(paste("fmc_models/model summary_", f, ".R", sep = ""))
-
+# glm1 <- readRDS(paste("fmc_models_rh_temp/model samples_", f, "_", clim_var, ".R", sep = ""))
+# sglm1 <- readRDS(paste("fmc_models_rh_temp/model summary_", f, "_", clim_var, ".R", sep = ""))
 
 
 # Diagnosis with pairs plots ----------------------------------------------
@@ -629,57 +631,36 @@ if(f == "Litter") {
   }))
   
   (litter_table <- rbind(percents_below, cont_table))
-  #write.csv(litter_table, "fmc_models/table_litter_thresholds.csv")
+  #write.csv(litter_table, "fmc_models_rh/table_litter_thresholds.csv")
 }
 
 
 # Export ------------------------------------------------------------------
 
-diff_table_avg$fuel_type <- f
+# diff_table_avg$fuel_type <- f
 site_vpd_prediction$fuel_type <- f
 vpd_prediction$fuel_type <- f
-ds_predictions$fuel_type <- f
-p_ig_data$fuel_type <- f
-
-if (f == "Litter") {
+# ds_predictions$fuel_type <- f
 
 export_list <- list(
-  diff_table = diff_table_avg,
+  # diff_table = diff_table_avg,
   
   # fmc ~ vpd by site
   site_vpd_prediction = site_vpd_prediction,
   vpd_prediction = vpd_prediction, # line and ribbon
   
   # for posterior predictive check (means as a function of time):
-  fdata = fdata,
-  ds_predictions = ds_predictions,
+  # fdata = fdata,
+  # ds_predictions = ds_predictions,
   
-  # ignition probability predictions
-  p_ig = p_ig_data,
-  
-  notes = paste("Created in \"", rstudioapi::getSourceEditorContext()$path, 
-                "\". \nDate: ", Sys.Date(), sep = "")
-)
-} else {
-
-export_list <- list(
-  diff_table = diff_table_avg,
-  
-  # fmc ~ vpd by site
-  site_vpd_prediction = site_vpd_prediction,
-  vpd_prediction = vpd_prediction, # line and ribbon
-  
-  # for posterior predictive check (means as a function of time):
-  fdata = fdata,
-  ds_predictions = ds_predictions,
+  clim_var = clim_var,
   
   notes = paste("Created in \"", rstudioapi::getSourceEditorContext()$path, 
                 "\". \nDate: ", Sys.Date(), sep = "")
 )
-}
 
 saveRDS(export_list, 
-        paste("fmc_models/model_predictions_r_object_", f, ".R", sep = ""))
+        paste("fmc_models_rh_temp/model_predictions_r_object_", f, "_", clim_var, ".R", sep = ""))
 
 
 # Ckeck fit to means by date-site and site ----------------------------------

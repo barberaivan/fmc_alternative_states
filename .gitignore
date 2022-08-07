@@ -10,3 +10,18 @@ fmc_models/model samples_Laura.R
 fmc_models/model samples_Litter.R
 fmc_models/model samples_Live fuel mixture.R
 microclimate/model_vpd_samples.R
+fmc_models_rh_temp/model samples_1 h fuel sticks_rh.R
+fmc_models_rh_temp/model samples_10 h fuel sticks_rh.R
+fmc_models_rh_temp/model samples_Cania_rh.R
+fmc_models_rh_temp/model samples_Coihue_rh.R
+fmc_models_rh_temp/model samples_Laura_rh.R
+fmc_models_rh_temp/model samples_Litter_rh.R
+fmc_models_rh_temp/model samples_Live fuel mixture_rh.R
+fmc_models_rh_temp/model samples_1 h fuel sticks_temp.R
+fmc_models_rh_temp/model samples_10 h fuel sticks_temp.R
+fmc_models_rh_temp/model samples_Cania_temp.R
+fmc_models_rh_temp/model samples_Coihue_temp.R
+fmc_models_rh_temp/model samples_Laura_temp.R
+fmc_models_rh_temp/model samples_Litter_temp.R
+fmc_models_rh_temp/model samples_Live fuel mixture_temp.R
+
